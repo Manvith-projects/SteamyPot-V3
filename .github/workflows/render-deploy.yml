@@ -1,0 +1,118 @@
+name: Deploy To Render
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+    inputs:
+      deploy_backend:
+        description: "Deploy backend"
+        required: false
+        default: "true"
+        type: choice
+        options: ["true", "false"]
+      deploy_ai_layer:
+        description: "Deploy AI layer"
+        required: false
+        default: "true"
+        type: choice
+        options: ["true", "false"]
+      deploy_frontend:
+        description: "Deploy frontend"
+        required: false
+        default: "true"
+        type: choice
+        options: ["true", "false"]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate Build Inputs
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Validate frontend build
+        working-directory: frontend
+        run: |
+          npm ci
+          npm run build
+
+      - name: Validate backend install
+        working-directory: backend
+        run: npm ci
+
+      - name: Validate AI-Layer requirements
+        working-directory: AI-Layer
+        run: pip install -r requirements.txt
+
+  deploy:
+    name: Trigger Render Deploy Hooks
+    runs-on: ubuntu-latest
+    needs: validate
+
+    steps:
+      - name: Resolve deploy toggles
+        id: flags
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "backend=${{ github.event.inputs.deploy_backend }}" >> "$GITHUB_OUTPUT"
+            echo "ai=${{ github.event.inputs.deploy_ai_layer }}" >> "$GITHUB_OUTPUT"
+            echo "frontend=${{ github.event.inputs.deploy_frontend }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "backend=true" >> "$GITHUB_OUTPUT"
+            echo "ai=true" >> "$GITHUB_OUTPUT"
+            echo "frontend=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Guard required secrets
+        shell: bash
+        run: |
+          missing=0
+
+          if [ "${{ steps.flags.outputs.backend }}" = "true" ] && [ -z "${{ secrets.RENDER_BACKEND_DEPLOY_HOOK }}" ]; then
+            echo "Missing secret: RENDER_BACKEND_DEPLOY_HOOK"
+            missing=1
+          fi
+
+          if [ "${{ steps.flags.outputs.ai }}" = "true" ] && [ -z "${{ secrets.RENDER_AI_LAYER_DEPLOY_HOOK }}" ]; then
+            echo "Missing secret: RENDER_AI_LAYER_DEPLOY_HOOK"
+            missing=1
+          fi
+
+          if [ "${{ steps.flags.outputs.frontend }}" = "true" ] && [ -z "${{ secrets.RENDER_FRONTEND_DEPLOY_HOOK }}" ]; then
+            echo "Missing secret: RENDER_FRONTEND_DEPLOY_HOOK"
+            missing=1
+          fi
+
+          if [ "$missing" -eq 1 ]; then
+            echo "Add missing repository secrets in GitHub: Settings -> Secrets and variables -> Actions"
+            exit 1
+          fi
+
+      - name: Deploy backend
+        if: steps.flags.outputs.backend == 'true'
+        run: curl -fsS -X POST "${{ secrets.RENDER_BACKEND_DEPLOY_HOOK }}"
+
+      - name: Deploy AI layer
+        if: steps.flags.outputs.ai == 'true'
+        run: curl -fsS -X POST "${{ secrets.RENDER_AI_LAYER_DEPLOY_HOOK }}"
+
+      - name: Deploy frontend
+        if: steps.flags.outputs.frontend == 'true'
+        run: curl -fsS -X POST "${{ secrets.RENDER_FRONTEND_DEPLOY_HOOK }}"

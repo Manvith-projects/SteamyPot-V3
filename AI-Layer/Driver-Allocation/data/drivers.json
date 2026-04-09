@@ -1,0 +1,522 @@
+[
+  {
+    "driver_id": "DRV-001",
+    "driver_name": "Praveen",
+    "location": {
+      "lat": 17.501228,
+      "lon": 78.392371
+    },
+    "zone": "Kukatpally",
+    "driver_rating": 3.82,
+    "current_active_orders": 0,
+    "average_delivery_time": 21.5,
+    "delivery_success_rate": 0.8525
+  },
+  {
+    "driver_id": "DRV-002",
+    "driver_name": "Shiva",
+    "location": {
+      "lat": 17.452444,
+      "lon": 78.357329
+    },
+    "zone": "Kondapur",
+    "driver_rating": 4.59,
+    "current_active_orders": 0,
+    "average_delivery_time": 16.7,
+    "delivery_success_rate": 0.9899
+  },
+  {
+    "driver_id": "DRV-003",
+    "driver_name": "Sagar",
+    "location": {
+      "lat": 17.433536,
+      "lon": 78.485366
+    },
+    "zone": "Secunderabad",
+    "driver_rating": 4.7,
+    "current_active_orders": 0,
+    "average_delivery_time": 16.2,
+    "delivery_success_rate": 0.9306
+  },
+  {
+    "driver_id": "DRV-004",
+    "driver_name": "Ramesh",
+    "location": {
+      "lat": 17.387778,
+      "lon": 78.402599
+    },
+    "zone": "Tolichowki",
+    "driver_rating": 4.21,
+    "current_active_orders": 3,
+    "average_delivery_time": 35.6,
+    "delivery_success_rate": 0.9346
+  },
+  {
+    "driver_id": "DRV-005",
+    "driver_name": "Varun",
+    "location": {
+      "lat": 17.359912,
+      "lon": 78.531188
+    },
+    "zone": "Dilsukhnagar",
+    "driver_rating": 4.26,
+    "current_active_orders": 0,
+    "average_delivery_time": 21.0,
+    "delivery_success_rate": 0.8466
+  },
+  {
+    "driver_id": "DRV-006",
+    "driver_name": "Deepak",
+    "location": {
+      "lat": 17.406971,
+      "lon": 78.45066
+    },
+    "zone": "Mehdipatnam",
+    "driver_rating": 4.53,
+    "current_active_orders": 0,
+    "average_delivery_time": 19.7,
+    "delivery_success_rate": 0.9051
+  },
+  {
+    "driver_id": "DRV-007",
+    "driver_name": "Mohan",
+    "location": {
+      "lat": 17.347986,
+      "lon": 78.563464
+    },
+    "zone": "LB Nagar",
+    "driver_rating": 4.8,
+    "current_active_orders": 0,
+    "average_delivery_time": 19.3,
+    "delivery_success_rate": 0.9396
+  },
+  {
+    "driver_id": "DRV-008",
+    "driver_name": "Hari",
+    "location": {
+      "lat": 17.406958,
+      "lon": 78.419006
+    },
+    "zone": "Tolichowki",
+    "driver_rating": 3.8,
+    "current_active_orders": 0,
+    "average_delivery_time": 25.4,
+    "delivery_success_rate": 0.8368
+  },
+  {
+    "driver_id": "DRV-009",
+    "driver_name": "Balaji",
+    "location": {
+      "lat": 17.488215,
+      "lon": 78.366493
+    },
+    "zone": "Miyapur",
+    "driver_rating": 4.53,
+    "current_active_orders": 1,
+    "average_delivery_time": 19.5,
+    "delivery_success_rate": 0.9599
+  },
+  {
+    "driver_id": "DRV-010",
+    "driver_name": "Rohit",
+    "location": {
+      "lat": 17.408117,
+      "lon": 78.448689
+    },
+    "zone": "Mehdipatnam",
+    "driver_rating": 4.21,
+    "current_active_orders": 4,
+    "average_delivery_time": 35.8,
+    "delivery_success_rate": 0.8919
+  },
+  {
+    "driver_id": "DRV-011",
+    "driver_name": "Naveen",
+    "location": {
+      "lat": 17.444418,
+      "lon": 78.361559
+    },
+    "zone": "Gachibowli",
+    "driver_rating": 4.29,
+    "current_active_orders": 2,
+    "average_delivery_time": 29.9,
+    "delivery_success_rate": 0.8611
+  },
+  {
+    "driver_id": "DRV-012",
+    "driver_name": "Chandra",
+    "location": {
+      "lat": 17.395475,
+      "lon": 78.429266
+    },
+    "zone": "Mehdipatnam",
+    "driver_rating": 4.28,
+    "current_active_orders": 2,
+    "average_delivery_time": 29.5,
+    "delivery_success_rate": 0.8956
+  },
+  {
+    "driver_id": "DRV-013",
+    "driver_name": "Venkat",
+    "location": {
+      "lat": 17.390417,
+      "lon": 78.414301
+    },
+    "zone": "Tolichowki",
+    "driver_rating": 4.39,
+    "current_active_orders": 0,
+    "average_delivery_time": 19.9,
+    "delivery_success_rate": 0.8796
+  },
+  {
+    "driver_id": "DRV-014",
+    "driver_name": "Manoj",
+    "location": {
+      "lat": 17.430435,
+      "lon": 78.406366
+    },
+    "zone": "Jubilee Hills",
+    "driver_rating": 4.66,
+    "current_active_orders": 0,
+    "average_delivery_time": 16.6,
+    "delivery_success_rate": 0.9681
+  },
+  {
+    "driver_id": "DRV-015",
+    "driver_name": "Vikram",
+    "location": {
+      "lat": 17.41459,
+      "lon": 78.445308
+    },
+    "zone": "Banjara Hills",
+    "driver_rating": 3.93,
+    "current_active_orders": 2,
+    "average_delivery_time": 29.1,
+    "delivery_success_rate": 0.8587
+  },
+  {
+    "driver_id": "DRV-016",
+    "driver_name": "Nikhil",
+    "location": {
+      "lat": 17.383071,
+      "lon": 78.436572
+    },
+    "zone": "Mehdipatnam",
+    "driver_rating": 4.74,
+    "current_active_orders": 2,
+    "average_delivery_time": 24.5,
+    "delivery_success_rate": 0.9935
+  },
+  {
+    "driver_id": "DRV-017",
+    "driver_name": "Satish",
+    "location": {
+      "lat": 17.456168,
+      "lon": 78.379443
+    },
+    "zone": "Hitech City",
+    "driver_rating": 4.57,
+    "current_active_orders": 0,
+    "average_delivery_time": 17.2,
+    "delivery_success_rate": 0.9815
+  },
+  {
+    "driver_id": "DRV-018",
+    "driver_name": "Kiran",
+    "location": {
+      "lat": 17.378579,
+      "lon": 78.521975
+    },
+    "zone": "Dilsukhnagar",
+    "driver_rating": 4.88,
+    "current_active_orders": 1,
+    "average_delivery_time": 20.5,
+    "delivery_success_rate": 0.9555
+  },
+  {
+    "driver_id": "DRV-019",
+    "driver_name": "Ajay",
+    "location": {
+      "lat": 17.437165,
+      "lon": 78.366743
+    },
+    "zone": "Hitech City",
+    "driver_rating": 4.03,
+    "current_active_orders": 1,
+    "average_delivery_time": 24.9,
+    "delivery_success_rate": 0.8547
+  },
+  {
+    "driver_id": "DRV-020",
+    "driver_name": "Rajesh",
+    "location": {
+      "lat": 17.426689,
+      "lon": 78.405549
+    },
+    "zone": "Jubilee Hills",
+    "driver_rating": 4.38,
+    "current_active_orders": 0,
+    "average_delivery_time": 17.8,
+    "delivery_success_rate": 0.8626
+  },
+  {
+    "driver_id": "DRV-021",
+    "driver_name": "Mahesh",
+    "location": {
+      "lat": 17.347138,
+      "lon": 78.545754
+    },
+    "zone": "LB Nagar",
+    "driver_rating": 4.71,
+    "current_active_orders": 3,
+    "average_delivery_time": 35.4,
+    "delivery_success_rate": 1.0
+  },
+  {
+    "driver_id": "DRV-022",
+    "driver_name": "Ganesh",
+    "location": {
+      "lat": 17.481282,
+      "lon": 78.407283
+    },
+    "zone": "Kukatpally",
+    "driver_rating": 4.33,
+    "current_active_orders": 0,
+    "average_delivery_time": 20.8,
+    "delivery_success_rate": 0.9016
+  },
+  {
+    "driver_id": "DRV-023",
+    "driver_name": "Srinivas",
+    "location": {
+      "lat": 17.43146,
+      "lon": 78.463695
+    },
+    "zone": "Begumpet",
+    "driver_rating": 5.0,
+    "current_active_orders": 0,
+    "average_delivery_time": 14.6,
+    "delivery_success_rate": 0.9528
+  },
+  {
+    "driver_id": "DRV-024",
+    "driver_name": "Sunil",
+    "location": {
+      "lat": 17.446643,
+      "lon": 78.510362
+    },
+    "zone": "Secunderabad",
+    "driver_rating": 4.15,
+    "current_active_orders": 1,
+    "average_delivery_time": 23.3,
+    "delivery_success_rate": 0.9653
+  },
+  {
+    "driver_id": "DRV-025",
+    "driver_name": "Harsha",
+    "location": {
+      "lat": 17.50234,
+      "lon": 78.351471
+    },
+    "zone": "Miyapur",
+    "driver_rating": 4.15,
+    "current_active_orders": 3,
+    "average_delivery_time": 30.1,
+    "delivery_success_rate": 0.9592
+  },
+  {
+    "driver_id": "DRV-026",
+    "driver_name": "Vijay",
+    "location": {
+      "lat": 17.484304,
+      "lon": 78.41293
+    },
+    "zone": "Kukatpally",
+    "driver_rating": 4.33,
+    "current_active_orders": 1,
+    "average_delivery_time": 25.2,
+    "delivery_success_rate": 0.8881
+  },
+  {
+    "driver_id": "DRV-027",
+    "driver_name": "Amit",
+    "location": {
+      "lat": 17.39707,
+      "lon": 78.433053
+    },
+    "zone": "Mehdipatnam",
+    "driver_rating": 4.59,
+    "current_active_orders": 1,
+    "average_delivery_time": 25.4,
+    "delivery_success_rate": 0.9424
+  },
+  {
+    "driver_id": "DRV-028",
+    "driver_name": "Prasad",
+    "location": {
+      "lat": 17.438846,
+      "lon": 78.464805
+    },
+    "zone": "Begumpet",
+    "driver_rating": 4.54,
+    "current_active_orders": 3,
+    "average_delivery_time": 30.4,
+    "delivery_success_rate": 1.0
+  },
+  {
+    "driver_id": "DRV-029",
+    "driver_name": "Ravi",
+    "location": {
+      "lat": 17.409841,
+      "lon": 78.432714
+    },
+    "zone": "Banjara Hills",
+    "driver_rating": 4.54,
+    "current_active_orders": 3,
+    "average_delivery_time": 35.3,
+    "delivery_success_rate": 0.9709
+  },
+  {
+    "driver_id": "DRV-030",
+    "driver_name": "Srikanth",
+    "location": {
+      "lat": 17.42151,
+      "lon": 78.420104
+    },
+    "zone": "Jubilee Hills",
+    "driver_rating": 4.87,
+    "current_active_orders": 1,
+    "average_delivery_time": 19.9,
+    "delivery_success_rate": 0.9373
+  },
+  {
+    "driver_id": "DRV-031",
+    "driver_name": "Raj",
+    "location": {
+      "lat": 17.449401,
+      "lon": 78.373913
+    },
+    "zone": "Hitech City",
+    "driver_rating": 4.36,
+    "current_active_orders": 2,
+    "average_delivery_time": 29.6,
+    "delivery_success_rate": 0.8471
+  },
+  {
+    "driver_id": "DRV-032",
+    "driver_name": "Kalyan",
+    "location": {
+      "lat": 17.496252,
+      "lon": 78.41143
+    },
+    "zone": "Kukatpally",
+    "driver_rating": 3.95,
+    "current_active_orders": 2,
+    "average_delivery_time": 29.3,
+    "delivery_success_rate": 0.8715
+  },
+  {
+    "driver_id": "DRV-033",
+    "driver_name": "Phani",
+    "location": {
+      "lat": 17.430992,
+      "lon": 78.44114
+    },
+    "zone": "Ameerpet",
+    "driver_rating": 4.47,
+    "current_active_orders": 1,
+    "average_delivery_time": 21.6,
+    "delivery_success_rate": 0.9474
+  },
+  {
+    "driver_id": "DRV-034",
+    "driver_name": "Sandeep",
+    "location": {
+      "lat": 17.465242,
+      "lon": 78.360648
+    },
+    "zone": "Kondapur",
+    "driver_rating": 4.13,
+    "current_active_orders": 3,
+    "average_delivery_time": 39.1,
+    "delivery_success_rate": 0.8787
+  },
+  {
+    "driver_id": "DRV-035",
+    "driver_name": "Suresh",
+    "location": {
+      "lat": 17.405288,
+      "lon": 78.416044
+    },
+    "zone": "Tolichowki",
+    "driver_rating": 4.82,
+    "current_active_orders": 1,
+    "average_delivery_time": 24.5,
+    "delivery_success_rate": 0.9138
+  },
+  {
+    "driver_id": "DRV-036",
+    "driver_name": "Naresh",
+    "location": {
+      "lat": 17.437363,
+      "lon": 78.376793
+    },
+    "zone": "Hitech City",
+    "driver_rating": 3.68,
+    "current_active_orders": 4,
+    "average_delivery_time": 37.2,
+    "delivery_success_rate": 0.9095
+  },
+  {
+    "driver_id": "DRV-037",
+    "driver_name": "Tarun",
+    "location": {
+      "lat": 17.444305,
+      "lon": 78.486514
+    },
+    "zone": "Secunderabad",
+    "driver_rating": 4.61,
+    "current_active_orders": 1,
+    "average_delivery_time": 22.1,
+    "delivery_success_rate": 0.9902
+  },
+  {
+    "driver_id": "DRV-038",
+    "driver_name": "Anil",
+    "location": {
+      "lat": 17.425047,
+      "lon": 78.39508
+    },
+    "zone": "Jubilee Hills",
+    "driver_rating": 3.83,
+    "current_active_orders": 0,
+    "average_delivery_time": 28.7,
+    "delivery_success_rate": 0.811
+  },
+  {
+    "driver_id": "DRV-039",
+    "driver_name": "Arjun",
+    "location": {
+      "lat": 17.451089,
+      "lon": 78.400165
+    },
+    "zone": "Madhapur",
+    "driver_rating": 4.56,
+    "current_active_orders": 1,
+    "average_delivery_time": 19.2,
+    "delivery_success_rate": 0.8836
+  },
+  {
+    "driver_id": "DRV-040",
+    "driver_name": "Krishna",
+    "location": {
+      "lat": 17.362586,
+      "lon": 78.533428
+    },
+    "zone": "Dilsukhnagar",
+    "driver_rating": 4.46,
+    "current_active_orders": 2,
+    "average_delivery_time": 29.1,
+    "delivery_success_rate": 0.9316
+  }
+]

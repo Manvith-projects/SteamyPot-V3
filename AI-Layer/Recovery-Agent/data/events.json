@@ -1,0 +1,7902 @@
+[
+  {
+    "event_id": "evt_56b2f9b1",
+    "order_id": "ord_1803d6ea",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T17:17:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_ae21c031",
+    "order_id": "ord_1803d6ea",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T17:53:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_019cc7a6",
+    "order_id": "ord_56bb7306",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T13:09:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_2f4c52ec",
+    "order_id": "ord_56bb7306",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T13:51:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_f08b5d30",
+    "order_id": "ord_43e4f2ff",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T11:36:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_4a8ebd5d",
+    "order_id": "ord_43e4f2ff",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T11:57:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_4afc9abe",
+    "order_id": "ord_caf99b16",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T05:23:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_a84afb9c",
+    "order_id": "ord_caf99b16",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T05:51:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_d8cba6c8",
+    "order_id": "ord_caf99b16",
+    "event_type": "negative_review",
+    "timestamp": "2026-03-04T06:28:00",
+    "details": {
+      "rating": 2,
+      "comment": "Packaging was damaged, food leaked everywhere."
+    }
+  },
+  {
+    "event_id": "evt_dbb76add",
+    "order_id": "ord_8bc4069e",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T19:13:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_1227600f",
+    "order_id": "ord_8bc4069e",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T19:54:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_0aa2412b",
+    "order_id": "ord_5f73a77f",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T18:05:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_6fa1f05f",
+    "order_id": "ord_5f73a77f",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T18:50:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_63a8e6a7",
+    "order_id": "ord_26f7c837",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T23:57:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_aa8fc53b",
+    "order_id": "ord_26f7c837",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T00:31:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_397394f1",
+    "order_id": "ord_ad3853a4",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T11:50:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_e4a2c770",
+    "order_id": "ord_ad3853a4",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T12:14:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_71022ba6",
+    "order_id": "ord_faffb6a8",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T21:04:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_c5038faa",
+    "order_id": "ord_faffb6a8",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T21:35:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_c6503082",
+    "order_id": "ord_405347fb",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T02:20:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_aba781ab",
+    "order_id": "ord_405347fb",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T03:03:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_6e860918",
+    "order_id": "ord_d4c9271f",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T02:27:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_a7f7579b",
+    "order_id": "ord_d4c9271f",
+    "event_type": "driver_cancelled",
+    "timestamp": "2026-03-02T02:31:00",
+    "details": {
+      "cancelled_driver_id": "drv_036",
+      "cancelled_driver_name": "Isha G.",
+      "reason": "personal_emergency"
+    }
+  },
+  {
+    "event_id": "evt_43d3db0a",
+    "order_id": "ord_95048152",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T04:57:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_cf179a42",
+    "order_id": "ord_95048152",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T05:31:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_0ab1e49c",
+    "order_id": "ord_386795c6",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T06:05:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_6164b217",
+    "order_id": "ord_386795c6",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T06:45:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_2496e583",
+    "order_id": "ord_f59ec769",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T10:02:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_41972b54",
+    "order_id": "ord_f59ec769",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-04T11:14:00",
+    "details": {
+      "estimated_delivery_min": 46,
+      "actual_delivery_min": 72,
+      "delay_min": 26
+    }
+  },
+  {
+    "event_id": "evt_5123019c",
+    "order_id": "ord_0b44f688",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T13:31:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_ef17f5b4",
+    "order_id": "ord_0b44f688",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T14:18:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_d3885257",
+    "order_id": "ord_93663275",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T19:44:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_44f9a2e4",
+    "order_id": "ord_93663275",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T20:07:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_d1a9551d",
+    "order_id": "ord_5b5a9842",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T06:25:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_f77f076a",
+    "order_id": "ord_5b5a9842",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T06:45:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_273521c4",
+    "order_id": "ord_e9977247",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T17:09:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_409b096e",
+    "order_id": "ord_e9977247",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T17:36:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_f19274a7",
+    "order_id": "ord_fa2cd0fb",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T10:48:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_72b5338f",
+    "order_id": "ord_fa2cd0fb",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T11:15:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_650a70ec",
+    "order_id": "ord_23449212",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T02:29:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_968e42e5",
+    "order_id": "ord_23449212",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T03:14:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_137c736d",
+    "order_id": "ord_23449212",
+    "event_type": "negative_review",
+    "timestamp": "2026-03-04T04:32:00",
+    "details": {
+      "rating": 2,
+      "comment": "Extremely slow delivery during non-peak hours."
+    }
+  },
+  {
+    "event_id": "evt_08761085",
+    "order_id": "ord_9af2c39a",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T17:08:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_ab688891",
+    "order_id": "ord_9af2c39a",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T17:57:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_8455b541",
+    "order_id": "ord_8e2bb2fb",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T10:23:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_8f28f4b3",
+    "order_id": "ord_8e2bb2fb",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T11:02:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_85d76af8",
+    "order_id": "ord_7dd3d8ad",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T02:06:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_04e01a86",
+    "order_id": "ord_7dd3d8ad",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T02:41:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_6a8b371d",
+    "order_id": "ord_b060bbf5",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T03:25:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_df0c30a3",
+    "order_id": "ord_b060bbf5",
+    "event_type": "driver_cancelled",
+    "timestamp": "2026-03-04T03:39:00",
+    "details": {
+      "cancelled_driver_id": "drv_009",
+      "cancelled_driver_name": "Ananya K.",
+      "reason": "too_far"
+    }
+  },
+  {
+    "event_id": "evt_30e856ab",
+    "order_id": "ord_08e19149",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T03:08:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_d55d4009",
+    "order_id": "ord_08e19149",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T03:39:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_971c4d07",
+    "order_id": "ord_cd45c178",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T02:53:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_31e1ebeb",
+    "order_id": "ord_cd45c178",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T03:28:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_450128e1",
+    "order_id": "ord_e8df1290",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T15:37:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_25b99d64",
+    "order_id": "ord_e8df1290",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T16:11:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_33f1420c",
+    "order_id": "ord_e8df1290",
+    "event_type": "negative_review",
+    "timestamp": "2026-03-03T17:16:00",
+    "details": {
+      "rating": 1,
+      "comment": "Driver was rude and food was spilled."
+    }
+  },
+  {
+    "event_id": "evt_53040ff0",
+    "order_id": "ord_bbb78cd4",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T07:33:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_93108e2a",
+    "order_id": "ord_bbb78cd4",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T08:14:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_2fa7103a",
+    "order_id": "ord_eb73fb03",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T00:12:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_5bc96f0d",
+    "order_id": "ord_eb73fb03",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T00:33:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_b51befc1",
+    "order_id": "ord_867dcaeb",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T17:45:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_5a75f3a2",
+    "order_id": "ord_867dcaeb",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T18:14:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_25f77e10",
+    "order_id": "ord_58bb37f0",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T06:21:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_5d7a19c4",
+    "order_id": "ord_58bb37f0",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T07:03:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_fe59262b",
+    "order_id": "ord_5669854f",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T10:15:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_cb3d7a30",
+    "order_id": "ord_5669854f",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-02T11:03:00",
+    "details": {
+      "estimated_delivery_min": 28,
+      "actual_delivery_min": 48,
+      "delay_min": 20
+    }
+  },
+  {
+    "event_id": "evt_46e4aa35",
+    "order_id": "ord_7a2c4107",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T06:35:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_b6dbe25d",
+    "order_id": "ord_7a2c4107",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T07:23:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_c311e082",
+    "order_id": "ord_cdc811cd",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T06:49:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_c334b4ac",
+    "order_id": "ord_cdc811cd",
+    "event_type": "driver_cancelled",
+    "timestamp": "2026-03-03T07:03:00",
+    "details": {
+      "cancelled_driver_id": "drv_035",
+      "cancelled_driver_name": "Aanya N.",
+      "reason": "vehicle_breakdown"
+    }
+  },
+  {
+    "event_id": "evt_b61b6e1c",
+    "order_id": "ord_95d6f9c6",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T13:12:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_53c5a398",
+    "order_id": "ord_95d6f9c6",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T13:57:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_ab0eccb0",
+    "order_id": "ord_cb7c0fe1",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T17:03:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_c760cb66",
+    "order_id": "ord_cb7c0fe1",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-02T18:03:00",
+    "details": {
+      "estimated_delivery_min": 41,
+      "actual_delivery_min": 60,
+      "delay_min": 19
+    }
+  },
+  {
+    "event_id": "evt_c6fd93cc",
+    "order_id": "ord_2394a04e",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T08:59:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_21f9d77f",
+    "order_id": "ord_2394a04e",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T09:26:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_9533bbe1",
+    "order_id": "ord_dd9371b6",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T22:41:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_1721ff55",
+    "order_id": "ord_dd9371b6",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-02T23:27:00",
+    "details": {
+      "estimated_delivery_min": 21,
+      "actual_delivery_min": 46,
+      "delay_min": 25
+    }
+  },
+  {
+    "event_id": "evt_e0988e18",
+    "order_id": "ord_340ef7d3",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T14:53:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_960682b0",
+    "order_id": "ord_340ef7d3",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-01T16:25:00",
+    "details": {
+      "estimated_delivery_min": 32,
+      "actual_delivery_min": 92,
+      "delay_min": 60
+    }
+  },
+  {
+    "event_id": "evt_c9ee8822",
+    "order_id": "ord_5a6a1c2f",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T23:59:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_92fc0d7a",
+    "order_id": "ord_5a6a1c2f",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T00:32:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_4df45d0b",
+    "order_id": "ord_e82e1578",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T10:51:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_c5719c13",
+    "order_id": "ord_e82e1578",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T11:19:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_b32e1e87",
+    "order_id": "ord_69a59ac4",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T10:43:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_f697a3a4",
+    "order_id": "ord_69a59ac4",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T11:32:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_0ca52128",
+    "order_id": "ord_441aab3a",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T13:42:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_29d88ea2",
+    "order_id": "ord_441aab3a",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-03T14:26:00",
+    "details": {
+      "estimated_delivery_min": 23,
+      "actual_delivery_min": 44,
+      "delay_min": 21
+    }
+  },
+  {
+    "event_id": "evt_b3b8444e",
+    "order_id": "ord_1af9cbde",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T00:37:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_0ab1529a",
+    "order_id": "ord_1af9cbde",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T01:20:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_1862d229",
+    "order_id": "ord_c1078e2a",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T01:10:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_5d9e6373",
+    "order_id": "ord_c1078e2a",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T01:41:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_40a65dda",
+    "order_id": "ord_558debb6",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T14:14:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_e798b08f",
+    "order_id": "ord_558debb6",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-02T15:31:00",
+    "details": {
+      "estimated_delivery_min": 50,
+      "actual_delivery_min": 77,
+      "delay_min": 27
+    }
+  },
+  {
+    "event_id": "evt_7aaf16d1",
+    "order_id": "ord_3514eb8b",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T17:43:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_ca8954e4",
+    "order_id": "ord_3514eb8b",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T18:30:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_3d73ccde",
+    "order_id": "ord_007195b5",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T00:03:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_c7206349",
+    "order_id": "ord_007195b5",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T00:53:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_df34c4a7",
+    "order_id": "ord_1b6d941f",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T00:43:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_0b38e0a6",
+    "order_id": "ord_1b6d941f",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T01:12:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_be5c20c1",
+    "order_id": "ord_12e1e6c2",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T15:29:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_e0ce0f25",
+    "order_id": "ord_12e1e6c2",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T16:06:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_4e376b22",
+    "order_id": "ord_c30acce4",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T19:02:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_22d60ff6",
+    "order_id": "ord_c30acce4",
+    "event_type": "driver_cancelled",
+    "timestamp": "2026-03-01T19:05:00",
+    "details": {
+      "cancelled_driver_id": "drv_016",
+      "cancelled_driver_name": "Riya I.",
+      "reason": "vehicle_breakdown"
+    }
+  },
+  {
+    "event_id": "evt_1414b783",
+    "order_id": "ord_2e737118",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T09:49:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_199cc146",
+    "order_id": "ord_2e737118",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T10:18:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_a5f8fb3f",
+    "order_id": "ord_8f3d63a8",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T10:05:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_0327c675",
+    "order_id": "ord_8f3d63a8",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T10:43:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_eec03c52",
+    "order_id": "ord_78603dc9",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T12:33:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_ab699feb",
+    "order_id": "ord_78603dc9",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-03T13:13:00",
+    "details": {
+      "estimated_delivery_min": 24,
+      "actual_delivery_min": 40,
+      "delay_min": 16
+    }
+  },
+  {
+    "event_id": "evt_6c52eeed",
+    "order_id": "ord_aa4ad3a0",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T06:24:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_156ea6fb",
+    "order_id": "ord_aa4ad3a0",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T07:07:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_6df62f06",
+    "order_id": "ord_4f7f17df",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T15:39:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_8a0f740b",
+    "order_id": "ord_4f7f17df",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T16:21:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_a1d08949",
+    "order_id": "ord_4859f66e",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T16:15:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_2d4d7735",
+    "order_id": "ord_4859f66e",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T17:01:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_0750cd24",
+    "order_id": "ord_f0ef3013",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T23:14:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_5fa6fb75",
+    "order_id": "ord_f0ef3013",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T00:04:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_947cb78b",
+    "order_id": "ord_d2a097b0",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T04:42:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_e768c24f",
+    "order_id": "ord_d2a097b0",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T05:13:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_58f9f1cf",
+    "order_id": "ord_abb0ba3a",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T09:31:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_4f29dcf1",
+    "order_id": "ord_abb0ba3a",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T09:57:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_1dc6ab9d",
+    "order_id": "ord_75c2650b",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T05:19:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_0ec8e29a",
+    "order_id": "ord_75c2650b",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T05:49:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_637c94e2",
+    "order_id": "ord_0c18df97",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T17:35:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_9fe99c24",
+    "order_id": "ord_0c18df97",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T18:05:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_9d944fd2",
+    "order_id": "ord_88adb904",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T19:54:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_81829cb4",
+    "order_id": "ord_88adb904",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T20:23:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_125d5084",
+    "order_id": "ord_88adb904",
+    "event_type": "negative_review",
+    "timestamp": "2026-03-03T21:23:00",
+    "details": {
+      "rating": 2,
+      "comment": "Food was cold and arrived very late."
+    }
+  },
+  {
+    "event_id": "evt_aa230ea8",
+    "order_id": "ord_f9eadf27",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T13:30:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_58de84db",
+    "order_id": "ord_f9eadf27",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T13:51:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_269f5eef",
+    "order_id": "ord_35584f2d",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T17:44:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_d565ce77",
+    "order_id": "ord_35584f2d",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T18:21:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_726c5245",
+    "order_id": "ord_94bf2cb5",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T06:41:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_fa202f29",
+    "order_id": "ord_94bf2cb5",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T07:14:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_48807c52",
+    "order_id": "ord_047ab6fd",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T09:20:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_073a23d5",
+    "order_id": "ord_047ab6fd",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T09:50:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_e6b138a6",
+    "order_id": "ord_047ab6fd",
+    "event_type": "negative_review",
+    "timestamp": "2026-03-03T11:13:00",
+    "details": {
+      "rating": 2,
+      "comment": "Packaging was damaged, food leaked everywhere."
+    }
+  },
+  {
+    "event_id": "evt_85eea2a2",
+    "order_id": "ord_fb04c5b5",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T15:24:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_30d767ad",
+    "order_id": "ord_fb04c5b5",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T16:07:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_1b3f571d",
+    "order_id": "ord_beeb8735",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T20:10:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_67d819df",
+    "order_id": "ord_beeb8735",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-03T21:20:00",
+    "details": {
+      "estimated_delivery_min": 43,
+      "actual_delivery_min": 70,
+      "delay_min": 27
+    }
+  },
+  {
+    "event_id": "evt_fd6692dc",
+    "order_id": "ord_5df35902",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T14:53:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_e709c622",
+    "order_id": "ord_5df35902",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T15:35:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_cf0420d2",
+    "order_id": "ord_98f2acff",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T05:00:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_9b6973f3",
+    "order_id": "ord_98f2acff",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T05:30:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_314177bc",
+    "order_id": "ord_4b664f90",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T10:34:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_899fe722",
+    "order_id": "ord_4b664f90",
+    "event_type": "order_cancelled",
+    "timestamp": "2026-03-01T10:47:00",
+    "details": {
+      "reason": "payment_failed"
+    }
+  },
+  {
+    "event_id": "evt_f83094d4",
+    "order_id": "ord_4b664f90",
+    "event_type": "negative_review",
+    "timestamp": "2026-03-01T13:05:00",
+    "details": {
+      "rating": 2,
+      "comment": "Wrong items delivered. Very disappointed."
+    }
+  },
+  {
+    "event_id": "evt_02c86573",
+    "order_id": "ord_3cd74118",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T16:12:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_5efa9aef",
+    "order_id": "ord_3cd74118",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T16:50:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_3194eef6",
+    "order_id": "ord_9ef2ef3c",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T10:15:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_1810a3dc",
+    "order_id": "ord_9ef2ef3c",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T10:53:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_9d374dad",
+    "order_id": "ord_5120211c",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T13:24:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_0c13f5a6",
+    "order_id": "ord_5120211c",
+    "event_type": "driver_cancelled",
+    "timestamp": "2026-03-03T13:27:00",
+    "details": {
+      "cancelled_driver_id": "drv_049",
+      "cancelled_driver_name": "Dhruv R.",
+      "reason": "personal_emergency"
+    }
+  },
+  {
+    "event_id": "evt_a8e8de4c",
+    "order_id": "ord_5120211c",
+    "event_type": "negative_review",
+    "timestamp": "2026-03-03T15:54:00",
+    "details": {
+      "rating": 2,
+      "comment": "Order was incomplete, missing items."
+    }
+  },
+  {
+    "event_id": "evt_2432aa78",
+    "order_id": "ord_25800af5",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T15:13:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_e2dea3b2",
+    "order_id": "ord_25800af5",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T16:03:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_b452bf9f",
+    "order_id": "ord_6555676e",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T10:42:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_3263b202",
+    "order_id": "ord_6555676e",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T10:58:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_9c17b7e6",
+    "order_id": "ord_e07e277f",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T00:10:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_b6bf1094",
+    "order_id": "ord_e07e277f",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T00:49:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_4aa82856",
+    "order_id": "ord_c52b4cda",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T20:32:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_1fa75e7d",
+    "order_id": "ord_c52b4cda",
+    "event_type": "driver_cancelled",
+    "timestamp": "2026-03-01T20:41:00",
+    "details": {
+      "cancelled_driver_id": "drv_022",
+      "cancelled_driver_name": "Arjun N.",
+      "reason": "personal_emergency"
+    }
+  },
+  {
+    "event_id": "evt_c8b466ee",
+    "order_id": "ord_a62ca4ea",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T12:49:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_9c1aa95c",
+    "order_id": "ord_a62ca4ea",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T13:21:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_a04e3c31",
+    "order_id": "ord_b7e06f22",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T09:43:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_0d9379c9",
+    "order_id": "ord_b7e06f22",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-02T11:00:00",
+    "details": {
+      "estimated_delivery_min": 38,
+      "actual_delivery_min": 77,
+      "delay_min": 39
+    }
+  },
+  {
+    "event_id": "evt_051f9b82",
+    "order_id": "ord_e774b536",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T05:47:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_8a0e72e2",
+    "order_id": "ord_e774b536",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-02T06:35:00",
+    "details": {
+      "estimated_delivery_min": 32,
+      "actual_delivery_min": 48,
+      "delay_min": 16
+    }
+  },
+  {
+    "event_id": "evt_cca10999",
+    "order_id": "ord_d513bf05",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T09:27:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_292234a6",
+    "order_id": "ord_d513bf05",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T09:57:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_354610c3",
+    "order_id": "ord_d513bf05",
+    "event_type": "negative_review",
+    "timestamp": "2026-03-02T10:56:00",
+    "details": {
+      "rating": 2,
+      "comment": "Terrible experience. Never ordering again."
+    }
+  },
+  {
+    "event_id": "evt_eaaae027",
+    "order_id": "ord_3a45b090",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T11:18:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_a928e9cc",
+    "order_id": "ord_3a45b090",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-01T12:49:00",
+    "details": {
+      "estimated_delivery_min": 33,
+      "actual_delivery_min": 91,
+      "delay_min": 58
+    }
+  },
+  {
+    "event_id": "evt_e3c0c775",
+    "order_id": "ord_4fe988e2",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T03:17:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_8a462025",
+    "order_id": "ord_4fe988e2",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-02T04:04:00",
+    "details": {
+      "estimated_delivery_min": 29,
+      "actual_delivery_min": 47,
+      "delay_min": 18
+    }
+  },
+  {
+    "event_id": "evt_c2bababe",
+    "order_id": "ord_9373c098",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T01:38:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_0388382c",
+    "order_id": "ord_9373c098",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-04T02:47:00",
+    "details": {
+      "estimated_delivery_min": 39,
+      "actual_delivery_min": 69,
+      "delay_min": 30
+    }
+  },
+  {
+    "event_id": "evt_d7759088",
+    "order_id": "ord_0e74a1e7",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T04:27:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_4ea5f204",
+    "order_id": "ord_0e74a1e7",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T05:17:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_5fa1c9e3",
+    "order_id": "ord_3feba6d7",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T02:11:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_7e65f51b",
+    "order_id": "ord_3feba6d7",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T03:06:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_d4feeab7",
+    "order_id": "ord_3a2e4184",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T21:52:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_9f53cd19",
+    "order_id": "ord_3a2e4184",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-02T23:02:00",
+    "details": {
+      "estimated_delivery_min": 45,
+      "actual_delivery_min": 70,
+      "delay_min": 25
+    }
+  },
+  {
+    "event_id": "evt_e9076c66",
+    "order_id": "ord_cdf25e2f",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T12:28:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_6182ceea",
+    "order_id": "ord_cdf25e2f",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T13:14:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_99ae5fdb",
+    "order_id": "ord_9078103f",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T18:42:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_36ee607c",
+    "order_id": "ord_9078103f",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T19:02:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_0248951a",
+    "order_id": "ord_ef904e67",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T06:32:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_d96bc44f",
+    "order_id": "ord_ef904e67",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T07:24:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_ce21ee42",
+    "order_id": "ord_ef904e67",
+    "event_type": "negative_review",
+    "timestamp": "2026-03-04T08:17:00",
+    "details": {
+      "rating": 2,
+      "comment": "Terrible experience. Never ordering again."
+    }
+  },
+  {
+    "event_id": "evt_d05af790",
+    "order_id": "ord_57b35203",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T15:36:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_afb782af",
+    "order_id": "ord_57b35203",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T16:16:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_fd58b25a",
+    "order_id": "ord_6490744b",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T19:14:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_0e610ac3",
+    "order_id": "ord_6490744b",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T19:54:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_ea2c0bf6",
+    "order_id": "ord_ef838fef",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T02:09:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_371d3d2e",
+    "order_id": "ord_ef838fef",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T02:39:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_e6cab7c0",
+    "order_id": "ord_8be67144",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T01:21:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_8b4c5bf2",
+    "order_id": "ord_8be67144",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T01:55:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_7a17056f",
+    "order_id": "ord_d7fc3bc1",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T18:19:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_8b1bbd35",
+    "order_id": "ord_d7fc3bc1",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-01T19:20:00",
+    "details": {
+      "estimated_delivery_min": 21,
+      "actual_delivery_min": 61,
+      "delay_min": 40
+    }
+  },
+  {
+    "event_id": "evt_dd569b24",
+    "order_id": "ord_d2ede39d",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T08:35:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_56b11f22",
+    "order_id": "ord_d2ede39d",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T09:02:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_13a68ce0",
+    "order_id": "ord_d9125eff",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T17:25:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_376c51b4",
+    "order_id": "ord_d9125eff",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T17:47:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_a12706e9",
+    "order_id": "ord_85c16bba",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T21:48:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_0715b47b",
+    "order_id": "ord_85c16bba",
+    "event_type": "driver_cancelled",
+    "timestamp": "2026-03-02T21:52:00",
+    "details": {
+      "cancelled_driver_id": "drv_000",
+      "cancelled_driver_name": "Riya N.",
+      "reason": "personal_emergency"
+    }
+  },
+  {
+    "event_id": "evt_b6bef457",
+    "order_id": "ord_6cbea654",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T00:33:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_db3575d7",
+    "order_id": "ord_6cbea654",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T01:27:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_678998d9",
+    "order_id": "ord_89377bdc",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T08:52:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_869b8960",
+    "order_id": "ord_89377bdc",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T09:37:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_49a86eb6",
+    "order_id": "ord_e66050f2",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T16:19:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_926a3948",
+    "order_id": "ord_e66050f2",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T16:45:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_6385e3e0",
+    "order_id": "ord_0254424e",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T16:11:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_e96b3223",
+    "order_id": "ord_0254424e",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T16:51:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_3b5cc2ae",
+    "order_id": "ord_15f4a9a2",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T22:08:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_c609b743",
+    "order_id": "ord_15f4a9a2",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T22:28:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_7a073e3c",
+    "order_id": "ord_592a6dc3",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T11:35:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_efb24697",
+    "order_id": "ord_592a6dc3",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T12:13:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_04677b84",
+    "order_id": "ord_cae010e6",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T10:01:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_60d8c818",
+    "order_id": "ord_cae010e6",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T10:45:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_12023d70",
+    "order_id": "ord_a27e0f7e",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T01:35:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_7a1e3dd7",
+    "order_id": "ord_a27e0f7e",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-04T02:58:00",
+    "details": {
+      "estimated_delivery_min": 36,
+      "actual_delivery_min": 83,
+      "delay_min": 47
+    }
+  },
+  {
+    "event_id": "evt_0f6ba418",
+    "order_id": "ord_d5553ca6",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T13:27:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_433595fb",
+    "order_id": "ord_d5553ca6",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T13:48:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_b3ae2967",
+    "order_id": "ord_9d11c8e9",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T21:28:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_eaaeed65",
+    "order_id": "ord_9d11c8e9",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T22:13:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_558a77ed",
+    "order_id": "ord_d3f6ace4",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T16:10:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_dcdee3da",
+    "order_id": "ord_d3f6ace4",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-03T17:08:00",
+    "details": {
+      "estimated_delivery_min": 39,
+      "actual_delivery_min": 58,
+      "delay_min": 19
+    }
+  },
+  {
+    "event_id": "evt_b9286111",
+    "order_id": "ord_ac33de39",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T03:45:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_d3e84340",
+    "order_id": "ord_ac33de39",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T04:17:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_0b70424d",
+    "order_id": "ord_6f71c315",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T17:17:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_356da216",
+    "order_id": "ord_6f71c315",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T18:01:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_63d90f1e",
+    "order_id": "ord_c3f7475a",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T00:09:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_260204ee",
+    "order_id": "ord_c3f7475a",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T00:48:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_dd1a5b44",
+    "order_id": "ord_c4a27465",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T21:44:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_8e16e2ec",
+    "order_id": "ord_c4a27465",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T22:35:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_3f42ad4c",
+    "order_id": "ord_f2d3c3ad",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T07:54:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_cbc1080a",
+    "order_id": "ord_f2d3c3ad",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T08:17:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_e91ec144",
+    "order_id": "ord_4267ed13",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T05:35:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_113678af",
+    "order_id": "ord_4267ed13",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T06:13:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_940c7bcf",
+    "order_id": "ord_034fed15",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T20:01:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_261ccec6",
+    "order_id": "ord_034fed15",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-03T20:54:00",
+    "details": {
+      "estimated_delivery_min": 23,
+      "actual_delivery_min": 53,
+      "delay_min": 30
+    }
+  },
+  {
+    "event_id": "evt_85c9f490",
+    "order_id": "ord_982b5bb0",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T21:05:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_f4e25f74",
+    "order_id": "ord_982b5bb0",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-02T22:43:00",
+    "details": {
+      "estimated_delivery_min": 40,
+      "actual_delivery_min": 98,
+      "delay_min": 58
+    }
+  },
+  {
+    "event_id": "evt_88e55e23",
+    "order_id": "ord_982b5bb0",
+    "event_type": "negative_review",
+    "timestamp": "2026-03-02T23:15:00",
+    "details": {
+      "rating": 1,
+      "comment": "Driver was rude and food was spilled."
+    }
+  },
+  {
+    "event_id": "evt_c90da8e6",
+    "order_id": "ord_ab71aadd",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T10:13:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_3756c8b4",
+    "order_id": "ord_ab71aadd",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T10:51:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_fcf3fba3",
+    "order_id": "ord_787c90a3",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T16:44:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_a1fcdb30",
+    "order_id": "ord_787c90a3",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-03T18:01:00",
+    "details": {
+      "estimated_delivery_min": 24,
+      "actual_delivery_min": 77,
+      "delay_min": 53
+    }
+  },
+  {
+    "event_id": "evt_a9d0e5f5",
+    "order_id": "ord_80cfc517",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T03:41:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_8b16fcc9",
+    "order_id": "ord_80cfc517",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T04:17:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_39a0f163",
+    "order_id": "ord_9c1a8470",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T05:58:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_2b1be32b",
+    "order_id": "ord_9c1a8470",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T06:29:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_483883ec",
+    "order_id": "ord_9c1a8470",
+    "event_type": "negative_review",
+    "timestamp": "2026-03-02T06:53:00",
+    "details": {
+      "rating": 1,
+      "comment": "Terrible experience. Never ordering again."
+    }
+  },
+  {
+    "event_id": "evt_2440a0d7",
+    "order_id": "ord_7357fdff",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T16:20:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_3465aa01",
+    "order_id": "ord_7357fdff",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T17:01:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_1a070d14",
+    "order_id": "ord_34e54d8b",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T13:54:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_d0bab8af",
+    "order_id": "ord_34e54d8b",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T14:44:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_25deae68",
+    "order_id": "ord_8242a80e",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T16:50:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_a3944a27",
+    "order_id": "ord_8242a80e",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T17:39:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_b2b4c90c",
+    "order_id": "ord_b6773a09",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T05:56:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_d9864c17",
+    "order_id": "ord_b6773a09",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T06:13:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_f875042e",
+    "order_id": "ord_02e384a9",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T08:48:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_6979d09b",
+    "order_id": "ord_02e384a9",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T09:18:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_72ae7346",
+    "order_id": "ord_576da1dd",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T17:50:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_2c10d7f8",
+    "order_id": "ord_576da1dd",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T18:25:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_4cc713fa",
+    "order_id": "ord_9fe42093",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T06:34:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_bb965896",
+    "order_id": "ord_9fe42093",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-04T07:59:00",
+    "details": {
+      "estimated_delivery_min": 39,
+      "actual_delivery_min": 85,
+      "delay_min": 46
+    }
+  },
+  {
+    "event_id": "evt_fc427112",
+    "order_id": "ord_f80eb10e",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T18:19:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_355f4284",
+    "order_id": "ord_f80eb10e",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T18:59:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_13324915",
+    "order_id": "ord_f80eb10e",
+    "event_type": "negative_review",
+    "timestamp": "2026-03-01T19:22:00",
+    "details": {
+      "rating": 2,
+      "comment": "Terrible experience. Never ordering again."
+    }
+  },
+  {
+    "event_id": "evt_78a4f7bf",
+    "order_id": "ord_d6fa694c",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T01:42:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_f9bf7f0c",
+    "order_id": "ord_d6fa694c",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-03T02:41:00",
+    "details": {
+      "estimated_delivery_min": 43,
+      "actual_delivery_min": 59,
+      "delay_min": 16
+    }
+  },
+  {
+    "event_id": "evt_2e352c43",
+    "order_id": "ord_d6fa694c",
+    "event_type": "negative_review",
+    "timestamp": "2026-03-03T03:38:00",
+    "details": {
+      "rating": 1,
+      "comment": "Waited forever. Worst delivery service."
+    }
+  },
+  {
+    "event_id": "evt_10c095e4",
+    "order_id": "ord_683e5ffb",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T01:49:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_3b329ee4",
+    "order_id": "ord_683e5ffb",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T02:36:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_153a10b5",
+    "order_id": "ord_57c4d3db",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T01:29:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_fb93c5fe",
+    "order_id": "ord_57c4d3db",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T02:09:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_be81f2c2",
+    "order_id": "ord_13f9edbb",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T00:14:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_2205fa81",
+    "order_id": "ord_13f9edbb",
+    "event_type": "driver_cancelled",
+    "timestamp": "2026-03-02T00:17:00",
+    "details": {
+      "cancelled_driver_id": "drv_016",
+      "cancelled_driver_name": "Riya I.",
+      "reason": "personal_emergency"
+    }
+  },
+  {
+    "event_id": "evt_088a6ac6",
+    "order_id": "ord_13f9edbb",
+    "event_type": "negative_review",
+    "timestamp": "2026-03-02T01:53:00",
+    "details": {
+      "rating": 2,
+      "comment": "Wrong items delivered. Very disappointed."
+    }
+  },
+  {
+    "event_id": "evt_d79a576b",
+    "order_id": "ord_472e5738",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T14:20:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_3dd737c1",
+    "order_id": "ord_472e5738",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T14:46:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_6048d243",
+    "order_id": "ord_621feeab",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T16:11:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_7b3b7418",
+    "order_id": "ord_621feeab",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T16:39:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_3731ccbd",
+    "order_id": "ord_621feeab",
+    "event_type": "negative_review",
+    "timestamp": "2026-03-01T17:47:00",
+    "details": {
+      "rating": 1,
+      "comment": "Waited forever. Worst delivery service."
+    }
+  },
+  {
+    "event_id": "evt_165eb5d6",
+    "order_id": "ord_5d6c9810",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T11:23:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_7a9ee744",
+    "order_id": "ord_5d6c9810",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T11:53:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_e6b79b77",
+    "order_id": "ord_473cf3eb",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T07:48:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_ab6b3988",
+    "order_id": "ord_473cf3eb",
+    "event_type": "order_cancelled",
+    "timestamp": "2026-03-04T08:06:00",
+    "details": {
+      "reason": "customer_requested"
+    }
+  },
+  {
+    "event_id": "evt_450b0a2e",
+    "order_id": "ord_74e43e35",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T10:48:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_c1a9a0cd",
+    "order_id": "ord_74e43e35",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T11:28:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_c993174c",
+    "order_id": "ord_bb409680",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T17:09:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_07e639cc",
+    "order_id": "ord_bb409680",
+    "event_type": "driver_cancelled",
+    "timestamp": "2026-03-01T17:15:00",
+    "details": {
+      "cancelled_driver_id": "drv_015",
+      "cancelled_driver_name": "Dhruv S.",
+      "reason": "shift_ended"
+    }
+  },
+  {
+    "event_id": "evt_15bee36b",
+    "order_id": "ord_60c8325b",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T22:32:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_7b806fe9",
+    "order_id": "ord_60c8325b",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T23:00:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_a9b20c91",
+    "order_id": "ord_222a1cdc",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T23:16:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_3131d318",
+    "order_id": "ord_222a1cdc",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T00:03:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_963f8d81",
+    "order_id": "ord_b358dc4f",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T03:49:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_dd23178e",
+    "order_id": "ord_b358dc4f",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-02T04:51:00",
+    "details": {
+      "estimated_delivery_min": 44,
+      "actual_delivery_min": 62,
+      "delay_min": 18
+    }
+  },
+  {
+    "event_id": "evt_00ae897c",
+    "order_id": "ord_b77a5e25",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T01:29:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_8e3cea42",
+    "order_id": "ord_b77a5e25",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-03T02:25:00",
+    "details": {
+      "estimated_delivery_min": 28,
+      "actual_delivery_min": 56,
+      "delay_min": 28
+    }
+  },
+  {
+    "event_id": "evt_df91dfb3",
+    "order_id": "ord_4c524040",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T04:05:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_628cff3a",
+    "order_id": "ord_4c524040",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T04:50:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_fd088332",
+    "order_id": "ord_4c524040",
+    "event_type": "negative_review",
+    "timestamp": "2026-03-02T05:35:00",
+    "details": {
+      "rating": 1,
+      "comment": "Wrong items delivered. Very disappointed."
+    }
+  },
+  {
+    "event_id": "evt_324afc44",
+    "order_id": "ord_a702448c",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T08:15:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_89f828dc",
+    "order_id": "ord_a702448c",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T08:35:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_6ecc865e",
+    "order_id": "ord_d7137958",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T13:23:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_295467f3",
+    "order_id": "ord_d7137958",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T14:08:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_8272f68f",
+    "order_id": "ord_4ffadfd3",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T18:51:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_6da91b9d",
+    "order_id": "ord_4ffadfd3",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T19:15:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_cd6e1e72",
+    "order_id": "ord_ba92ca5e",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T17:52:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_d7dbeb74",
+    "order_id": "ord_ba92ca5e",
+    "event_type": "order_cancelled",
+    "timestamp": "2026-03-03T18:10:00",
+    "details": {
+      "reason": "restaurant_closed"
+    }
+  },
+  {
+    "event_id": "evt_9e5cbaa6",
+    "order_id": "ord_fb9c9867",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T05:02:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_c866aa1a",
+    "order_id": "ord_fb9c9867",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T05:40:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_43745eeb",
+    "order_id": "ord_ab5198e7",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T21:24:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_9cd64948",
+    "order_id": "ord_ab5198e7",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T21:51:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_620a56e2",
+    "order_id": "ord_783debd1",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T23:34:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_31172ea8",
+    "order_id": "ord_783debd1",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T00:22:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_eae7e9a1",
+    "order_id": "ord_386f8821",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T14:01:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_2199e233",
+    "order_id": "ord_386f8821",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T14:51:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_74c1797b",
+    "order_id": "ord_bf3da7f4",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T22:15:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_959bfff9",
+    "order_id": "ord_bf3da7f4",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T22:51:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_f610e327",
+    "order_id": "ord_faa20085",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T08:11:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_1142e389",
+    "order_id": "ord_faa20085",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T08:38:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_615a1643",
+    "order_id": "ord_7c099195",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T10:09:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_fa04258b",
+    "order_id": "ord_7c099195",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T10:49:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_48f0f18f",
+    "order_id": "ord_e1f8ac3c",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T17:14:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_16ea5fec",
+    "order_id": "ord_e1f8ac3c",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T17:48:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_25d332a8",
+    "order_id": "ord_911450ba",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T08:58:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_b94830f1",
+    "order_id": "ord_911450ba",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T09:38:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_ef88ed18",
+    "order_id": "ord_6dfc143b",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T08:04:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_c72881c6",
+    "order_id": "ord_6dfc143b",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T08:39:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_29420b15",
+    "order_id": "ord_a123f316",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T17:50:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_e8a7d564",
+    "order_id": "ord_a123f316",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T18:27:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_20934e03",
+    "order_id": "ord_4966786a",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T14:42:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_7cb6e9b8",
+    "order_id": "ord_4966786a",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T15:19:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_ae784435",
+    "order_id": "ord_287322a2",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T10:02:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_8c42d8a0",
+    "order_id": "ord_287322a2",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T10:31:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_051636a0",
+    "order_id": "ord_991b77fd",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T04:47:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_573364da",
+    "order_id": "ord_991b77fd",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T05:06:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_fe6a62c4",
+    "order_id": "ord_c6c0e5ce",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T11:16:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_f3473a1b",
+    "order_id": "ord_c6c0e5ce",
+    "event_type": "driver_cancelled",
+    "timestamp": "2026-03-01T11:23:00",
+    "details": {
+      "cancelled_driver_id": "drv_046",
+      "cancelled_driver_name": "Ishaan S.",
+      "reason": "vehicle_breakdown"
+    }
+  },
+  {
+    "event_id": "evt_477d57ad",
+    "order_id": "ord_b8db22ba",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T07:56:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_f5101c57",
+    "order_id": "ord_b8db22ba",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T08:32:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_be358524",
+    "order_id": "ord_f49063f9",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T19:04:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_09c9412a",
+    "order_id": "ord_f49063f9",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T19:49:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_08725d31",
+    "order_id": "ord_1e18d7fb",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T10:10:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_e4aa613c",
+    "order_id": "ord_1e18d7fb",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T10:49:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_a79a24b6",
+    "order_id": "ord_2936c694",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T07:38:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_454f3553",
+    "order_id": "ord_2936c694",
+    "event_type": "driver_cancelled",
+    "timestamp": "2026-03-02T07:46:00",
+    "details": {
+      "cancelled_driver_id": "drv_031",
+      "cancelled_driver_name": "Sai R.",
+      "reason": "personal_emergency"
+    }
+  },
+  {
+    "event_id": "evt_83b6099a",
+    "order_id": "ord_e0ee691b",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T19:42:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_13741c80",
+    "order_id": "ord_e0ee691b",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-02T20:33:00",
+    "details": {
+      "estimated_delivery_min": 29,
+      "actual_delivery_min": 51,
+      "delay_min": 22
+    }
+  },
+  {
+    "event_id": "evt_79634255",
+    "order_id": "ord_b3b6ec08",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T21:18:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_a4607fc6",
+    "order_id": "ord_b3b6ec08",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T22:02:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_207df3c2",
+    "order_id": "ord_b3b6ec08",
+    "event_type": "negative_review",
+    "timestamp": "2026-03-01T22:40:00",
+    "details": {
+      "rating": 1,
+      "comment": "Waited forever. Worst delivery service."
+    }
+  },
+  {
+    "event_id": "evt_d9a229a3",
+    "order_id": "ord_9da2277d",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T12:30:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_94cc677a",
+    "order_id": "ord_9da2277d",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T13:10:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_9fbfb681",
+    "order_id": "ord_88561c21",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T09:28:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_ab2c9df4",
+    "order_id": "ord_88561c21",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T09:47:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_5519da6f",
+    "order_id": "ord_e3e58e0a",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T20:42:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_b228584f",
+    "order_id": "ord_e3e58e0a",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T21:17:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_8f1b5212",
+    "order_id": "ord_343fe587",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T06:43:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_8775974e",
+    "order_id": "ord_343fe587",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T07:28:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_8cc75e21",
+    "order_id": "ord_126a6abe",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T04:51:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_9e77f1b9",
+    "order_id": "ord_126a6abe",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T05:25:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_7a8145b6",
+    "order_id": "ord_f289309e",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T10:08:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_68861281",
+    "order_id": "ord_f289309e",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T10:30:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_35eaddb4",
+    "order_id": "ord_422b2d06",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T02:58:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_938ffa7e",
+    "order_id": "ord_422b2d06",
+    "event_type": "driver_cancelled",
+    "timestamp": "2026-03-03T03:07:00",
+    "details": {
+      "cancelled_driver_id": "drv_009",
+      "cancelled_driver_name": "Ananya K.",
+      "reason": "shift_ended"
+    }
+  },
+  {
+    "event_id": "evt_5ea3e4c9",
+    "order_id": "ord_b9cdc5b3",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T04:50:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_bccada99",
+    "order_id": "ord_b9cdc5b3",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-04T05:48:00",
+    "details": {
+      "estimated_delivery_min": 33,
+      "actual_delivery_min": 58,
+      "delay_min": 25
+    }
+  },
+  {
+    "event_id": "evt_861c74c9",
+    "order_id": "ord_67b806e9",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T22:55:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_08533ba9",
+    "order_id": "ord_67b806e9",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T23:31:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_259316a2",
+    "order_id": "ord_bcf46557",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T14:11:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_9097e8a8",
+    "order_id": "ord_bcf46557",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T14:44:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_da6f1af2",
+    "order_id": "ord_e576e935",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T16:47:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_7d79b30f",
+    "order_id": "ord_e576e935",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T17:17:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_4449eab0",
+    "order_id": "ord_952ea752",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T22:55:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_f8679688",
+    "order_id": "ord_952ea752",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T23:24:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_ed02a326",
+    "order_id": "ord_88812437",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T21:12:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_32304b4d",
+    "order_id": "ord_88812437",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T21:48:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_7a00f670",
+    "order_id": "ord_b7da84a9",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T18:19:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_9a790205",
+    "order_id": "ord_b7da84a9",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-01T19:47:00",
+    "details": {
+      "estimated_delivery_min": 42,
+      "actual_delivery_min": 88,
+      "delay_min": 46
+    }
+  },
+  {
+    "event_id": "evt_e5f633c0",
+    "order_id": "ord_b7da84a9",
+    "event_type": "negative_review",
+    "timestamp": "2026-03-01T19:35:00",
+    "details": {
+      "rating": 1,
+      "comment": "Food was cold and arrived very late."
+    }
+  },
+  {
+    "event_id": "evt_1744856b",
+    "order_id": "ord_6c9ce355",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T08:45:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_a97b5fcc",
+    "order_id": "ord_6c9ce355",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T09:14:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_9cc2a5e0",
+    "order_id": "ord_8b94885b",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T09:31:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_9f580163",
+    "order_id": "ord_8b94885b",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T10:12:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_fdfd9c2a",
+    "order_id": "ord_39cc6e62",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T21:18:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_04ce0958",
+    "order_id": "ord_39cc6e62",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-01T22:32:00",
+    "details": {
+      "estimated_delivery_min": 20,
+      "actual_delivery_min": 74,
+      "delay_min": 54
+    }
+  },
+  {
+    "event_id": "evt_bea59e56",
+    "order_id": "ord_4d33e518",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T14:32:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_d32cc389",
+    "order_id": "ord_4d33e518",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T14:57:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_8dc6a8fa",
+    "order_id": "ord_4d33e518",
+    "event_type": "negative_review",
+    "timestamp": "2026-03-03T15:18:00",
+    "details": {
+      "rating": 1,
+      "comment": "Food was cold and arrived very late."
+    }
+  },
+  {
+    "event_id": "evt_b10c8fca",
+    "order_id": "ord_badbb50a",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T21:27:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_9937beee",
+    "order_id": "ord_badbb50a",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T22:14:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_3066ee47",
+    "order_id": "ord_83f0059f",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T12:37:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_487c70ed",
+    "order_id": "ord_83f0059f",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T13:00:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_97870055",
+    "order_id": "ord_2d88a871",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T23:30:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_6904958c",
+    "order_id": "ord_2d88a871",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T23:52:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_239d2dea",
+    "order_id": "ord_abbc4dee",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T05:33:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_519dbe82",
+    "order_id": "ord_abbc4dee",
+    "event_type": "driver_cancelled",
+    "timestamp": "2026-03-02T05:48:00",
+    "details": {
+      "cancelled_driver_id": "drv_042",
+      "cancelled_driver_name": "Arjun R.",
+      "reason": "shift_ended"
+    }
+  },
+  {
+    "event_id": "evt_549f1b01",
+    "order_id": "ord_72e4f82d",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T23:16:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_ccae3742",
+    "order_id": "ord_72e4f82d",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T00:00:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_5410bf2a",
+    "order_id": "ord_0b120af8",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T06:40:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_b28da8fa",
+    "order_id": "ord_0b120af8",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T07:25:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_898bf9b1",
+    "order_id": "ord_95df036b",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T23:06:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_257d5c42",
+    "order_id": "ord_95df036b",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T23:44:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_d10e4835",
+    "order_id": "ord_0a1c32c5",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T14:22:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_db44982b",
+    "order_id": "ord_0a1c32c5",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T14:49:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_8468ca00",
+    "order_id": "ord_5e5c71ce",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T22:03:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_ba964afc",
+    "order_id": "ord_5e5c71ce",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T22:54:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_4a0641fb",
+    "order_id": "ord_5e5c71ce",
+    "event_type": "negative_review",
+    "timestamp": "2026-03-03T23:24:00",
+    "details": {
+      "rating": 2,
+      "comment": "Terrible experience. Never ordering again."
+    }
+  },
+  {
+    "event_id": "evt_edec323e",
+    "order_id": "ord_54f73f16",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T14:03:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_1b6c3868",
+    "order_id": "ord_54f73f16",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-03T15:09:00",
+    "details": {
+      "estimated_delivery_min": 47,
+      "actual_delivery_min": 66,
+      "delay_min": 19
+    }
+  },
+  {
+    "event_id": "evt_dc970925",
+    "order_id": "ord_90d64332",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T20:31:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_38e2d0ad",
+    "order_id": "ord_90d64332",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-01T21:27:00",
+    "details": {
+      "estimated_delivery_min": 30,
+      "actual_delivery_min": 56,
+      "delay_min": 26
+    }
+  },
+  {
+    "event_id": "evt_37d1bc85",
+    "order_id": "ord_ef6458d8",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T00:50:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_674d18a2",
+    "order_id": "ord_ef6458d8",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-04T01:56:00",
+    "details": {
+      "estimated_delivery_min": 44,
+      "actual_delivery_min": 66,
+      "delay_min": 22
+    }
+  },
+  {
+    "event_id": "evt_f3d20111",
+    "order_id": "ord_b2970dbc",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T06:12:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_293508fe",
+    "order_id": "ord_b2970dbc",
+    "event_type": "order_cancelled",
+    "timestamp": "2026-03-04T06:27:00",
+    "details": {
+      "reason": "restaurant_closed"
+    }
+  },
+  {
+    "event_id": "evt_562793fc",
+    "order_id": "ord_b2970dbc",
+    "event_type": "negative_review",
+    "timestamp": "2026-03-04T07:05:00",
+    "details": {
+      "rating": 1,
+      "comment": "Driver was rude and food was spilled."
+    }
+  },
+  {
+    "event_id": "evt_3897f2ca",
+    "order_id": "ord_ade96f08",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T23:24:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_4a988022",
+    "order_id": "ord_ade96f08",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-02T00:29:00",
+    "details": {
+      "estimated_delivery_min": 36,
+      "actual_delivery_min": 65,
+      "delay_min": 29
+    }
+  },
+  {
+    "event_id": "evt_3ebd563b",
+    "order_id": "ord_1c08823e",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T05:27:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_5ca901f4",
+    "order_id": "ord_1c08823e",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-03T06:56:00",
+    "details": {
+      "estimated_delivery_min": 48,
+      "actual_delivery_min": 89,
+      "delay_min": 41
+    }
+  },
+  {
+    "event_id": "evt_fbf9c1c3",
+    "order_id": "ord_1ef2cec4",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T02:13:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_4ec0b049",
+    "order_id": "ord_1ef2cec4",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T02:52:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_a8d1ef82",
+    "order_id": "ord_a2e61281",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T06:39:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_87cd6035",
+    "order_id": "ord_a2e61281",
+    "event_type": "driver_cancelled",
+    "timestamp": "2026-03-04T06:43:00",
+    "details": {
+      "cancelled_driver_id": "drv_002",
+      "cancelled_driver_name": "Sai S.",
+      "reason": "vehicle_breakdown"
+    }
+  },
+  {
+    "event_id": "evt_3df43668",
+    "order_id": "ord_a2e61281",
+    "event_type": "negative_review",
+    "timestamp": "2026-03-04T07:24:00",
+    "details": {
+      "rating": 2,
+      "comment": "Extremely slow delivery during non-peak hours."
+    }
+  },
+  {
+    "event_id": "evt_e826ec56",
+    "order_id": "ord_78025898",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T22:44:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_6c961f41",
+    "order_id": "ord_78025898",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T23:03:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_7df1a1e8",
+    "order_id": "ord_ba2b1bea",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T03:26:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_99a7f956",
+    "order_id": "ord_ba2b1bea",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T04:16:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_ddd9b311",
+    "order_id": "ord_6064d6fc",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T11:49:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_8ecfc183",
+    "order_id": "ord_6064d6fc",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T12:17:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_81ffcdf2",
+    "order_id": "ord_80f8e5dc",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T01:58:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_6a5c08d7",
+    "order_id": "ord_80f8e5dc",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T02:22:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_ff7a6739",
+    "order_id": "ord_80f8e5dc",
+    "event_type": "negative_review",
+    "timestamp": "2026-03-04T03:59:00",
+    "details": {
+      "rating": 1,
+      "comment": "Terrible experience. Never ordering again."
+    }
+  },
+  {
+    "event_id": "evt_f0eb0c2b",
+    "order_id": "ord_5736931d",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T21:49:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_455d7db6",
+    "order_id": "ord_5736931d",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T22:24:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_1ddcd0a0",
+    "order_id": "ord_2f248f2d",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T16:06:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_35276802",
+    "order_id": "ord_2f248f2d",
+    "event_type": "driver_cancelled",
+    "timestamp": "2026-03-01T16:13:00",
+    "details": {
+      "cancelled_driver_id": "drv_018",
+      "cancelled_driver_name": "Isha J.",
+      "reason": "too_far"
+    }
+  },
+  {
+    "event_id": "evt_d54d3cb7",
+    "order_id": "ord_e6cf57e1",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T15:00:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_a9487181",
+    "order_id": "ord_e6cf57e1",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T15:47:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_d5378940",
+    "order_id": "ord_22c4a61c",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T09:52:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_ef6eab2c",
+    "order_id": "ord_22c4a61c",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T10:24:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_6c8c5ffa",
+    "order_id": "ord_3cc23a00",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T07:07:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_74e00f45",
+    "order_id": "ord_3cc23a00",
+    "event_type": "driver_cancelled",
+    "timestamp": "2026-03-02T07:12:00",
+    "details": {
+      "cancelled_driver_id": "drv_045",
+      "cancelled_driver_name": "Aadhya R.",
+      "reason": "vehicle_breakdown"
+    }
+  },
+  {
+    "event_id": "evt_12637c12",
+    "order_id": "ord_06615176",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T09:39:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_6356e3d8",
+    "order_id": "ord_06615176",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T10:16:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_5912da34",
+    "order_id": "ord_7159826a",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T00:56:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_4e80dcbe",
+    "order_id": "ord_7159826a",
+    "event_type": "driver_cancelled",
+    "timestamp": "2026-03-02T01:09:00",
+    "details": {
+      "cancelled_driver_id": "drv_008",
+      "cancelled_driver_name": "Aditya G.",
+      "reason": "too_far"
+    }
+  },
+  {
+    "event_id": "evt_80b093c0",
+    "order_id": "ord_7159826a",
+    "event_type": "negative_review",
+    "timestamp": "2026-03-02T03:05:00",
+    "details": {
+      "rating": 2,
+      "comment": "Driver was rude and food was spilled."
+    }
+  },
+  {
+    "event_id": "evt_162f0b46",
+    "order_id": "ord_87db570f",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T22:27:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_cca36a5d",
+    "order_id": "ord_87db570f",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T23:13:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_5d496053",
+    "order_id": "ord_0bcc643c",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T16:00:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_e9bcdff2",
+    "order_id": "ord_0bcc643c",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T16:42:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_0d2f530a",
+    "order_id": "ord_febf171e",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T16:21:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_e17e65e1",
+    "order_id": "ord_febf171e",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-02T17:15:00",
+    "details": {
+      "estimated_delivery_min": 28,
+      "actual_delivery_min": 54,
+      "delay_min": 26
+    }
+  },
+  {
+    "event_id": "evt_8b4b6875",
+    "order_id": "ord_1ea6ef1c",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T21:54:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_f7fa2955",
+    "order_id": "ord_1ea6ef1c",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-01T23:22:00",
+    "details": {
+      "estimated_delivery_min": 35,
+      "actual_delivery_min": 88,
+      "delay_min": 53
+    }
+  },
+  {
+    "event_id": "evt_f75b5480",
+    "order_id": "ord_d75f320c",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T10:52:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_c7ccd02f",
+    "order_id": "ord_d75f320c",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T11:19:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_c16d1bb0",
+    "order_id": "ord_316b3419",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T05:23:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_15d090ae",
+    "order_id": "ord_316b3419",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-03T06:32:00",
+    "details": {
+      "estimated_delivery_min": 46,
+      "actual_delivery_min": 69,
+      "delay_min": 23
+    }
+  },
+  {
+    "event_id": "evt_83d08ee9",
+    "order_id": "ord_d6ed9948",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T00:06:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_52ffd95a",
+    "order_id": "ord_d6ed9948",
+    "event_type": "order_cancelled",
+    "timestamp": "2026-03-02T00:22:00",
+    "details": {
+      "reason": "payment_failed"
+    }
+  },
+  {
+    "event_id": "evt_28596443",
+    "order_id": "ord_76ebca48",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T07:31:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_9f138c5b",
+    "order_id": "ord_76ebca48",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T07:56:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_ae4375d8",
+    "order_id": "ord_19b86979",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T12:13:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_e75b4dda",
+    "order_id": "ord_19b86979",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-03T13:20:00",
+    "details": {
+      "estimated_delivery_min": 34,
+      "actual_delivery_min": 67,
+      "delay_min": 33
+    }
+  },
+  {
+    "event_id": "evt_0e59dcfb",
+    "order_id": "ord_19b86979",
+    "event_type": "negative_review",
+    "timestamp": "2026-03-03T14:18:00",
+    "details": {
+      "rating": 2,
+      "comment": "Terrible experience. Never ordering again."
+    }
+  },
+  {
+    "event_id": "evt_5ff878cb",
+    "order_id": "ord_2b1c9055",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T02:08:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_cb9be5d5",
+    "order_id": "ord_2b1c9055",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T02:53:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_5d3e7802",
+    "order_id": "ord_a14a5637",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T08:44:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_f79e1825",
+    "order_id": "ord_a14a5637",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T09:18:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_26b333a6",
+    "order_id": "ord_c7e2d00b",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T11:26:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_dc735646",
+    "order_id": "ord_c7e2d00b",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T12:04:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_c216efa4",
+    "order_id": "ord_d8b0371d",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T03:26:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_05e1e854",
+    "order_id": "ord_d8b0371d",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T04:04:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_da645a43",
+    "order_id": "ord_1c9dd910",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T11:13:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_0b9fd4a6",
+    "order_id": "ord_1c9dd910",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T11:57:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_7904ffd5",
+    "order_id": "ord_250fa6ff",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T07:44:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_98d63c04",
+    "order_id": "ord_250fa6ff",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-04T08:45:00",
+    "details": {
+      "estimated_delivery_min": 40,
+      "actual_delivery_min": 61,
+      "delay_min": 21
+    }
+  },
+  {
+    "event_id": "evt_ad434650",
+    "order_id": "ord_2511779f",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T22:56:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_b978b616",
+    "order_id": "ord_2511779f",
+    "event_type": "order_cancelled",
+    "timestamp": "2026-03-02T23:04:00",
+    "details": {
+      "reason": "customer_requested"
+    }
+  },
+  {
+    "event_id": "evt_c586f7eb",
+    "order_id": "ord_a1532b9d",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T20:48:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_9d1d02b2",
+    "order_id": "ord_a1532b9d",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T21:32:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_02ce71d4",
+    "order_id": "ord_8551f111",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T07:02:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_54126984",
+    "order_id": "ord_8551f111",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-04T08:24:00",
+    "details": {
+      "estimated_delivery_min": 31,
+      "actual_delivery_min": 82,
+      "delay_min": 51
+    }
+  },
+  {
+    "event_id": "evt_d813f22b",
+    "order_id": "ord_bfbaae0f",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T16:32:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_3a128d43",
+    "order_id": "ord_bfbaae0f",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T17:22:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_e960b71c",
+    "order_id": "ord_bfbaae0f",
+    "event_type": "negative_review",
+    "timestamp": "2026-03-02T18:15:00",
+    "details": {
+      "rating": 2,
+      "comment": "Packaging was damaged, food leaked everywhere."
+    }
+  },
+  {
+    "event_id": "evt_328164bb",
+    "order_id": "ord_914715ed",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T11:47:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_bbddaa2a",
+    "order_id": "ord_914715ed",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T12:17:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_fecc5147",
+    "order_id": "ord_d19f2bc1",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T07:47:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_8ff02805",
+    "order_id": "ord_d19f2bc1",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T08:24:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_a3006611",
+    "order_id": "ord_4307706f",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T08:47:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_59b5d028",
+    "order_id": "ord_4307706f",
+    "event_type": "driver_cancelled",
+    "timestamp": "2026-03-02T08:54:00",
+    "details": {
+      "cancelled_driver_id": "drv_044",
+      "cancelled_driver_name": "Ayaan R.",
+      "reason": "too_far"
+    }
+  },
+  {
+    "event_id": "evt_ba92d643",
+    "order_id": "ord_9b33f21b",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T21:45:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_c6651c8e",
+    "order_id": "ord_9b33f21b",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-03T22:55:00",
+    "details": {
+      "estimated_delivery_min": 49,
+      "actual_delivery_min": 70,
+      "delay_min": 21
+    }
+  },
+  {
+    "event_id": "evt_e0f7757e",
+    "order_id": "ord_48ee692f",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T08:22:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_4bf6c3b0",
+    "order_id": "ord_48ee692f",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T08:42:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_94131af0",
+    "order_id": "ord_a939dcf4",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T15:34:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_1ae54dd2",
+    "order_id": "ord_a939dcf4",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T16:09:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_fa3a214c",
+    "order_id": "ord_d659f5bf",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T05:30:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_7c0e749b",
+    "order_id": "ord_d659f5bf",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T06:02:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_ff2b74e0",
+    "order_id": "ord_56aba710",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T17:02:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_626c1d23",
+    "order_id": "ord_56aba710",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T17:39:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_f7435ef8",
+    "order_id": "ord_ecfee9c6",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T04:52:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_ffc92d74",
+    "order_id": "ord_ecfee9c6",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T05:38:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_54b4172b",
+    "order_id": "ord_897ae437",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T03:05:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_01227ff4",
+    "order_id": "ord_897ae437",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T03:58:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_5723a469",
+    "order_id": "ord_2e8f61c9",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T16:53:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_c4491450",
+    "order_id": "ord_2e8f61c9",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T17:17:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_de17eede",
+    "order_id": "ord_4693b090",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T20:45:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_acadc924",
+    "order_id": "ord_4693b090",
+    "event_type": "driver_cancelled",
+    "timestamp": "2026-03-03T20:50:00",
+    "details": {
+      "cancelled_driver_id": "drv_048",
+      "cancelled_driver_name": "Aditya G.",
+      "reason": "too_far"
+    }
+  },
+  {
+    "event_id": "evt_9a4a4b7a",
+    "order_id": "ord_09f77564",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T11:28:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_c3154b51",
+    "order_id": "ord_09f77564",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T12:09:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_fe3550b3",
+    "order_id": "ord_64effbcd",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T15:44:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_d1da33c8",
+    "order_id": "ord_64effbcd",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T16:27:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_88786770",
+    "order_id": "ord_78dadfbc",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T22:48:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_71febc95",
+    "order_id": "ord_78dadfbc",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T23:42:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_e114a27d",
+    "order_id": "ord_78dadfbc",
+    "event_type": "negative_review",
+    "timestamp": "2026-03-03T00:07:00",
+    "details": {
+      "rating": 2,
+      "comment": "Driver was rude and food was spilled."
+    }
+  },
+  {
+    "event_id": "evt_5b130cc6",
+    "order_id": "ord_606c8bac",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T23:40:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_5f0d5ee9",
+    "order_id": "ord_606c8bac",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T00:09:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_8caba676",
+    "order_id": "ord_69616be1",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T01:02:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_323729c5",
+    "order_id": "ord_69616be1",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T01:25:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_aa7ea7dc",
+    "order_id": "ord_1c36d952",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T14:57:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_b896ef8c",
+    "order_id": "ord_1c36d952",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-03T16:14:00",
+    "details": {
+      "estimated_delivery_min": 40,
+      "actual_delivery_min": 77,
+      "delay_min": 37
+    }
+  },
+  {
+    "event_id": "evt_868fc90b",
+    "order_id": "ord_4625d491",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T08:29:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_90f9ec55",
+    "order_id": "ord_4625d491",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T09:05:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_7eb52353",
+    "order_id": "ord_7da59890",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T04:22:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_94e46db7",
+    "order_id": "ord_7da59890",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T04:45:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_90bfe9c5",
+    "order_id": "ord_d919ada7",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T04:39:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_909637d9",
+    "order_id": "ord_d919ada7",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T05:24:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_42a1dc4d",
+    "order_id": "ord_6d0b95b7",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T02:15:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_9dfb54be",
+    "order_id": "ord_6d0b95b7",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T03:01:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_800525dd",
+    "order_id": "ord_423c9b7d",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T21:28:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_17656e23",
+    "order_id": "ord_423c9b7d",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T21:55:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_fe867edd",
+    "order_id": "ord_8464f4c0",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T06:12:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_9f81343c",
+    "order_id": "ord_8464f4c0",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T06:36:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_ba3d6925",
+    "order_id": "ord_cea6def6",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T13:49:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_78d1d7fa",
+    "order_id": "ord_cea6def6",
+    "event_type": "driver_cancelled",
+    "timestamp": "2026-03-03T13:56:00",
+    "details": {
+      "cancelled_driver_id": "drv_041",
+      "cancelled_driver_name": "Diya S.",
+      "reason": "shift_ended"
+    }
+  },
+  {
+    "event_id": "evt_b9d945f3",
+    "order_id": "ord_4d145edf",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T23:08:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_46a2f3ea",
+    "order_id": "ord_4d145edf",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-03T00:03:00",
+    "details": {
+      "estimated_delivery_min": 34,
+      "actual_delivery_min": 55,
+      "delay_min": 21
+    }
+  },
+  {
+    "event_id": "evt_8d487328",
+    "order_id": "ord_4660246b",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T03:28:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_ca318f4b",
+    "order_id": "ord_4660246b",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T03:58:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_aba8a53d",
+    "order_id": "ord_c4e74259",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T15:14:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_5df44ecf",
+    "order_id": "ord_c4e74259",
+    "event_type": "driver_cancelled",
+    "timestamp": "2026-03-01T15:22:00",
+    "details": {
+      "cancelled_driver_id": "drv_048",
+      "cancelled_driver_name": "Aditya G.",
+      "reason": "personal_emergency"
+    }
+  },
+  {
+    "event_id": "evt_3fedbe2e",
+    "order_id": "ord_c4e74259",
+    "event_type": "negative_review",
+    "timestamp": "2026-03-01T16:34:00",
+    "details": {
+      "rating": 2,
+      "comment": "Order was incomplete, missing items."
+    }
+  },
+  {
+    "event_id": "evt_6adbef86",
+    "order_id": "ord_db888ccc",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T15:41:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_0ba70fb9",
+    "order_id": "ord_db888ccc",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T16:16:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_c5f2e62f",
+    "order_id": "ord_1afd4b07",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T10:11:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_a50fe248",
+    "order_id": "ord_1afd4b07",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T10:48:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_31b54af8",
+    "order_id": "ord_b3d2afd9",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T14:33:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_a28d0e2e",
+    "order_id": "ord_b3d2afd9",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T15:07:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_fe4fb49a",
+    "order_id": "ord_eb2413ff",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T18:10:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_297c31cd",
+    "order_id": "ord_eb2413ff",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T18:35:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_8a57d9df",
+    "order_id": "ord_4607e38b",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T15:26:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_c50fc6d9",
+    "order_id": "ord_4607e38b",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-02T16:37:00",
+    "details": {
+      "estimated_delivery_min": 45,
+      "actual_delivery_min": 71,
+      "delay_min": 26
+    }
+  },
+  {
+    "event_id": "evt_892ae9c4",
+    "order_id": "ord_05447e63",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T15:08:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_dae544f0",
+    "order_id": "ord_05447e63",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-01T16:17:00",
+    "details": {
+      "estimated_delivery_min": 38,
+      "actual_delivery_min": 69,
+      "delay_min": 31
+    }
+  },
+  {
+    "event_id": "evt_246d0173",
+    "order_id": "ord_2d4ca533",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T13:38:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_824d9ebe",
+    "order_id": "ord_2d4ca533",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T14:21:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_812fc601",
+    "order_id": "ord_fe2d9bab",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T22:55:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_538a79b7",
+    "order_id": "ord_fe2d9bab",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T23:34:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_955ac0ba",
+    "order_id": "ord_1df08cad",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T19:10:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_7893aaf7",
+    "order_id": "ord_1df08cad",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T19:57:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_3b66590a",
+    "order_id": "ord_be086c76",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T23:01:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_f00f985f",
+    "order_id": "ord_be086c76",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T23:32:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_18d865bc",
+    "order_id": "ord_a8af2f5d",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T22:57:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_c6d422d3",
+    "order_id": "ord_a8af2f5d",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T23:39:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_fbb1515f",
+    "order_id": "ord_f6e773b9",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T07:52:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_ac58bfbc",
+    "order_id": "ord_f6e773b9",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T08:17:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_7a0d649b",
+    "order_id": "ord_5e629f00",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T16:14:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_b3dd27d9",
+    "order_id": "ord_5e629f00",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T17:05:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_04a1096b",
+    "order_id": "ord_09e28ba8",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T16:08:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_255e07bf",
+    "order_id": "ord_09e28ba8",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T16:32:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_9b6a684f",
+    "order_id": "ord_9a6df980",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T10:45:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_68d579a7",
+    "order_id": "ord_9a6df980",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T11:24:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_b0557786",
+    "order_id": "ord_8ead8c92",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T14:23:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_914c5458",
+    "order_id": "ord_8ead8c92",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T14:45:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_d3db2a0c",
+    "order_id": "ord_cd2b3fec",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T21:43:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_b236137a",
+    "order_id": "ord_cd2b3fec",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T22:18:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_74dc8745",
+    "order_id": "ord_1c6ea78f",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T18:19:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_6fb39228",
+    "order_id": "ord_1c6ea78f",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T18:54:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_711386b6",
+    "order_id": "ord_97d38af8",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T06:06:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_0e9912b4",
+    "order_id": "ord_97d38af8",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T06:35:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_fcca9323",
+    "order_id": "ord_70d0a4d1",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T11:40:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_73965442",
+    "order_id": "ord_70d0a4d1",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T12:02:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_47d78c94",
+    "order_id": "ord_9c6f9b76",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T14:23:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_278f9912",
+    "order_id": "ord_9c6f9b76",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T14:46:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_f1074bf3",
+    "order_id": "ord_d3313ffd",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T08:40:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_249f3956",
+    "order_id": "ord_d3313ffd",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-02T10:14:00",
+    "details": {
+      "estimated_delivery_min": 35,
+      "actual_delivery_min": 94,
+      "delay_min": 59
+    }
+  },
+  {
+    "event_id": "evt_1c416dba",
+    "order_id": "ord_50494b7f",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T15:39:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_f326e70a",
+    "order_id": "ord_50494b7f",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T16:09:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_4c51750b",
+    "order_id": "ord_50494b7f",
+    "event_type": "negative_review",
+    "timestamp": "2026-03-02T16:34:00",
+    "details": {
+      "rating": 1,
+      "comment": "Waited forever. Worst delivery service."
+    }
+  },
+  {
+    "event_id": "evt_44c81e92",
+    "order_id": "ord_3ed5afa3",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T13:37:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_96ad40c4",
+    "order_id": "ord_3ed5afa3",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T13:59:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_fac784ed",
+    "order_id": "ord_3a2fd814",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T06:22:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_4f3e552b",
+    "order_id": "ord_3a2fd814",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-03T07:56:00",
+    "details": {
+      "estimated_delivery_min": 50,
+      "actual_delivery_min": 94,
+      "delay_min": 44
+    }
+  },
+  {
+    "event_id": "evt_f8c9d2f4",
+    "order_id": "ord_945a3962",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T23:35:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_55c41014",
+    "order_id": "ord_945a3962",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T23:53:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_4ee216d9",
+    "order_id": "ord_482d90b8",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T18:24:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_41a96142",
+    "order_id": "ord_482d90b8",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T19:02:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_48f49ed7",
+    "order_id": "ord_bbf2fac4",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T13:30:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_76addc97",
+    "order_id": "ord_bbf2fac4",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T13:51:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_003a0f62",
+    "order_id": "ord_221b6308",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T04:34:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_92069dd5",
+    "order_id": "ord_221b6308",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T04:53:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_f3b08669",
+    "order_id": "ord_221b6308",
+    "event_type": "negative_review",
+    "timestamp": "2026-03-04T06:30:00",
+    "details": {
+      "rating": 1,
+      "comment": "Terrible experience. Never ordering again."
+    }
+  },
+  {
+    "event_id": "evt_d445e31b",
+    "order_id": "ord_681bed32",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T07:13:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_c2001a9c",
+    "order_id": "ord_681bed32",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-03T08:52:00",
+    "details": {
+      "estimated_delivery_min": 48,
+      "actual_delivery_min": 99,
+      "delay_min": 51
+    }
+  },
+  {
+    "event_id": "evt_f0c85eef",
+    "order_id": "ord_5b2029d8",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T19:13:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_ae810c33",
+    "order_id": "ord_5b2029d8",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T19:44:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_e25d5ab6",
+    "order_id": "ord_009bd5d8",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T01:39:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_dbfd810f",
+    "order_id": "ord_009bd5d8",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T01:54:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_2634fca4",
+    "order_id": "ord_7569c13e",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T21:31:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_ad750647",
+    "order_id": "ord_7569c13e",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T21:55:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_a930d9c8",
+    "order_id": "ord_af1c5adc",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T05:51:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_e39ffcdf",
+    "order_id": "ord_af1c5adc",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T06:27:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_7fb48590",
+    "order_id": "ord_e2f8c672",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T04:29:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_a2abdbb5",
+    "order_id": "ord_e2f8c672",
+    "event_type": "order_cancelled",
+    "timestamp": "2026-03-04T04:40:00",
+    "details": {
+      "reason": "item_unavailable"
+    }
+  },
+  {
+    "event_id": "evt_6bcd76b9",
+    "order_id": "ord_b09939b7",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T09:35:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_0fbdcfdf",
+    "order_id": "ord_b09939b7",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T10:07:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_a65d3742",
+    "order_id": "ord_5952cb0a",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T15:44:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_98215202",
+    "order_id": "ord_5952cb0a",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T16:27:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_ae271a9e",
+    "order_id": "ord_ac87f7a5",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T22:46:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_cf8b6f7a",
+    "order_id": "ord_ac87f7a5",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T23:15:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_ffb2c2f2",
+    "order_id": "ord_59ffc919",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T08:26:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_eeaa2a09",
+    "order_id": "ord_59ffc919",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T09:06:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_a2325539",
+    "order_id": "ord_e24da3cd",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T18:35:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_158821eb",
+    "order_id": "ord_e24da3cd",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T19:19:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_63925b74",
+    "order_id": "ord_e24da3cd",
+    "event_type": "negative_review",
+    "timestamp": "2026-03-02T21:16:00",
+    "details": {
+      "rating": 1,
+      "comment": "Extremely slow delivery during non-peak hours."
+    }
+  },
+  {
+    "event_id": "evt_7d80f439",
+    "order_id": "ord_2fbcab0c",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T19:23:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_f534594e",
+    "order_id": "ord_2fbcab0c",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T19:53:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_8e14611f",
+    "order_id": "ord_c6d901aa",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T11:36:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_f8eaa2d6",
+    "order_id": "ord_c6d901aa",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T12:13:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_e7b91077",
+    "order_id": "ord_50b123f3",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T20:24:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_c4379399",
+    "order_id": "ord_50b123f3",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T21:00:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_9bc3bdb9",
+    "order_id": "ord_7d57df82",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T13:54:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_b6b2b7ed",
+    "order_id": "ord_7d57df82",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-03T15:02:00",
+    "details": {
+      "estimated_delivery_min": 49,
+      "actual_delivery_min": 68,
+      "delay_min": 19
+    }
+  },
+  {
+    "event_id": "evt_2e694d50",
+    "order_id": "ord_866b8974",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T18:49:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_6b4a1cc5",
+    "order_id": "ord_866b8974",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T19:39:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_530a9a5d",
+    "order_id": "ord_b789bc2a",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T02:46:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_df8a7c60",
+    "order_id": "ord_b789bc2a",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T03:09:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_ffab336a",
+    "order_id": "ord_17e17f0f",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T22:35:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_ee676802",
+    "order_id": "ord_17e17f0f",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T22:52:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_1980b756",
+    "order_id": "ord_945d4e68",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T01:14:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_82f64943",
+    "order_id": "ord_945d4e68",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T01:38:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_2c2590f5",
+    "order_id": "ord_361eaaca",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T03:55:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_7ab7b242",
+    "order_id": "ord_361eaaca",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T04:29:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_7fe2c00f",
+    "order_id": "ord_69afd397",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T20:40:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_5d640748",
+    "order_id": "ord_69afd397",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T21:26:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_e8f9c60a",
+    "order_id": "ord_621f0813",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T07:14:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_0abf6654",
+    "order_id": "ord_621f0813",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T08:00:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_2ab67b0f",
+    "order_id": "ord_5ac99775",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T03:22:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_b02ca22b",
+    "order_id": "ord_5ac99775",
+    "event_type": "order_cancelled",
+    "timestamp": "2026-03-02T03:42:00",
+    "details": {
+      "reason": "item_unavailable"
+    }
+  },
+  {
+    "event_id": "evt_7eb79ca3",
+    "order_id": "ord_a9170577",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T15:50:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_5913faa7",
+    "order_id": "ord_a9170577",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-02T16:34:00",
+    "details": {
+      "estimated_delivery_min": 20,
+      "actual_delivery_min": 44,
+      "delay_min": 24
+    }
+  },
+  {
+    "event_id": "evt_5c1bc42b",
+    "order_id": "ord_e0e8b566",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T14:16:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_3f6e04b1",
+    "order_id": "ord_e0e8b566",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T14:42:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_bd7871c1",
+    "order_id": "ord_0d99d231",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T20:26:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_343308d8",
+    "order_id": "ord_0d99d231",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-02T21:25:00",
+    "details": {
+      "estimated_delivery_min": 26,
+      "actual_delivery_min": 59,
+      "delay_min": 33
+    }
+  },
+  {
+    "event_id": "evt_6da554ab",
+    "order_id": "ord_e6e42183",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T10:20:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_0006a277",
+    "order_id": "ord_e6e42183",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T10:35:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_b933c25e",
+    "order_id": "ord_1c89efa4",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T18:46:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_beabc8ad",
+    "order_id": "ord_1c89efa4",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-03T19:29:00",
+    "details": {
+      "estimated_delivery_min": 20,
+      "actual_delivery_min": 43,
+      "delay_min": 23
+    }
+  },
+  {
+    "event_id": "evt_f6a1dcb4",
+    "order_id": "ord_2ff2087a",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T04:05:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_24ffdb0a",
+    "order_id": "ord_2ff2087a",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-03T05:11:00",
+    "details": {
+      "estimated_delivery_min": 46,
+      "actual_delivery_min": 66,
+      "delay_min": 20
+    }
+  },
+  {
+    "event_id": "evt_74bff01a",
+    "order_id": "ord_c6fd5a0b",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T11:07:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_b5114bd3",
+    "order_id": "ord_c6fd5a0b",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T11:53:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_52f230b1",
+    "order_id": "ord_77906ebb",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T04:42:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_38cf237f",
+    "order_id": "ord_77906ebb",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T05:07:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_74441996",
+    "order_id": "ord_4f8a0dfb",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T04:07:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_1825181a",
+    "order_id": "ord_4f8a0dfb",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T04:35:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_e33e4cc5",
+    "order_id": "ord_1d5f33a1",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T17:20:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_76178971",
+    "order_id": "ord_1d5f33a1",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T17:36:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_b239a7e7",
+    "order_id": "ord_e0665884",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T22:44:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_91457a9b",
+    "order_id": "ord_e0665884",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T23:21:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_bcfd94c4",
+    "order_id": "ord_c4467cb1",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T17:03:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_26a6a40e",
+    "order_id": "ord_c4467cb1",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T17:30:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_154f429a",
+    "order_id": "ord_acb54c4f",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T18:46:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_effd6881",
+    "order_id": "ord_acb54c4f",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T19:09:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_c9351e02",
+    "order_id": "ord_c12873fe",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T23:34:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_30da8525",
+    "order_id": "ord_c12873fe",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T00:19:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_af1cb4f5",
+    "order_id": "ord_c1553dd5",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T08:10:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_401d6f78",
+    "order_id": "ord_c1553dd5",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T08:31:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_daade7d0",
+    "order_id": "ord_0cbdf7c0",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T09:56:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_f5473630",
+    "order_id": "ord_0cbdf7c0",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T10:20:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_e194fba5",
+    "order_id": "ord_b8e99d8f",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T10:33:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_d623980e",
+    "order_id": "ord_b8e99d8f",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T11:18:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_2b67ff0d",
+    "order_id": "ord_8e61e48e",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T22:33:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_362b18f1",
+    "order_id": "ord_8e61e48e",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T23:11:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_d5e22eb4",
+    "order_id": "ord_e08de5de",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T10:06:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_d5ffe7c8",
+    "order_id": "ord_e08de5de",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T10:32:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_b8dff12d",
+    "order_id": "ord_80bfb6cf",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T16:23:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_7be5866f",
+    "order_id": "ord_80bfb6cf",
+    "event_type": "driver_cancelled",
+    "timestamp": "2026-03-01T16:29:00",
+    "details": {
+      "cancelled_driver_id": "drv_045",
+      "cancelled_driver_name": "Aadhya R.",
+      "reason": "shift_ended"
+    }
+  },
+  {
+    "event_id": "evt_39fe9549",
+    "order_id": "ord_795260b5",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T09:47:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_f2d91795",
+    "order_id": "ord_795260b5",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T10:32:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_a6286a85",
+    "order_id": "ord_45caba53",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T00:04:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_1fd2df05",
+    "order_id": "ord_45caba53",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T00:50:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_c08e3567",
+    "order_id": "ord_11be3f11",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T05:42:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_85bd85a5",
+    "order_id": "ord_11be3f11",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T06:12:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_0e41952e",
+    "order_id": "ord_b13519e0",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T07:43:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_7612bd56",
+    "order_id": "ord_b13519e0",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T08:13:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_e4c80cbd",
+    "order_id": "ord_809b05ef",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T05:42:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_771d88e6",
+    "order_id": "ord_809b05ef",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T06:07:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_54d92fbe",
+    "order_id": "ord_346739f7",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T17:52:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_f360555d",
+    "order_id": "ord_346739f7",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T18:38:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_292fea7b",
+    "order_id": "ord_e67b70ec",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T19:28:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_3ca43b7d",
+    "order_id": "ord_e67b70ec",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T20:17:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_30d6629b",
+    "order_id": "ord_90ba6a76",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T00:14:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_2f0ca88b",
+    "order_id": "ord_90ba6a76",
+    "event_type": "order_cancelled",
+    "timestamp": "2026-03-03T00:27:00",
+    "details": {
+      "reason": "restaurant_closed"
+    }
+  },
+  {
+    "event_id": "evt_9f455df9",
+    "order_id": "ord_90ba6a76",
+    "event_type": "negative_review",
+    "timestamp": "2026-03-03T01:48:00",
+    "details": {
+      "rating": 1,
+      "comment": "Wrong items delivered. Very disappointed."
+    }
+  },
+  {
+    "event_id": "evt_96b19be2",
+    "order_id": "ord_2e9ab23c",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T17:14:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_e06efcd6",
+    "order_id": "ord_2e9ab23c",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-02T18:30:00",
+    "details": {
+      "estimated_delivery_min": 28,
+      "actual_delivery_min": 76,
+      "delay_min": 48
+    }
+  },
+  {
+    "event_id": "evt_b2e24ed3",
+    "order_id": "ord_0c6a1efb",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T00:52:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_fef1638a",
+    "order_id": "ord_0c6a1efb",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T01:36:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_7bff9463",
+    "order_id": "ord_853067ec",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T20:49:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_11791f8a",
+    "order_id": "ord_853067ec",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T21:11:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_0616d653",
+    "order_id": "ord_785bfae7",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T10:03:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_9532c635",
+    "order_id": "ord_785bfae7",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T10:36:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_890cf2af",
+    "order_id": "ord_94ebfa72",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T16:43:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_da697829",
+    "order_id": "ord_94ebfa72",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T17:30:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_17f0e968",
+    "order_id": "ord_42635137",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T12:09:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_9097e3fb",
+    "order_id": "ord_42635137",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T12:28:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_65f5e6b5",
+    "order_id": "ord_7d4c5450",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T17:49:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_51302f12",
+    "order_id": "ord_7d4c5450",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-03T18:55:00",
+    "details": {
+      "estimated_delivery_min": 42,
+      "actual_delivery_min": 66,
+      "delay_min": 24
+    }
+  },
+  {
+    "event_id": "evt_0bb36ed8",
+    "order_id": "ord_3f9847fc",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T17:15:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_8baab996",
+    "order_id": "ord_3f9847fc",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T17:42:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_ea0d2306",
+    "order_id": "ord_cd1c40a1",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T08:22:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_48618de7",
+    "order_id": "ord_cd1c40a1",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T08:43:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_c48964ff",
+    "order_id": "ord_6aa0431f",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T04:28:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_c153a667",
+    "order_id": "ord_6aa0431f",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T04:54:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_e78f06f4",
+    "order_id": "ord_74323dd0",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T16:15:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_b44169ef",
+    "order_id": "ord_74323dd0",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-01T17:34:00",
+    "details": {
+      "estimated_delivery_min": 50,
+      "actual_delivery_min": 79,
+      "delay_min": 29
+    }
+  },
+  {
+    "event_id": "evt_e579b627",
+    "order_id": "ord_00047814",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T12:21:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_518154ef",
+    "order_id": "ord_00047814",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-01T13:33:00",
+    "details": {
+      "estimated_delivery_min": 26,
+      "actual_delivery_min": 72,
+      "delay_min": 46
+    }
+  },
+  {
+    "event_id": "evt_0331ff5f",
+    "order_id": "ord_ca22ed8e",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T10:37:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_b1afd0cf",
+    "order_id": "ord_ca22ed8e",
+    "event_type": "driver_cancelled",
+    "timestamp": "2026-03-03T10:42:00",
+    "details": {
+      "cancelled_driver_id": "drv_047",
+      "cancelled_driver_name": "Reyansh V.",
+      "reason": "vehicle_breakdown"
+    }
+  },
+  {
+    "event_id": "evt_5ead96e1",
+    "order_id": "ord_7f5644d7",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T21:41:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_0dcad6a4",
+    "order_id": "ord_7f5644d7",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T22:30:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_558e98ba",
+    "order_id": "ord_6f979be1",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T23:55:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_39503188",
+    "order_id": "ord_6f979be1",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T00:44:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_a4daef1c",
+    "order_id": "ord_b27c03cc",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T06:05:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_ebdbe01b",
+    "order_id": "ord_b27c03cc",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T06:33:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_ab98af04",
+    "order_id": "ord_6f3ee122",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T01:21:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_4b80e24a",
+    "order_id": "ord_6f3ee122",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-03T02:17:00",
+    "details": {
+      "estimated_delivery_min": 35,
+      "actual_delivery_min": 56,
+      "delay_min": 21
+    }
+  },
+  {
+    "event_id": "evt_b6d6e8fe",
+    "order_id": "ord_3db40bb4",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T18:56:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_1409a064",
+    "order_id": "ord_3db40bb4",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T19:23:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_0f6f8696",
+    "order_id": "ord_b5212ece",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T12:42:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_a798f6ca",
+    "order_id": "ord_b5212ece",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T13:11:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_59931f8f",
+    "order_id": "ord_ec618d96",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T16:36:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_ae619920",
+    "order_id": "ord_ec618d96",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T17:04:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_16aadc2f",
+    "order_id": "ord_0ce60eb0",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T07:43:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_1ed6e172",
+    "order_id": "ord_0ce60eb0",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-04T09:20:00",
+    "details": {
+      "estimated_delivery_min": 45,
+      "actual_delivery_min": 97,
+      "delay_min": 52
+    }
+  },
+  {
+    "event_id": "evt_d90fac15",
+    "order_id": "ord_4abb63c2",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T02:04:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_2e57cc3b",
+    "order_id": "ord_4abb63c2",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T02:38:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_160a9909",
+    "order_id": "ord_4fa8cd52",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T14:26:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_e08c381c",
+    "order_id": "ord_4fa8cd52",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T15:00:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_1bca907d",
+    "order_id": "ord_7b43c8ca",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T02:11:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_ecee7c27",
+    "order_id": "ord_7b43c8ca",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T02:30:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_cb2894df",
+    "order_id": "ord_b5acdf35",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T15:43:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_a503f0fe",
+    "order_id": "ord_b5acdf35",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T16:05:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_ae319166",
+    "order_id": "ord_964d8f82",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T11:31:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_ae2be139",
+    "order_id": "ord_964d8f82",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-03T12:49:00",
+    "details": {
+      "estimated_delivery_min": 35,
+      "actual_delivery_min": 78,
+      "delay_min": 43
+    }
+  },
+  {
+    "event_id": "evt_c563cb72",
+    "order_id": "ord_964d8f82",
+    "event_type": "negative_review",
+    "timestamp": "2026-03-03T12:50:00",
+    "details": {
+      "rating": 2,
+      "comment": "Driver was rude and food was spilled."
+    }
+  },
+  {
+    "event_id": "evt_0176e1a5",
+    "order_id": "ord_e9bdac37",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T18:11:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_ed67eeee",
+    "order_id": "ord_e9bdac37",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T19:04:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_1a55523c",
+    "order_id": "ord_9cc46dc7",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T13:49:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_cc85eb7d",
+    "order_id": "ord_9cc46dc7",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T14:10:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_775325df",
+    "order_id": "ord_59cc0b92",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T05:41:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_08942322",
+    "order_id": "ord_59cc0b92",
+    "event_type": "driver_cancelled",
+    "timestamp": "2026-03-04T05:45:00",
+    "details": {
+      "cancelled_driver_id": "drv_037",
+      "cancelled_driver_name": "Aanya S.",
+      "reason": "shift_ended"
+    }
+  },
+  {
+    "event_id": "evt_85b40e4c",
+    "order_id": "ord_e1dea3ee",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T12:47:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_d5796e32",
+    "order_id": "ord_e1dea3ee",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T13:13:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_ae901c89",
+    "order_id": "ord_9c761d4c",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T00:49:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_998ba77a",
+    "order_id": "ord_9c761d4c",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-03T02:24:00",
+    "details": {
+      "estimated_delivery_min": 46,
+      "actual_delivery_min": 95,
+      "delay_min": 49
+    }
+  },
+  {
+    "event_id": "evt_09f1fe20",
+    "order_id": "ord_63622502",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T02:07:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_ca847c10",
+    "order_id": "ord_63622502",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T02:35:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_3e198943",
+    "order_id": "ord_9e41f6ec",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T08:29:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_7687c9e9",
+    "order_id": "ord_9e41f6ec",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T09:09:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_2c39ead0",
+    "order_id": "ord_9e41f6ec",
+    "event_type": "negative_review",
+    "timestamp": "2026-03-02T09:58:00",
+    "details": {
+      "rating": 1,
+      "comment": "Terrible experience. Never ordering again."
+    }
+  },
+  {
+    "event_id": "evt_695a674e",
+    "order_id": "ord_c8b2f568",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T20:33:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_97fbf18b",
+    "order_id": "ord_c8b2f568",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T21:18:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_a62bce94",
+    "order_id": "ord_99f1c125",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T15:49:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_fcd71e72",
+    "order_id": "ord_99f1c125",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T16:19:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_125ddf1e",
+    "order_id": "ord_dcbd11ce",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T15:19:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_4e5db0dc",
+    "order_id": "ord_dcbd11ce",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T15:47:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_11ab0b6a",
+    "order_id": "ord_26003dbc",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T18:00:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_03419bb8",
+    "order_id": "ord_26003dbc",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T18:29:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_2898bfa8",
+    "order_id": "ord_2cd0b5b8",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T22:29:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_5df93722",
+    "order_id": "ord_2cd0b5b8",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T22:57:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_dd3c76c3",
+    "order_id": "ord_7a1fd080",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T12:03:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_d5fb680a",
+    "order_id": "ord_7a1fd080",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T12:23:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_7379e486",
+    "order_id": "ord_bc08fadd",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T00:21:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_d6cb8b34",
+    "order_id": "ord_bc08fadd",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-03T01:45:00",
+    "details": {
+      "estimated_delivery_min": 49,
+      "actual_delivery_min": 84,
+      "delay_min": 35
+    }
+  },
+  {
+    "event_id": "evt_ce1bdfc9",
+    "order_id": "ord_abf3054e",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T09:11:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_e73be2c7",
+    "order_id": "ord_abf3054e",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T09:56:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_276a8663",
+    "order_id": "ord_abf3054e",
+    "event_type": "negative_review",
+    "timestamp": "2026-03-04T10:49:00",
+    "details": {
+      "rating": 1,
+      "comment": "Order was incomplete, missing items."
+    }
+  },
+  {
+    "event_id": "evt_66237133",
+    "order_id": "ord_76c25ec7",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T18:18:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_f2810e76",
+    "order_id": "ord_76c25ec7",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T18:52:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_085ed7b3",
+    "order_id": "ord_a8c7cd7a",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T17:06:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_6f147c7a",
+    "order_id": "ord_a8c7cd7a",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T17:40:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_e388de11",
+    "order_id": "ord_e949592e",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T02:16:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_35c94f89",
+    "order_id": "ord_e949592e",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T02:49:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_a43fb5ce",
+    "order_id": "ord_b1042c3c",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T09:56:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_911abcf4",
+    "order_id": "ord_b1042c3c",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T10:33:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_be5705eb",
+    "order_id": "ord_b1042c3c",
+    "event_type": "negative_review",
+    "timestamp": "2026-03-02T10:48:00",
+    "details": {
+      "rating": 2,
+      "comment": "Terrible experience. Never ordering again."
+    }
+  },
+  {
+    "event_id": "evt_691ef985",
+    "order_id": "ord_453f6137",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T14:02:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_9a88457b",
+    "order_id": "ord_453f6137",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T14:30:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_72c8376d",
+    "order_id": "ord_453f6137",
+    "event_type": "negative_review",
+    "timestamp": "2026-03-03T15:07:00",
+    "details": {
+      "rating": 1,
+      "comment": "Waited forever. Worst delivery service."
+    }
+  },
+  {
+    "event_id": "evt_00415b5f",
+    "order_id": "ord_616fea2f",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T08:20:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_975825da",
+    "order_id": "ord_616fea2f",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T09:04:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_1c0a010f",
+    "order_id": "ord_90027237",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T10:21:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_65261c14",
+    "order_id": "ord_90027237",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T11:09:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_943c3a9d",
+    "order_id": "ord_c863281b",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T20:57:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_fc005338",
+    "order_id": "ord_c863281b",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T21:45:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_9928ad47",
+    "order_id": "ord_209d1110",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T02:35:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_dfed9d87",
+    "order_id": "ord_209d1110",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T03:12:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_464258ca",
+    "order_id": "ord_27e2c81d",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T13:21:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_44b4a7be",
+    "order_id": "ord_27e2c81d",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T13:57:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_0f207a75",
+    "order_id": "ord_dc631223",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T02:45:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_4734b22a",
+    "order_id": "ord_dc631223",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-03T03:25:00",
+    "details": {
+      "estimated_delivery_min": 21,
+      "actual_delivery_min": 40,
+      "delay_min": 19
+    }
+  },
+  {
+    "event_id": "evt_595e11b4",
+    "order_id": "ord_745b3511",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T00:23:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_4d016133",
+    "order_id": "ord_745b3511",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-02T01:25:00",
+    "details": {
+      "estimated_delivery_min": 45,
+      "actual_delivery_min": 62,
+      "delay_min": 17
+    }
+  },
+  {
+    "event_id": "evt_0d23f20a",
+    "order_id": "ord_f1f112eb",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T23:46:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_3b9245ca",
+    "order_id": "ord_f1f112eb",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T00:30:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_2e9dbfd4",
+    "order_id": "ord_8dc5f447",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T14:29:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_cea74604",
+    "order_id": "ord_8dc5f447",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T14:56:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_08d8452a",
+    "order_id": "ord_b3c7a750",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T04:29:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_9b6577ee",
+    "order_id": "ord_b3c7a750",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T05:22:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_e5675a86",
+    "order_id": "ord_2cda8171",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T03:12:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_86e4e827",
+    "order_id": "ord_2cda8171",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T03:40:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_8edb3297",
+    "order_id": "ord_f100e95c",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T00:00:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_e2a84fee",
+    "order_id": "ord_f100e95c",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T00:48:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_bfe621f4",
+    "order_id": "ord_d1429ead",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T22:36:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_070f591b",
+    "order_id": "ord_d1429ead",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T23:03:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_8e3d9b53",
+    "order_id": "ord_b713acf2",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T16:06:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_2bc19b69",
+    "order_id": "ord_b713acf2",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T16:35:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_64e1478a",
+    "order_id": "ord_c443e751",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T07:19:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_86bb5fa7",
+    "order_id": "ord_c443e751",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T07:54:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_894963f0",
+    "order_id": "ord_8c1c8b2c",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T02:05:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_4e2bf1e0",
+    "order_id": "ord_8c1c8b2c",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T02:47:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_73eb287d",
+    "order_id": "ord_4a9433ee",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T15:14:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_f0ac0132",
+    "order_id": "ord_4a9433ee",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T15:38:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_f9f209ff",
+    "order_id": "ord_0b8d6854",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T20:31:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_db14200f",
+    "order_id": "ord_0b8d6854",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-03T21:35:00",
+    "details": {
+      "estimated_delivery_min": 20,
+      "actual_delivery_min": 64,
+      "delay_min": 44
+    }
+  },
+  {
+    "event_id": "evt_9743feb8",
+    "order_id": "ord_16a406e0",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T03:06:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_226641e2",
+    "order_id": "ord_16a406e0",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T03:38:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_71ed8786",
+    "order_id": "ord_12b9953b",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T13:37:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_34f52e7b",
+    "order_id": "ord_12b9953b",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T14:07:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_d7c1eff4",
+    "order_id": "ord_7d7ee5a7",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T17:50:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_327fbf10",
+    "order_id": "ord_7d7ee5a7",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T18:21:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_4434a003",
+    "order_id": "ord_37f82e67",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T00:37:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_46646594",
+    "order_id": "ord_37f82e67",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T01:18:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_2f2e7f3a",
+    "order_id": "ord_00e991a7",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T10:20:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_d77b7ef1",
+    "order_id": "ord_00e991a7",
+    "event_type": "driver_cancelled",
+    "timestamp": "2026-03-03T10:26:00",
+    "details": {
+      "cancelled_driver_id": "drv_004",
+      "cancelled_driver_name": "Ishaan R.",
+      "reason": "personal_emergency"
+    }
+  },
+  {
+    "event_id": "evt_9a817c8e",
+    "order_id": "ord_83ad4456",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T05:28:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_e0bb6762",
+    "order_id": "ord_83ad4456",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T06:07:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_9f66ba33",
+    "order_id": "ord_fbd615f8",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T00:58:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_18117cfe",
+    "order_id": "ord_fbd615f8",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T01:48:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_f1990c75",
+    "order_id": "ord_fd5e90ce",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T13:54:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_a7e3fde9",
+    "order_id": "ord_fd5e90ce",
+    "event_type": "driver_cancelled",
+    "timestamp": "2026-03-03T14:05:00",
+    "details": {
+      "cancelled_driver_id": "drv_000",
+      "cancelled_driver_name": "Riya N.",
+      "reason": "vehicle_breakdown"
+    }
+  },
+  {
+    "event_id": "evt_910c038c",
+    "order_id": "ord_fd5e90ce",
+    "event_type": "negative_review",
+    "timestamp": "2026-03-03T15:39:00",
+    "details": {
+      "rating": 1,
+      "comment": "Terrible experience. Never ordering again."
+    }
+  },
+  {
+    "event_id": "evt_fef1b5fc",
+    "order_id": "ord_a660a8d2",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T12:40:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_5effa57a",
+    "order_id": "ord_a660a8d2",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T13:11:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_d1db5e99",
+    "order_id": "ord_b1bee799",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T10:35:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_5ef8cd56",
+    "order_id": "ord_b1bee799",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T11:08:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_4d125226",
+    "order_id": "ord_eed84a14",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T19:41:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_13b4bbed",
+    "order_id": "ord_eed84a14",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T20:06:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_571ab7dd",
+    "order_id": "ord_9eb37bc2",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T20:57:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_adcfc326",
+    "order_id": "ord_9eb37bc2",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T21:46:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_3772cd43",
+    "order_id": "ord_0b054553",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T11:22:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_b209a908",
+    "order_id": "ord_0b054553",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T11:53:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_370287b1",
+    "order_id": "ord_db1c521b",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T14:59:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_502de944",
+    "order_id": "ord_db1c521b",
+    "event_type": "driver_cancelled",
+    "timestamp": "2026-03-03T15:02:00",
+    "details": {
+      "cancelled_driver_id": "drv_015",
+      "cancelled_driver_name": "Dhruv S.",
+      "reason": "shift_ended"
+    }
+  },
+  {
+    "event_id": "evt_20cda26d",
+    "order_id": "ord_4ca48f0a",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T04:46:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_8f496202",
+    "order_id": "ord_4ca48f0a",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T05:28:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_f372f640",
+    "order_id": "ord_cb7eea36",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T17:30:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_f2d4de32",
+    "order_id": "ord_cb7eea36",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T18:06:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_ca55046b",
+    "order_id": "ord_625bcb3c",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T16:57:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_5e4dc828",
+    "order_id": "ord_625bcb3c",
+    "event_type": "order_cancelled",
+    "timestamp": "2026-03-01T17:16:00",
+    "details": {
+      "reason": "item_unavailable"
+    }
+  },
+  {
+    "event_id": "evt_6aa39f13",
+    "order_id": "ord_06e60855",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T23:10:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_bfb891ed",
+    "order_id": "ord_06e60855",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T23:30:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_f1c38892",
+    "order_id": "ord_964d14e8",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T07:36:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_4f759648",
+    "order_id": "ord_964d14e8",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T08:01:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_aae52db3",
+    "order_id": "ord_964d14e8",
+    "event_type": "negative_review",
+    "timestamp": "2026-03-02T09:09:00",
+    "details": {
+      "rating": 1,
+      "comment": "Wrong items delivered. Very disappointed."
+    }
+  },
+  {
+    "event_id": "evt_ad49d30c",
+    "order_id": "ord_6ec5cb7e",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T02:39:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_c1c3041f",
+    "order_id": "ord_6ec5cb7e",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T03:03:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_965178d8",
+    "order_id": "ord_0a346e75",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T09:51:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_a0fc2b93",
+    "order_id": "ord_0a346e75",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T10:18:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_d0a42d27",
+    "order_id": "ord_805dc4a3",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T04:38:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_6ac1d84a",
+    "order_id": "ord_805dc4a3",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T05:28:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_80c61695",
+    "order_id": "ord_81f3a3f8",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T12:36:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_f1cf09b8",
+    "order_id": "ord_81f3a3f8",
+    "event_type": "driver_cancelled",
+    "timestamp": "2026-03-02T12:43:00",
+    "details": {
+      "cancelled_driver_id": "drv_043",
+      "cancelled_driver_name": "Aadhya J.",
+      "reason": "vehicle_breakdown"
+    }
+  },
+  {
+    "event_id": "evt_95d8626b",
+    "order_id": "ord_81f3a3f8",
+    "event_type": "negative_review",
+    "timestamp": "2026-03-02T14:28:00",
+    "details": {
+      "rating": 2,
+      "comment": "Extremely slow delivery during non-peak hours."
+    }
+  },
+  {
+    "event_id": "evt_b2a2b74d",
+    "order_id": "ord_3c53a401",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T10:43:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_b8ecd289",
+    "order_id": "ord_3c53a401",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T11:28:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_8288c4ea",
+    "order_id": "ord_600d2472",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T02:33:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_235d449c",
+    "order_id": "ord_600d2472",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-03T03:38:00",
+    "details": {
+      "estimated_delivery_min": 41,
+      "actual_delivery_min": 65,
+      "delay_min": 24
+    }
+  },
+  {
+    "event_id": "evt_69b68616",
+    "order_id": "ord_14fdd82f",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T20:17:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_071a23f2",
+    "order_id": "ord_14fdd82f",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T21:03:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_2eb4675f",
+    "order_id": "ord_66947ba1",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T10:33:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_98fc16f6",
+    "order_id": "ord_66947ba1",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T11:03:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_c9fb6661",
+    "order_id": "ord_1afbdc4b",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T14:06:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_21bd45d7",
+    "order_id": "ord_1afbdc4b",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T14:40:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_dab0541a",
+    "order_id": "ord_cbef2f9d",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T21:03:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_b35f49d4",
+    "order_id": "ord_cbef2f9d",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T21:51:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_d299f7be",
+    "order_id": "ord_df623f5f",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T02:24:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_596d2ddd",
+    "order_id": "ord_df623f5f",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T03:02:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_122661bd",
+    "order_id": "ord_715eab3d",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T21:42:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_e6853367",
+    "order_id": "ord_715eab3d",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T22:30:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_7e394e3a",
+    "order_id": "ord_b5b9e352",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T06:49:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_c7e374e9",
+    "order_id": "ord_b5b9e352",
+    "event_type": "driver_cancelled",
+    "timestamp": "2026-03-02T06:58:00",
+    "details": {
+      "cancelled_driver_id": "drv_043",
+      "cancelled_driver_name": "Aadhya J.",
+      "reason": "too_far"
+    }
+  },
+  {
+    "event_id": "evt_5836ddc5",
+    "order_id": "ord_ea8bea68",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T18:31:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_2e6d16ce",
+    "order_id": "ord_ea8bea68",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T19:25:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_58a7dcc1",
+    "order_id": "ord_762db1ab",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T23:58:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_5a4be68b",
+    "order_id": "ord_762db1ab",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-02T00:49:00",
+    "details": {
+      "estimated_delivery_min": 34,
+      "actual_delivery_min": 51,
+      "delay_min": 17
+    }
+  },
+  {
+    "event_id": "evt_ce1ce109",
+    "order_id": "ord_b6f00c15",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T10:59:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_0594abfc",
+    "order_id": "ord_b6f00c15",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T11:20:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_e48a204c",
+    "order_id": "ord_bcbca485",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T23:27:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_447d833e",
+    "order_id": "ord_bcbca485",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T23:55:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_a0e8c00d",
+    "order_id": "ord_e64e5dd7",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T10:34:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_d0c70eac",
+    "order_id": "ord_e64e5dd7",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T11:22:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_0ddd8ac5",
+    "order_id": "ord_980e0c0d",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T06:54:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_696037f7",
+    "order_id": "ord_980e0c0d",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T07:43:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_58515518",
+    "order_id": "ord_00f97299",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T10:19:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_c56dcc95",
+    "order_id": "ord_00f97299",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-02T11:28:00",
+    "details": {
+      "estimated_delivery_min": 42,
+      "actual_delivery_min": 69,
+      "delay_min": 27
+    }
+  },
+  {
+    "event_id": "evt_db4e23b4",
+    "order_id": "ord_f2cba6e2",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T14:12:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_fa6bd4d4",
+    "order_id": "ord_f2cba6e2",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T14:34:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_93b6f478",
+    "order_id": "ord_77751dfa",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T06:53:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_c2f58948",
+    "order_id": "ord_77751dfa",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T07:33:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_6571d620",
+    "order_id": "ord_911798b8",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T01:13:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_1e92c2b5",
+    "order_id": "ord_911798b8",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T02:03:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_5b3f0cde",
+    "order_id": "ord_150d6716",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T19:02:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_cbec40bc",
+    "order_id": "ord_150d6716",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T19:47:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_c503b822",
+    "order_id": "ord_8d12ff51",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T11:11:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_02f9696a",
+    "order_id": "ord_8d12ff51",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T11:47:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_6a9a1cec",
+    "order_id": "ord_7d3f4671",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T00:31:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_cb3511cb",
+    "order_id": "ord_7d3f4671",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-02T01:38:00",
+    "details": {
+      "estimated_delivery_min": 39,
+      "actual_delivery_min": 67,
+      "delay_min": 28
+    }
+  },
+  {
+    "event_id": "evt_2dbd3648",
+    "order_id": "ord_c9ff6db1",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T01:43:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_aeaf6a39",
+    "order_id": "ord_c9ff6db1",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T02:19:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_3cec88f5",
+    "order_id": "ord_d053a6af",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T01:17:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_6f77f9ab",
+    "order_id": "ord_d053a6af",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-02T02:02:00",
+    "details": {
+      "estimated_delivery_min": 24,
+      "actual_delivery_min": 45,
+      "delay_min": 21
+    }
+  },
+  {
+    "event_id": "evt_af6749b8",
+    "order_id": "ord_3c758058",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T10:49:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_8166a7e1",
+    "order_id": "ord_3c758058",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T11:09:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_b26a8fd4",
+    "order_id": "ord_3c758058",
+    "event_type": "negative_review",
+    "timestamp": "2026-03-03T11:35:00",
+    "details": {
+      "rating": 2,
+      "comment": "Waited forever. Worst delivery service."
+    }
+  },
+  {
+    "event_id": "evt_7ff64e1f",
+    "order_id": "ord_0b7d08de",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T12:09:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_31e01af5",
+    "order_id": "ord_0b7d08de",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T12:47:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_d88836dc",
+    "order_id": "ord_74314d39",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T09:45:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_3f739549",
+    "order_id": "ord_74314d39",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-02T10:49:00",
+    "details": {
+      "estimated_delivery_min": 35,
+      "actual_delivery_min": 64,
+      "delay_min": 29
+    }
+  },
+  {
+    "event_id": "evt_6873b738",
+    "order_id": "ord_56c0eaed",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T05:06:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_cb61b57c",
+    "order_id": "ord_56c0eaed",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T05:48:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_92005885",
+    "order_id": "ord_5f61de8f",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T16:12:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_4fe40de1",
+    "order_id": "ord_5f61de8f",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T16:37:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_b5760c92",
+    "order_id": "ord_5770371d",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T08:18:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_9e44b6be",
+    "order_id": "ord_5770371d",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T08:46:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_3b1b8dd9",
+    "order_id": "ord_5770371d",
+    "event_type": "negative_review",
+    "timestamp": "2026-03-03T10:28:00",
+    "details": {
+      "rating": 1,
+      "comment": "Wrong items delivered. Very disappointed."
+    }
+  },
+  {
+    "event_id": "evt_696c73fc",
+    "order_id": "ord_5bd366b3",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T00:04:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_b863a180",
+    "order_id": "ord_5bd366b3",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T00:56:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_34ed7bd9",
+    "order_id": "ord_e657c956",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T00:20:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_c4b4927a",
+    "order_id": "ord_e657c956",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T00:45:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_29d20cf5",
+    "order_id": "ord_256b8f8f",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T00:03:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_750ef716",
+    "order_id": "ord_256b8f8f",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-04T01:16:00",
+    "details": {
+      "estimated_delivery_min": 48,
+      "actual_delivery_min": 73,
+      "delay_min": 25
+    }
+  },
+  {
+    "event_id": "evt_76478e44",
+    "order_id": "ord_a378c449",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T20:12:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_9e0cf87d",
+    "order_id": "ord_a378c449",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T20:37:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_3f628f6d",
+    "order_id": "ord_9c47bafa",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T07:48:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_6c46a5be",
+    "order_id": "ord_9c47bafa",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T08:15:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_f72c976e",
+    "order_id": "ord_b5368291",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T08:54:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_7e2bd183",
+    "order_id": "ord_b5368291",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T09:23:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_b4660163",
+    "order_id": "ord_be5f5095",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T21:00:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_907112a2",
+    "order_id": "ord_be5f5095",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T21:41:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_be011456",
+    "order_id": "ord_b11123e7",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T10:26:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_0046dd40",
+    "order_id": "ord_b11123e7",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T10:50:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_f32308a7",
+    "order_id": "ord_b11123e7",
+    "event_type": "negative_review",
+    "timestamp": "2026-03-01T12:04:00",
+    "details": {
+      "rating": 2,
+      "comment": "Extremely slow delivery during non-peak hours."
+    }
+  },
+  {
+    "event_id": "evt_2d449b50",
+    "order_id": "ord_24d735c4",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T16:05:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_94dd9c53",
+    "order_id": "ord_24d735c4",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T16:43:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_76bfa3cf",
+    "order_id": "ord_f3cbf1e9",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T21:01:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_a32bf231",
+    "order_id": "ord_f3cbf1e9",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-01T21:59:00",
+    "details": {
+      "estimated_delivery_min": 35,
+      "actual_delivery_min": 58,
+      "delay_min": 23
+    }
+  },
+  {
+    "event_id": "evt_527356df",
+    "order_id": "ord_a5d89e5d",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T09:50:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_c6a606da",
+    "order_id": "ord_a5d89e5d",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T10:42:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_277a0d80",
+    "order_id": "ord_a5d89e5d",
+    "event_type": "negative_review",
+    "timestamp": "2026-03-02T12:07:00",
+    "details": {
+      "rating": 1,
+      "comment": "Packaging was damaged, food leaked everywhere."
+    }
+  },
+  {
+    "event_id": "evt_abca51c7",
+    "order_id": "ord_0865d57f",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T23:27:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_71fca7bb",
+    "order_id": "ord_0865d57f",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T00:14:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_e5e8ee42",
+    "order_id": "ord_f12ecebf",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T04:47:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_62b4e64a",
+    "order_id": "ord_f12ecebf",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T05:41:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_e33389d3",
+    "order_id": "ord_a44a511f",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T21:39:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_f0814f72",
+    "order_id": "ord_a44a511f",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-03T22:24:00",
+    "details": {
+      "estimated_delivery_min": 21,
+      "actual_delivery_min": 45,
+      "delay_min": 24
+    }
+  },
+  {
+    "event_id": "evt_86c4b93d",
+    "order_id": "ord_0c9103bb",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T07:07:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_62a6f6be",
+    "order_id": "ord_0c9103bb",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T07:51:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_3f00f8a8",
+    "order_id": "ord_e90faff3",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T07:57:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_b127a70b",
+    "order_id": "ord_e90faff3",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T08:20:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_37693def",
+    "order_id": "ord_e90faff3",
+    "event_type": "negative_review",
+    "timestamp": "2026-03-03T09:19:00",
+    "details": {
+      "rating": 2,
+      "comment": "Extremely slow delivery during non-peak hours."
+    }
+  },
+  {
+    "event_id": "evt_b6d70c83",
+    "order_id": "ord_a0db6be0",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T06:43:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_9ff2b02c",
+    "order_id": "ord_a0db6be0",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T07:33:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_5827424f",
+    "order_id": "ord_fafe155a",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T20:05:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_39c52118",
+    "order_id": "ord_fafe155a",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-03T20:44:00",
+    "details": {
+      "estimated_delivery_min": 22,
+      "actual_delivery_min": 39,
+      "delay_min": 17
+    }
+  },
+  {
+    "event_id": "evt_80ae002b",
+    "order_id": "ord_48cb6eb5",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T04:40:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_1c123825",
+    "order_id": "ord_48cb6eb5",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T05:03:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_ca9017ed",
+    "order_id": "ord_41b126d3",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T12:18:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_95d6a846",
+    "order_id": "ord_41b126d3",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T12:42:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_cb7b546a",
+    "order_id": "ord_74188554",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T05:41:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_b0beb8b1",
+    "order_id": "ord_74188554",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T06:26:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_7f0b04bb",
+    "order_id": "ord_c4bbbab1",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T10:08:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_6078bce7",
+    "order_id": "ord_c4bbbab1",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-04T11:16:00",
+    "details": {
+      "estimated_delivery_min": 48,
+      "actual_delivery_min": 68,
+      "delay_min": 20
+    }
+  },
+  {
+    "event_id": "evt_e7138b46",
+    "order_id": "ord_6afb7dee",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T22:29:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_ba027848",
+    "order_id": "ord_6afb7dee",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T23:22:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_828413d8",
+    "order_id": "ord_5d10df0c",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T16:07:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_dea54577",
+    "order_id": "ord_5d10df0c",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T16:30:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_1979a1dc",
+    "order_id": "ord_31c46259",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T02:22:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_f782e448",
+    "order_id": "ord_31c46259",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T02:43:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_0be53965",
+    "order_id": "ord_6d234ebb",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T04:29:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_6291d6d0",
+    "order_id": "ord_6d234ebb",
+    "event_type": "order_cancelled",
+    "timestamp": "2026-03-02T04:44:00",
+    "details": {
+      "reason": "payment_failed"
+    }
+  },
+  {
+    "event_id": "evt_839e5078",
+    "order_id": "ord_5eb82da8",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T10:46:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_4bf104c6",
+    "order_id": "ord_5eb82da8",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T11:31:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_82638ef1",
+    "order_id": "ord_f4c34407",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T01:01:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_d3be3d60",
+    "order_id": "ord_f4c34407",
+    "event_type": "delivery_delay",
+    "timestamp": "2026-03-03T01:54:00",
+    "details": {
+      "estimated_delivery_min": 32,
+      "actual_delivery_min": 53,
+      "delay_min": 21
+    }
+  },
+  {
+    "event_id": "evt_55dc0552",
+    "order_id": "ord_3c3c26bc",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T21:12:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_c2343149",
+    "order_id": "ord_3c3c26bc",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T21:37:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_dd8f9615",
+    "order_id": "ord_663ca49a",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-04T00:20:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_cdc78798",
+    "order_id": "ord_663ca49a",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T01:04:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_a5ef5a9e",
+    "order_id": "ord_6682db02",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T11:23:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_69a60fcc",
+    "order_id": "ord_6682db02",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T11:45:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_cb2e858a",
+    "order_id": "ord_13f29c0e",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T18:18:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_9fce5b36",
+    "order_id": "ord_13f29c0e",
+    "event_type": "delivered",
+    "timestamp": "2026-03-03T18:44:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_f12b88ba",
+    "order_id": "ord_e261fc2b",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T21:09:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_f085c9ee",
+    "order_id": "ord_e261fc2b",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T21:38:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_8f65f256",
+    "order_id": "ord_3b767331",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T10:26:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_3eee23c3",
+    "order_id": "ord_3b767331",
+    "event_type": "delivered",
+    "timestamp": "2026-03-01T11:09:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_d15ac9af",
+    "order_id": "ord_42eb706d",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T09:53:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_8677465f",
+    "order_id": "ord_42eb706d",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T10:24:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_bb8939be",
+    "order_id": "ord_a0c8da1c",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T14:01:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_e3be5fe2",
+    "order_id": "ord_a0c8da1c",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T14:51:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_3790989b",
+    "order_id": "ord_513eebaa",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-02T08:31:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_826f9a8e",
+    "order_id": "ord_513eebaa",
+    "event_type": "delivered",
+    "timestamp": "2026-03-02T09:16:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_bb11a5a5",
+    "order_id": "ord_a7c4aeec",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-03T23:36:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_aa5944ab",
+    "order_id": "ord_a7c4aeec",
+    "event_type": "delivered",
+    "timestamp": "2026-03-04T00:11:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_b912ee7f",
+    "order_id": "ord_e58448d0",
+    "event_type": "order_placed",
+    "timestamp": "2026-03-01T12:54:00",
+    "details": {}
+  },
+  {
+    "event_id": "evt_612120c7",
+    "order_id": "ord_e58448d0",
+    "event_type": "driver_cancelled",
+    "timestamp": "2026-03-01T13:02:00",
+    "details": {
+      "cancelled_driver_id": "drv_024",
+      "cancelled_driver_name": "Ananya S.",
+      "reason": "shift_ended"
+    }
+  }
+]

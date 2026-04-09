@@ -1,0 +1,875 @@
+[
+  {
+    "id": 1,
+    "name": "Spice Kitchen",
+    "cuisines": [
+      "North Indian",
+      "Italian"
+    ],
+    "location": "Hitech City",
+    "lat": 17.437964,
+    "lon": 78.381929,
+    "rating": 4.4,
+    "rec_score": 0.818,
+    "avg_prep_time": 12,
+    "is_open": true,
+    "offer": null
+  },
+  {
+    "id": 2,
+    "name": "Spice Point",
+    "cuisines": [
+      "Street Food",
+      "South Indian"
+    ],
+    "location": "Begumpet",
+    "lat": 17.439864,
+    "lon": 78.469973,
+    "rating": 4.7,
+    "rec_score": 0.808,
+    "avg_prep_time": 16,
+    "is_open": true,
+    "offer": null
+  },
+  {
+    "id": 3,
+    "name": "Paradise Eatery",
+    "cuisines": [
+      "North Indian"
+    ],
+    "location": "Miyapur",
+    "lat": 17.493209,
+    "lon": 78.350155,
+    "rating": 3.6,
+    "rec_score": 0.433,
+    "avg_prep_time": 32,
+    "is_open": true,
+    "offer": {
+      "type": "free_delivery",
+      "label": "FREE Delivery",
+      "value": null
+    }
+  },
+  {
+    "id": 4,
+    "name": "Royal Point",
+    "cuisines": [
+      "Chinese"
+    ],
+    "location": "Miyapur",
+    "lat": 17.50051,
+    "lon": 78.356728,
+    "rating": 3.9,
+    "rec_score": 0.479,
+    "avg_prep_time": 24,
+    "is_open": true,
+    "offer": null
+  },
+  {
+    "id": 5,
+    "name": "Green Bites",
+    "cuisines": [
+      "North Indian",
+      "Healthy Bowls"
+    ],
+    "location": "Jubilee Hills",
+    "lat": 17.432272,
+    "lon": 78.399537,
+    "rating": 3.8,
+    "rec_score": 0.546,
+    "avg_prep_time": 35,
+    "is_open": true,
+    "offer": {
+      "type": "percent_off",
+      "label": "15% OFF",
+      "value": 15
+    }
+  },
+  {
+    "id": 6,
+    "name": "Desi Cafe",
+    "cuisines": [
+      "Seafood",
+      "Healthy Bowls"
+    ],
+    "location": "Secunderabad",
+    "lat": 17.439353,
+    "lon": 78.503992,
+    "rating": 4.6,
+    "rec_score": 0.707,
+    "avg_prep_time": 13,
+    "is_open": true,
+    "offer": null
+  },
+  {
+    "id": 7,
+    "name": "Bawarchi Eatery",
+    "cuisines": [
+      "Italian"
+    ],
+    "location": "Hitech City",
+    "lat": 17.452874,
+    "lon": 78.378784,
+    "rating": 4.1,
+    "rec_score": 0.624,
+    "avg_prep_time": 11,
+    "is_open": true,
+    "offer": {
+      "type": "free_delivery",
+      "label": "FREE Delivery",
+      "value": null
+    }
+  },
+  {
+    "id": 8,
+    "name": "Royal Hub",
+    "cuisines": [
+      "Biryani",
+      "Fast Food",
+      "Continental"
+    ],
+    "location": "Hitech City",
+    "lat": 17.438812,
+    "lon": 78.369818,
+    "rating": 4.3,
+    "rec_score": 0.637,
+    "avg_prep_time": 34,
+    "is_open": true,
+    "offer": null
+  },
+  {
+    "id": 9,
+    "name": "Spice Eatery",
+    "cuisines": [
+      "Continental",
+      "Healthy Bowls"
+    ],
+    "location": "Begumpet",
+    "lat": 17.436962,
+    "lon": 78.459949,
+    "rating": 3.7,
+    "rec_score": 0.47,
+    "avg_prep_time": 35,
+    "is_open": true,
+    "offer": null
+  },
+  {
+    "id": 10,
+    "name": "Green Bowl",
+    "cuisines": [
+      "Mughlai"
+    ],
+    "location": "Jubilee Hills",
+    "lat": 17.428604,
+    "lon": 78.413207,
+    "rating": 3.6,
+    "rec_score": 0.157,
+    "avg_prep_time": 16,
+    "is_open": true,
+    "offer": {
+      "type": "bogo",
+      "label": "Buy 1 Get 1 Free",
+      "value": null
+    }
+  },
+  {
+    "id": 11,
+    "name": "Fresh House",
+    "cuisines": [
+      "Desserts",
+      "South Indian"
+    ],
+    "location": "Kondapur",
+    "lat": 17.46799,
+    "lon": 78.348602,
+    "rating": 3.3,
+    "rec_score": 0.131,
+    "avg_prep_time": 26,
+    "is_open": true,
+    "offer": null
+  },
+  {
+    "id": 12,
+    "name": "Pure Bowl",
+    "cuisines": [
+      "Seafood",
+      "Chinese",
+      "South Indian"
+    ],
+    "location": "Banjara Hills",
+    "lat": 17.415909,
+    "lon": 78.437359,
+    "rating": 3.8,
+    "rec_score": 0.496,
+    "avg_prep_time": 34,
+    "is_open": true,
+    "offer": {
+      "type": "bogo",
+      "label": "Buy 1 Get 1 Free",
+      "value": null
+    }
+  },
+  {
+    "id": 13,
+    "name": "Grand Bowl",
+    "cuisines": [
+      "Desserts",
+      "Street Food"
+    ],
+    "location": "Tolichowki",
+    "lat": 17.403137,
+    "lon": 78.412818,
+    "rating": 3.5,
+    "rec_score": 0.358,
+    "avg_prep_time": 24,
+    "is_open": true,
+    "offer": {
+      "type": "flat_off",
+      "label": "₹150 OFF",
+      "value": 150
+    }
+  },
+  {
+    "id": 14,
+    "name": "Taste Corner",
+    "cuisines": [
+      "Biryani",
+      "Mughlai"
+    ],
+    "location": "Hitech City",
+    "lat": 17.438959,
+    "lon": 78.376913,
+    "rating": 3.9,
+    "rec_score": 0.501,
+    "avg_prep_time": 35,
+    "is_open": true,
+    "offer": null
+  },
+  {
+    "id": 15,
+    "name": "Desi Express",
+    "cuisines": [
+      "Biryani",
+      "North Indian",
+      "Healthy Bowls"
+    ],
+    "location": "Gachibowli",
+    "lat": 17.434871,
+    "lon": 78.348371,
+    "rating": 3.4,
+    "rec_score": 0.334,
+    "avg_prep_time": 24,
+    "is_open": true,
+    "offer": null
+  },
+  {
+    "id": 16,
+    "name": "Saffron Grill",
+    "cuisines": [
+      "Healthy Bowls"
+    ],
+    "location": "LB Nagar",
+    "lat": 17.353302,
+    "lon": 78.553316,
+    "rating": 4.1,
+    "rec_score": 0.457,
+    "avg_prep_time": 17,
+    "is_open": true,
+    "offer": null
+  },
+  {
+    "id": 17,
+    "name": "Taste Dhaba",
+    "cuisines": [
+      "Street Food",
+      "Desserts"
+    ],
+    "location": "Jubilee Hills",
+    "lat": 17.429536,
+    "lon": 78.406375,
+    "rating": 3.7,
+    "rec_score": 0.269,
+    "avg_prep_time": 33,
+    "is_open": true,
+    "offer": {
+      "type": "percent_off",
+      "label": "40% OFF",
+      "value": 40
+    }
+  },
+  {
+    "id": 18,
+    "name": "Saffron Bites",
+    "cuisines": [
+      "Healthy Bowls",
+      "Italian",
+      "Mughlai"
+    ],
+    "location": "Ameerpet",
+    "lat": 17.436309,
+    "lon": 78.441987,
+    "rating": 3.3,
+    "rec_score": 0.282,
+    "avg_prep_time": 25,
+    "is_open": true,
+    "offer": {
+      "type": "percent_off",
+      "label": "25% OFF",
+      "value": 25
+    }
+  },
+  {
+    "id": 19,
+    "name": "Fusion Bites",
+    "cuisines": [
+      "Healthy Bowls",
+      "Italian"
+    ],
+    "location": "Ameerpet",
+    "lat": 17.429987,
+    "lon": 78.452074,
+    "rating": 4.4,
+    "rec_score": 0.833,
+    "avg_prep_time": 26,
+    "is_open": true,
+    "offer": null
+  },
+  {
+    "id": 20,
+    "name": "Fusion Bowl",
+    "cuisines": [
+      "North Indian",
+      "Fast Food"
+    ],
+    "location": "Tolichowki",
+    "lat": 17.395852,
+    "lon": 78.412165,
+    "rating": 3.5,
+    "rec_score": 0.209,
+    "avg_prep_time": 34,
+    "is_open": true,
+    "offer": null
+  },
+  {
+    "id": 21,
+    "name": "Paradise Dhaba",
+    "cuisines": [
+      "Chinese",
+      "Mughlai"
+    ],
+    "location": "Mehdipatnam",
+    "lat": 17.399332,
+    "lon": 78.440177,
+    "rating": 3.7,
+    "rec_score": 0.45,
+    "avg_prep_time": 25,
+    "is_open": true,
+    "offer": {
+      "type": "combo",
+      "label": "Combo: 2 items @ ₹199",
+      "value": "2 items @ ₹199"
+    }
+  },
+  {
+    "id": 22,
+    "name": "Urban Corner",
+    "cuisines": [
+      "Street Food",
+      "Seafood"
+    ],
+    "location": "Dilsukhnagar",
+    "lat": 17.374648,
+    "lon": 78.52774,
+    "rating": 3.5,
+    "rec_score": 0.389,
+    "avg_prep_time": 14,
+    "is_open": true,
+    "offer": null
+  },
+  {
+    "id": 23,
+    "name": "Desi House",
+    "cuisines": [
+      "Fast Food"
+    ],
+    "location": "LB Nagar",
+    "lat": 17.353152,
+    "lon": 78.551074,
+    "rating": 4.4,
+    "rec_score": 0.821,
+    "avg_prep_time": 11,
+    "is_open": true,
+    "offer": {
+      "type": "percent_off",
+      "label": "20% OFF",
+      "value": 20
+    }
+  },
+  {
+    "id": 24,
+    "name": "Fresh Cafe",
+    "cuisines": [
+      "Chinese",
+      "South Indian"
+    ],
+    "location": "Ameerpet",
+    "lat": 17.446405,
+    "lon": 78.458053,
+    "rating": 3.7,
+    "rec_score": 0.489,
+    "avg_prep_time": 32,
+    "is_open": true,
+    "offer": {
+      "type": "bogo",
+      "label": "Buy 1 Get 1 Free",
+      "value": null
+    }
+  },
+  {
+    "id": 25,
+    "name": "Fresh Express",
+    "cuisines": [
+      "Italian",
+      "Mughlai"
+    ],
+    "location": "Kukatpally",
+    "lat": 17.496291,
+    "lon": 78.404247,
+    "rating": 3.4,
+    "rec_score": 0.139,
+    "avg_prep_time": 33,
+    "is_open": true,
+    "offer": null
+  },
+  {
+    "id": 26,
+    "name": "Fusion Eatery",
+    "cuisines": [
+      "Mughlai",
+      "North Indian"
+    ],
+    "location": "Secunderabad",
+    "lat": 17.447585,
+    "lon": 78.499528,
+    "rating": 4.8,
+    "rec_score": 0.816,
+    "avg_prep_time": 12,
+    "is_open": true,
+    "offer": null
+  },
+  {
+    "id": 27,
+    "name": "Fresh Corner",
+    "cuisines": [
+      "North Indian",
+      "Seafood"
+    ],
+    "location": "Miyapur",
+    "lat": 17.49357,
+    "lon": 78.364576,
+    "rating": 4.5,
+    "rec_score": 0.662,
+    "avg_prep_time": 34,
+    "is_open": true,
+    "offer": null
+  },
+  {
+    "id": 28,
+    "name": "Spice Hub",
+    "cuisines": [
+      "Biryani",
+      "Healthy Bowls"
+    ],
+    "location": "Kukatpally",
+    "lat": 17.499245,
+    "lon": 78.407775,
+    "rating": 4.3,
+    "rec_score": 0.59,
+    "avg_prep_time": 30,
+    "is_open": true,
+    "offer": null
+  },
+  {
+    "id": 29,
+    "name": "Classic Bites",
+    "cuisines": [
+      "Street Food",
+      "South Indian"
+    ],
+    "location": "Jubilee Hills",
+    "lat": 17.431035,
+    "lon": 78.410602,
+    "rating": 3.8,
+    "rec_score": 0.296,
+    "avg_prep_time": 25,
+    "is_open": true,
+    "offer": {
+      "type": "percent_off",
+      "label": "10% OFF",
+      "value": 10
+    }
+  },
+  {
+    "id": 30,
+    "name": "Little Eatery",
+    "cuisines": [
+      "Healthy Bowls",
+      "Seafood",
+      "Desserts"
+    ],
+    "location": "Kukatpally",
+    "lat": 17.49688,
+    "lon": 78.402757,
+    "rating": 4.4,
+    "rec_score": 0.559,
+    "avg_prep_time": 18,
+    "is_open": true,
+    "offer": null
+  },
+  {
+    "id": 31,
+    "name": "Classic Garden",
+    "cuisines": [
+      "Street Food",
+      "North Indian"
+    ],
+    "location": "Kondapur",
+    "lat": 17.450375,
+    "lon": 78.363223,
+    "rating": 4.7,
+    "rec_score": 0.873,
+    "avg_prep_time": 28,
+    "is_open": true,
+    "offer": null
+  },
+  {
+    "id": 32,
+    "name": "Fusion Point",
+    "cuisines": [
+      "Fast Food",
+      "Chinese",
+      "Biryani"
+    ],
+    "location": "Madhapur",
+    "lat": 17.441529,
+    "lon": 78.384745,
+    "rating": 4.2,
+    "rec_score": 0.678,
+    "avg_prep_time": 30,
+    "is_open": true,
+    "offer": {
+      "type": "free_delivery",
+      "label": "FREE Delivery",
+      "value": null
+    }
+  },
+  {
+    "id": 33,
+    "name": "Urban Bites",
+    "cuisines": [
+      "Continental",
+      "Seafood"
+    ],
+    "location": "Mehdipatnam",
+    "lat": 17.390658,
+    "lon": 78.438175,
+    "rating": 3.8,
+    "rec_score": 0.429,
+    "avg_prep_time": 35,
+    "is_open": true,
+    "offer": null
+  },
+  {
+    "id": 34,
+    "name": "Bawarchi Kitchen",
+    "cuisines": [
+      "Biryani",
+      "Seafood"
+    ],
+    "location": "Gachibowli",
+    "lat": 17.433199,
+    "lon": 78.344816,
+    "rating": 4.5,
+    "rec_score": 0.752,
+    "avg_prep_time": 27,
+    "is_open": true,
+    "offer": null
+  },
+  {
+    "id": 35,
+    "name": "Pure Corner",
+    "cuisines": [
+      "South Indian"
+    ],
+    "location": "Miyapur",
+    "lat": 17.490106,
+    "lon": 78.353786,
+    "rating": 4.1,
+    "rec_score": 0.649,
+    "avg_prep_time": 12,
+    "is_open": true,
+    "offer": null
+  },
+  {
+    "id": 36,
+    "name": "Bawarchi Cafe",
+    "cuisines": [
+      "Mughlai",
+      "Chinese",
+      "Seafood"
+    ],
+    "location": "Ameerpet",
+    "lat": 17.439807,
+    "lon": 78.456417,
+    "rating": 3.2,
+    "rec_score": 0.015,
+    "avg_prep_time": 14,
+    "is_open": true,
+    "offer": null
+  },
+  {
+    "id": 37,
+    "name": "Saffron Point",
+    "cuisines": [
+      "Healthy Bowls"
+    ],
+    "location": "LB Nagar",
+    "lat": 17.350834,
+    "lon": 78.544868,
+    "rating": 3.8,
+    "rec_score": 0.352,
+    "avg_prep_time": 30,
+    "is_open": true,
+    "offer": {
+      "type": "free_delivery",
+      "label": "FREE Delivery",
+      "value": null
+    }
+  },
+  {
+    "id": 38,
+    "name": "Urban Garden",
+    "cuisines": [
+      "Desserts",
+      "Mughlai"
+    ],
+    "location": "Banjara Hills",
+    "lat": 17.406332,
+    "lon": 78.437638,
+    "rating": 3.7,
+    "rec_score": 0.459,
+    "avg_prep_time": 11,
+    "is_open": true,
+    "offer": null
+  },
+  {
+    "id": 39,
+    "name": "Paradise House",
+    "cuisines": [
+      "North Indian",
+      "Continental"
+    ],
+    "location": "Secunderabad",
+    "lat": 17.449863,
+    "lon": 78.493791,
+    "rating": 4.9,
+    "rec_score": 1.0,
+    "avg_prep_time": 12,
+    "is_open": true,
+    "offer": null
+  },
+  {
+    "id": 40,
+    "name": "Urban Point",
+    "cuisines": [
+      "Biryani",
+      "South Indian",
+      "Chinese"
+    ],
+    "location": "Tolichowki",
+    "lat": 17.386481,
+    "lon": 78.407353,
+    "rating": 4.4,
+    "rec_score": 0.849,
+    "avg_prep_time": 35,
+    "is_open": true,
+    "offer": null
+  },
+  {
+    "id": 41,
+    "name": "Taste Palace",
+    "cuisines": [
+      "Biryani"
+    ],
+    "location": "Dilsukhnagar",
+    "lat": 17.377927,
+    "lon": 78.520189,
+    "rating": 4.3,
+    "rec_score": 0.684,
+    "avg_prep_time": 12,
+    "is_open": true,
+    "offer": null
+  },
+  {
+    "id": 42,
+    "name": "Urban Junction",
+    "cuisines": [
+      "Fast Food",
+      "Street Food",
+      "Italian"
+    ],
+    "location": "Ameerpet",
+    "lat": 17.428959,
+    "lon": 78.439498,
+    "rating": 3.9,
+    "rec_score": 0.445,
+    "avg_prep_time": 16,
+    "is_open": true,
+    "offer": {
+      "type": "flat_off",
+      "label": "₹75 OFF",
+      "value": 75
+    }
+  },
+  {
+    "id": 43,
+    "name": "Desi Bowl",
+    "cuisines": [
+      "Healthy Bowls",
+      "Fast Food"
+    ],
+    "location": "Secunderabad",
+    "lat": 17.432276,
+    "lon": 78.507802,
+    "rating": 3.9,
+    "rec_score": 0.538,
+    "avg_prep_time": 20,
+    "is_open": true,
+    "offer": null
+  },
+  {
+    "id": 44,
+    "name": "Spice Palace",
+    "cuisines": [
+      "Seafood",
+      "Fast Food"
+    ],
+    "location": "Kukatpally",
+    "lat": 17.496638,
+    "lon": 78.394911,
+    "rating": 4.3,
+    "rec_score": 0.792,
+    "avg_prep_time": 28,
+    "is_open": true,
+    "offer": null
+  },
+  {
+    "id": 45,
+    "name": "Pure Garden",
+    "cuisines": [
+      "Seafood",
+      "Fast Food"
+    ],
+    "location": "Dilsukhnagar",
+    "lat": 17.374873,
+    "lon": 78.519987,
+    "rating": 4.0,
+    "rec_score": 0.637,
+    "avg_prep_time": 18,
+    "is_open": true,
+    "offer": null
+  },
+  {
+    "id": 46,
+    "name": "Golden Cafe",
+    "cuisines": [
+      "Seafood",
+      "Italian",
+      "Chinese"
+    ],
+    "location": "Madhapur",
+    "lat": 17.450914,
+    "lon": 78.392537,
+    "rating": 3.6,
+    "rec_score": 0.351,
+    "avg_prep_time": 26,
+    "is_open": true,
+    "offer": {
+      "type": "flat_off",
+      "label": "₹30 OFF",
+      "value": 30
+    }
+  },
+  {
+    "id": 47,
+    "name": "Fresh Bowl",
+    "cuisines": [
+      "Continental",
+      "Italian"
+    ],
+    "location": "Ameerpet",
+    "lat": 17.447282,
+    "lon": 78.449166,
+    "rating": 4.0,
+    "rec_score": 0.632,
+    "avg_prep_time": 26,
+    "is_open": true,
+    "offer": null
+  },
+  {
+    "id": 48,
+    "name": "Little Express",
+    "cuisines": [
+      "Italian",
+      "Continental"
+    ],
+    "location": "Banjara Hills",
+    "lat": 17.417249,
+    "lon": 78.436158,
+    "rating": 3.6,
+    "rec_score": 0.258,
+    "avg_prep_time": 17,
+    "is_open": true,
+    "offer": {
+      "type": "percent_off",
+      "label": "25% OFF",
+      "value": 25
+    }
+  },
+  {
+    "id": 49,
+    "name": "Grand Corner",
+    "cuisines": [
+      "North Indian",
+      "Mughlai"
+    ],
+    "location": "Gachibowli",
+    "lat": 17.440365,
+    "lon": 78.348036,
+    "rating": 3.3,
+    "rec_score": 0.139,
+    "avg_prep_time": 35,
+    "is_open": true,
+    "offer": {
+      "type": "percent_off",
+      "label": "25% OFF",
+      "value": 25
+    }
+  },
+  {
+    "id": 50,
+    "name": "Paradise Corner",
+    "cuisines": [
+      "Chinese",
+      "Biryani"
+    ],
+    "location": "Tolichowki",
+    "lat": 17.385069,
+    "lon": 78.404355,
+    "rating": 3.7,
+    "rec_score": 0.402,
+    "avg_prep_time": 27,
+    "is_open": true,
+    "offer": null
+  }
+]

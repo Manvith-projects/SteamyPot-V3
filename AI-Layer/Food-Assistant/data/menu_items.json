@@ -1,0 +1,5926 @@
+[
+  {
+    "id": 1,
+    "restaurant_id": 1,
+    "name": "Chicken Tikka",
+    "price": 329,
+    "cuisine": "North Indian",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "protein-rich"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 2,
+    "restaurant_id": 1,
+    "name": "Paneer Tikka Masala",
+    "price": 294,
+    "cuisine": "North Indian",
+    "diet_type": "veg",
+    "tags": [
+      "spicy",
+      "protein-rich"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 3,
+    "restaurant_id": 1,
+    "name": "Aloo Paratha",
+    "price": 117,
+    "cuisine": "North Indian",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "heavy"
+    ],
+    "meal_time": "breakfast",
+    "offer": null
+  },
+  {
+    "id": 4,
+    "restaurant_id": 1,
+    "name": "Garlic Bread",
+    "price": 110,
+    "cuisine": "Italian",
+    "diet_type": "veg",
+    "tags": [
+      "light"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 5,
+    "restaurant_id": 1,
+    "name": "Chicken Penne Arrabiata",
+    "price": 283,
+    "cuisine": "Italian",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 6,
+    "restaurant_id": 1,
+    "name": "Pasta Alfredo",
+    "price": 371,
+    "cuisine": "Italian",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "heavy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 7,
+    "restaurant_id": 2,
+    "name": "Vada Pav",
+    "price": 83,
+    "cuisine": "Street Food",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 8,
+    "restaurant_id": 2,
+    "name": "Pani Puri",
+    "price": 78,
+    "cuisine": "Street Food",
+    "diet_type": "veg",
+    "tags": [
+      "light",
+      "traditional"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 9,
+    "restaurant_id": 2,
+    "name": "Samosa",
+    "price": 58,
+    "cuisine": "Street Food",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "traditional"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 10,
+    "restaurant_id": 2,
+    "name": "Uttapam",
+    "price": 138,
+    "cuisine": "South Indian",
+    "diet_type": "veg",
+    "tags": [
+      "light"
+    ],
+    "meal_time": "breakfast",
+    "offer": null
+  },
+  {
+    "id": 11,
+    "restaurant_id": 2,
+    "name": "Medu Vada",
+    "price": 87,
+    "cuisine": "South Indian",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "breakfast",
+    "offer": null
+  },
+  {
+    "id": 12,
+    "restaurant_id": 2,
+    "name": "Idli Sambar",
+    "price": 80,
+    "cuisine": "South Indian",
+    "diet_type": "veg",
+    "tags": [
+      "healthy",
+      "light",
+      "low-calorie"
+    ],
+    "meal_time": "breakfast",
+    "offer": null
+  },
+  {
+    "id": 13,
+    "restaurant_id": 3,
+    "name": "Tandoori Roti",
+    "price": 52,
+    "cuisine": "North Indian",
+    "diet_type": "veg",
+    "tags": [
+      "light"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 14,
+    "restaurant_id": 3,
+    "name": "Paneer Tikka Masala",
+    "price": 270,
+    "cuisine": "North Indian",
+    "diet_type": "veg",
+    "tags": [
+      "spicy",
+      "protein-rich"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 15,
+    "restaurant_id": 3,
+    "name": "Dal Makhani",
+    "price": 208,
+    "cuisine": "North Indian",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "traditional"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 16,
+    "restaurant_id": 3,
+    "name": "Rajma Chawal",
+    "price": 220,
+    "cuisine": "North Indian",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "protein-rich"
+    ],
+    "meal_time": "lunch",
+    "offer": {
+      "type": "flat_off",
+      "label": "₹30 OFF",
+      "value": 30
+    }
+  },
+  {
+    "id": 17,
+    "restaurant_id": 3,
+    "name": "Aloo Paratha",
+    "price": 133,
+    "cuisine": "North Indian",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "heavy"
+    ],
+    "meal_time": "breakfast",
+    "offer": null
+  },
+  {
+    "id": 18,
+    "restaurant_id": 4,
+    "name": "Veg Manchurian",
+    "price": 187,
+    "cuisine": "Chinese",
+    "diet_type": "veg",
+    "tags": [
+      "spicy",
+      "comfort"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 19,
+    "restaurant_id": 4,
+    "name": "Schezwan Noodles",
+    "price": 166,
+    "cuisine": "Chinese",
+    "diet_type": "veg",
+    "tags": [
+      "spicy"
+    ],
+    "meal_time": "all-day",
+    "offer": {
+      "type": "flat_off",
+      "label": "₹30 OFF",
+      "value": 30
+    }
+  },
+  {
+    "id": 20,
+    "restaurant_id": 4,
+    "name": "Spring Rolls",
+    "price": 141,
+    "cuisine": "Chinese",
+    "diet_type": "veg",
+    "tags": [
+      "light"
+    ],
+    "meal_time": "snack",
+    "offer": {
+      "type": "flat_off",
+      "label": "₹30 OFF",
+      "value": 30
+    }
+  },
+  {
+    "id": 21,
+    "restaurant_id": 4,
+    "name": "Hakka Noodles",
+    "price": 155,
+    "cuisine": "Chinese",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 22,
+    "restaurant_id": 4,
+    "name": "Chilli Chicken",
+    "price": 276,
+    "cuisine": "Chinese",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "protein-rich"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 23,
+    "restaurant_id": 5,
+    "name": "Tandoori Roti",
+    "price": 34,
+    "cuisine": "North Indian",
+    "diet_type": "veg",
+    "tags": [
+      "light"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 24,
+    "restaurant_id": 5,
+    "name": "Rajma Chawal",
+    "price": 179,
+    "cuisine": "North Indian",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "protein-rich"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 25,
+    "restaurant_id": 5,
+    "name": "Butter Chicken",
+    "price": 360,
+    "cuisine": "North Indian",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "comfort",
+      "heavy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 26,
+    "restaurant_id": 5,
+    "name": "Aloo Paratha",
+    "price": 95,
+    "cuisine": "North Indian",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "heavy"
+    ],
+    "meal_time": "breakfast",
+    "offer": null
+  },
+  {
+    "id": 27,
+    "restaurant_id": 5,
+    "name": "Paneer Tikka Masala",
+    "price": 268,
+    "cuisine": "North Indian",
+    "diet_type": "veg",
+    "tags": [
+      "spicy",
+      "protein-rich"
+    ],
+    "meal_time": "dinner",
+    "offer": {
+      "type": "flat_off",
+      "label": "₹100 OFF",
+      "value": 100
+    }
+  },
+  {
+    "id": 28,
+    "restaurant_id": 5,
+    "name": "Mediterranean Salad",
+    "price": 237,
+    "cuisine": "Healthy Bowls",
+    "diet_type": "veg",
+    "tags": [
+      "healthy",
+      "light",
+      "low-calorie"
+    ],
+    "meal_time": "lunch",
+    "offer": {
+      "type": "percent_off",
+      "label": "30% OFF",
+      "value": 30
+    }
+  },
+  {
+    "id": 29,
+    "restaurant_id": 5,
+    "name": "Smoothie Bowl",
+    "price": 283,
+    "cuisine": "Healthy Bowls",
+    "diet_type": "vegan",
+    "tags": [
+      "healthy",
+      "light"
+    ],
+    "meal_time": "breakfast",
+    "offer": null
+  },
+  {
+    "id": 30,
+    "restaurant_id": 5,
+    "name": "Poke Bowl",
+    "price": 301,
+    "cuisine": "Healthy Bowls",
+    "diet_type": "non-veg",
+    "tags": [
+      "healthy",
+      "protein-rich"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 31,
+    "restaurant_id": 5,
+    "name": "Chicken Protein Bowl",
+    "price": 288,
+    "cuisine": "Healthy Bowls",
+    "diet_type": "non-veg",
+    "tags": [
+      "healthy",
+      "protein-rich",
+      "keto"
+    ],
+    "meal_time": "lunch",
+    "offer": {
+      "type": "percent_off",
+      "label": "20% OFF",
+      "value": 20
+    }
+  },
+  {
+    "id": 32,
+    "restaurant_id": 5,
+    "name": "Acai Bowl",
+    "price": 261,
+    "cuisine": "Healthy Bowls",
+    "diet_type": "vegan",
+    "tags": [
+      "healthy",
+      "low-calorie",
+      "high-fibre"
+    ],
+    "meal_time": "breakfast",
+    "offer": {
+      "type": "flat_off",
+      "label": "₹50 OFF",
+      "value": 50
+    }
+  },
+  {
+    "id": 33,
+    "restaurant_id": 6,
+    "name": "Crab Roast",
+    "price": 420,
+    "cuisine": "Seafood",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "heavy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 34,
+    "restaurant_id": 6,
+    "name": "Fish Fry",
+    "price": 208,
+    "cuisine": "Seafood",
+    "diet_type": "non-veg",
+    "tags": [
+      "comfort",
+      "protein-rich"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 35,
+    "restaurant_id": 6,
+    "name": "Fish Curry",
+    "price": 292,
+    "cuisine": "Seafood",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "traditional"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 36,
+    "restaurant_id": 6,
+    "name": "Prawn Masala",
+    "price": 485,
+    "cuisine": "Seafood",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "protein-rich"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 37,
+    "restaurant_id": 6,
+    "name": "Acai Bowl",
+    "price": 458,
+    "cuisine": "Healthy Bowls",
+    "diet_type": "vegan",
+    "tags": [
+      "healthy",
+      "low-calorie",
+      "high-fibre"
+    ],
+    "meal_time": "breakfast",
+    "offer": {
+      "type": "flat_off",
+      "label": "₹100 OFF",
+      "value": 100
+    }
+  },
+  {
+    "id": 38,
+    "restaurant_id": 6,
+    "name": "Poke Bowl",
+    "price": 369,
+    "cuisine": "Healthy Bowls",
+    "diet_type": "non-veg",
+    "tags": [
+      "healthy",
+      "protein-rich"
+    ],
+    "meal_time": "lunch",
+    "offer": {
+      "type": "flat_off",
+      "label": "₹30 OFF",
+      "value": 30
+    }
+  },
+  {
+    "id": 39,
+    "restaurant_id": 6,
+    "name": "Mediterranean Salad",
+    "price": 379,
+    "cuisine": "Healthy Bowls",
+    "diet_type": "veg",
+    "tags": [
+      "healthy",
+      "light",
+      "low-calorie"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 40,
+    "restaurant_id": 6,
+    "name": "Smoothie Bowl",
+    "price": 298,
+    "cuisine": "Healthy Bowls",
+    "diet_type": "vegan",
+    "tags": [
+      "healthy",
+      "light"
+    ],
+    "meal_time": "breakfast",
+    "offer": null
+  },
+  {
+    "id": 41,
+    "restaurant_id": 6,
+    "name": "Chicken Protein Bowl",
+    "price": 475,
+    "cuisine": "Healthy Bowls",
+    "diet_type": "non-veg",
+    "tags": [
+      "healthy",
+      "protein-rich",
+      "keto"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 42,
+    "restaurant_id": 7,
+    "name": "Pasta Alfredo",
+    "price": 231,
+    "cuisine": "Italian",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "heavy"
+    ],
+    "meal_time": "dinner",
+    "offer": {
+      "type": "percent_off",
+      "label": "25% OFF",
+      "value": 25
+    }
+  },
+  {
+    "id": 43,
+    "restaurant_id": 7,
+    "name": "Margherita Pizza",
+    "price": 224,
+    "cuisine": "Italian",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 44,
+    "restaurant_id": 7,
+    "name": "Chicken Penne Arrabiata",
+    "price": 292,
+    "cuisine": "Italian",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 45,
+    "restaurant_id": 7,
+    "name": "Garlic Bread",
+    "price": 130,
+    "cuisine": "Italian",
+    "diet_type": "veg",
+    "tags": [
+      "light"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 46,
+    "restaurant_id": 7,
+    "name": "Bruschetta",
+    "price": 167,
+    "cuisine": "Italian",
+    "diet_type": "veg",
+    "tags": [
+      "light",
+      "healthy"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 47,
+    "restaurant_id": 8,
+    "name": "Chicken 65 Biryani",
+    "price": 299,
+    "cuisine": "Biryani",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 48,
+    "restaurant_id": 8,
+    "name": "Hyderabadi Dum Biryani",
+    "price": 264,
+    "cuisine": "Biryani",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "heavy",
+      "traditional"
+    ],
+    "meal_time": "lunch",
+    "offer": {
+      "type": "flat_off",
+      "label": "₹50 OFF",
+      "value": 50
+    }
+  },
+  {
+    "id": 49,
+    "restaurant_id": 8,
+    "name": "Mutton Biryani",
+    "price": 388,
+    "cuisine": "Biryani",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "heavy",
+      "traditional"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 50,
+    "restaurant_id": 8,
+    "name": "Egg Biryani",
+    "price": 216,
+    "cuisine": "Biryani",
+    "diet_type": "egg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 51,
+    "restaurant_id": 8,
+    "name": "Veg Biryani",
+    "price": 277,
+    "cuisine": "Biryani",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 52,
+    "restaurant_id": 8,
+    "name": "Loaded Nachos",
+    "price": 184,
+    "cuisine": "Fast Food",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 53,
+    "restaurant_id": 8,
+    "name": "French Fries",
+    "price": 132,
+    "cuisine": "Fast Food",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "snack",
+    "offer": {
+      "type": "flat_off",
+      "label": "₹30 OFF",
+      "value": 30
+    }
+  },
+  {
+    "id": 54,
+    "restaurant_id": 8,
+    "name": "Chicken Wrap",
+    "price": 226,
+    "cuisine": "Fast Food",
+    "diet_type": "non-veg",
+    "tags": [
+      "light"
+    ],
+    "meal_time": "lunch",
+    "offer": {
+      "type": "flat_off",
+      "label": "₹75 OFF",
+      "value": 75
+    }
+  },
+  {
+    "id": 55,
+    "restaurant_id": 8,
+    "name": "Classic Burger",
+    "price": 184,
+    "cuisine": "Fast Food",
+    "diet_type": "non-veg",
+    "tags": [
+      "comfort",
+      "heavy"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 56,
+    "restaurant_id": 8,
+    "name": "Veg Burger",
+    "price": 185,
+    "cuisine": "Fast Food",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "all-day",
+    "offer": {
+      "type": "flat_off",
+      "label": "₹50 OFF",
+      "value": 50
+    }
+  },
+  {
+    "id": 57,
+    "restaurant_id": 8,
+    "name": "Grilled Chicken Salad",
+    "price": 322,
+    "cuisine": "Continental",
+    "diet_type": "non-veg",
+    "tags": [
+      "healthy",
+      "light",
+      "low-calorie",
+      "protein-rich"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 58,
+    "restaurant_id": 8,
+    "name": "Avocado Toast",
+    "price": 269,
+    "cuisine": "Continental",
+    "diet_type": "vegan",
+    "tags": [
+      "healthy",
+      "light"
+    ],
+    "meal_time": "breakfast",
+    "offer": null
+  },
+  {
+    "id": 59,
+    "restaurant_id": 8,
+    "name": "Grilled Fish",
+    "price": 353,
+    "cuisine": "Continental",
+    "diet_type": "non-veg",
+    "tags": [
+      "healthy",
+      "protein-rich",
+      "low-calorie"
+    ],
+    "meal_time": "dinner",
+    "offer": {
+      "type": "percent_off",
+      "label": "15% OFF",
+      "value": 15
+    }
+  },
+  {
+    "id": 60,
+    "restaurant_id": 9,
+    "name": "Quinoa Bowl",
+    "price": 303,
+    "cuisine": "Continental",
+    "diet_type": "vegan",
+    "tags": [
+      "healthy",
+      "protein-rich",
+      "gluten-free",
+      "keto"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 61,
+    "restaurant_id": 9,
+    "name": "Grilled Fish",
+    "price": 429,
+    "cuisine": "Continental",
+    "diet_type": "non-veg",
+    "tags": [
+      "healthy",
+      "protein-rich",
+      "low-calorie"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 62,
+    "restaurant_id": 9,
+    "name": "Avocado Toast",
+    "price": 270,
+    "cuisine": "Continental",
+    "diet_type": "vegan",
+    "tags": [
+      "healthy",
+      "light"
+    ],
+    "meal_time": "breakfast",
+    "offer": null
+  },
+  {
+    "id": 63,
+    "restaurant_id": 9,
+    "name": "Grilled Chicken Salad",
+    "price": 258,
+    "cuisine": "Continental",
+    "diet_type": "non-veg",
+    "tags": [
+      "healthy",
+      "light",
+      "low-calorie",
+      "protein-rich"
+    ],
+    "meal_time": "lunch",
+    "offer": {
+      "type": "percent_off",
+      "label": "25% OFF",
+      "value": 25
+    }
+  },
+  {
+    "id": 64,
+    "restaurant_id": 9,
+    "name": "Chicken Protein Bowl",
+    "price": 392,
+    "cuisine": "Healthy Bowls",
+    "diet_type": "non-veg",
+    "tags": [
+      "healthy",
+      "protein-rich",
+      "keto"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 65,
+    "restaurant_id": 9,
+    "name": "Mediterranean Salad",
+    "price": 322,
+    "cuisine": "Healthy Bowls",
+    "diet_type": "veg",
+    "tags": [
+      "healthy",
+      "light",
+      "low-calorie"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 66,
+    "restaurant_id": 9,
+    "name": "Poke Bowl",
+    "price": 418,
+    "cuisine": "Healthy Bowls",
+    "diet_type": "non-veg",
+    "tags": [
+      "healthy",
+      "protein-rich"
+    ],
+    "meal_time": "lunch",
+    "offer": {
+      "type": "percent_off",
+      "label": "25% OFF",
+      "value": 25
+    }
+  },
+  {
+    "id": 67,
+    "restaurant_id": 10,
+    "name": "Chicken Nihari",
+    "price": 411,
+    "cuisine": "Mughlai",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "heavy"
+    ],
+    "meal_time": "dinner",
+    "offer": {
+      "type": "flat_off",
+      "label": "₹50 OFF",
+      "value": 50
+    }
+  },
+  {
+    "id": 68,
+    "restaurant_id": 10,
+    "name": "Naan",
+    "price": 63,
+    "cuisine": "Mughlai",
+    "diet_type": "veg",
+    "tags": [
+      "light"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 69,
+    "restaurant_id": 10,
+    "name": "Kebab Platter",
+    "price": 358,
+    "cuisine": "Mughlai",
+    "diet_type": "non-veg",
+    "tags": [
+      "protein-rich",
+      "spicy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 70,
+    "restaurant_id": 10,
+    "name": "Shahi Paneer",
+    "price": 248,
+    "cuisine": "Mughlai",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "traditional"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 71,
+    "restaurant_id": 11,
+    "name": "Gulab Jamun",
+    "price": 100,
+    "cuisine": "Desserts",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "traditional"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 72,
+    "restaurant_id": 11,
+    "name": "Brownie with Ice Cream",
+    "price": 216,
+    "cuisine": "Desserts",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 73,
+    "restaurant_id": 11,
+    "name": "Fruit Custard",
+    "price": 103,
+    "cuisine": "Desserts",
+    "diet_type": "veg",
+    "tags": [
+      "light",
+      "healthy"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 74,
+    "restaurant_id": 11,
+    "name": "Rasgulla",
+    "price": 93,
+    "cuisine": "Desserts",
+    "diet_type": "veg",
+    "tags": [
+      "light",
+      "traditional"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 75,
+    "restaurant_id": 11,
+    "name": "Medu Vada",
+    "price": 87,
+    "cuisine": "South Indian",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "breakfast",
+    "offer": null
+  },
+  {
+    "id": 76,
+    "restaurant_id": 11,
+    "name": "Idli Sambar",
+    "price": 73,
+    "cuisine": "South Indian",
+    "diet_type": "veg",
+    "tags": [
+      "healthy",
+      "light",
+      "low-calorie"
+    ],
+    "meal_time": "breakfast",
+    "offer": null
+  },
+  {
+    "id": 77,
+    "restaurant_id": 11,
+    "name": "Uttapam",
+    "price": 132,
+    "cuisine": "South Indian",
+    "diet_type": "veg",
+    "tags": [
+      "light"
+    ],
+    "meal_time": "breakfast",
+    "offer": null
+  },
+  {
+    "id": 78,
+    "restaurant_id": 11,
+    "name": "Hyderabadi Chicken Biryani",
+    "price": 316,
+    "cuisine": "South Indian",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "heavy"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 79,
+    "restaurant_id": 11,
+    "name": "Pongal",
+    "price": 111,
+    "cuisine": "South Indian",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "traditional"
+    ],
+    "meal_time": "breakfast",
+    "offer": null
+  },
+  {
+    "id": 80,
+    "restaurant_id": 12,
+    "name": "Prawn Masala",
+    "price": 344,
+    "cuisine": "Seafood",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "protein-rich"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 81,
+    "restaurant_id": 12,
+    "name": "Fish Curry",
+    "price": 377,
+    "cuisine": "Seafood",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "traditional"
+    ],
+    "meal_time": "dinner",
+    "offer": {
+      "type": "flat_off",
+      "label": "₹150 OFF",
+      "value": 150
+    }
+  },
+  {
+    "id": 82,
+    "restaurant_id": 12,
+    "name": "Fish Fry",
+    "price": 249,
+    "cuisine": "Seafood",
+    "diet_type": "non-veg",
+    "tags": [
+      "comfort",
+      "protein-rich"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 83,
+    "restaurant_id": 12,
+    "name": "Chilli Chicken",
+    "price": 292,
+    "cuisine": "Chinese",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "protein-rich"
+    ],
+    "meal_time": "dinner",
+    "offer": {
+      "type": "percent_off",
+      "label": "25% OFF",
+      "value": 25
+    }
+  },
+  {
+    "id": 84,
+    "restaurant_id": 12,
+    "name": "Dragon Chicken",
+    "price": 251,
+    "cuisine": "Chinese",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "fusion"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 85,
+    "restaurant_id": 12,
+    "name": "Chicken Fried Rice",
+    "price": 264,
+    "cuisine": "Chinese",
+    "diet_type": "non-veg",
+    "tags": [
+      "comfort",
+      "heavy"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 86,
+    "restaurant_id": 12,
+    "name": "Spring Rolls",
+    "price": 145,
+    "cuisine": "Chinese",
+    "diet_type": "veg",
+    "tags": [
+      "light"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 87,
+    "restaurant_id": 12,
+    "name": "Pesarattu",
+    "price": 110,
+    "cuisine": "South Indian",
+    "diet_type": "veg",
+    "tags": [
+      "healthy",
+      "protein-rich",
+      "high-fibre"
+    ],
+    "meal_time": "breakfast",
+    "offer": null
+  },
+  {
+    "id": 88,
+    "restaurant_id": 12,
+    "name": "Idli Sambar",
+    "price": 96,
+    "cuisine": "South Indian",
+    "diet_type": "veg",
+    "tags": [
+      "healthy",
+      "light",
+      "low-calorie"
+    ],
+    "meal_time": "breakfast",
+    "offer": null
+  },
+  {
+    "id": 89,
+    "restaurant_id": 12,
+    "name": "Pongal",
+    "price": 133,
+    "cuisine": "South Indian",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "traditional"
+    ],
+    "meal_time": "breakfast",
+    "offer": null
+  },
+  {
+    "id": 90,
+    "restaurant_id": 13,
+    "name": "Fruit Custard",
+    "price": 130,
+    "cuisine": "Desserts",
+    "diet_type": "veg",
+    "tags": [
+      "light",
+      "healthy"
+    ],
+    "meal_time": "all-day",
+    "offer": {
+      "type": "flat_off",
+      "label": "₹50 OFF",
+      "value": 50
+    }
+  },
+  {
+    "id": 91,
+    "restaurant_id": 13,
+    "name": "Rasgulla",
+    "price": 114,
+    "cuisine": "Desserts",
+    "diet_type": "veg",
+    "tags": [
+      "light",
+      "traditional"
+    ],
+    "meal_time": "all-day",
+    "offer": {
+      "type": "percent_off",
+      "label": "15% OFF",
+      "value": 15
+    }
+  },
+  {
+    "id": 92,
+    "restaurant_id": 13,
+    "name": "Double Ka Meetha",
+    "price": 103,
+    "cuisine": "Desserts",
+    "diet_type": "veg",
+    "tags": [
+      "traditional",
+      "comfort"
+    ],
+    "meal_time": "all-day",
+    "offer": {
+      "type": "percent_off",
+      "label": "10% OFF",
+      "value": 10
+    }
+  },
+  {
+    "id": 93,
+    "restaurant_id": 13,
+    "name": "Brownie with Ice Cream",
+    "price": 204,
+    "cuisine": "Desserts",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 94,
+    "restaurant_id": 13,
+    "name": "Gulab Jamun",
+    "price": 88,
+    "cuisine": "Desserts",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "traditional"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 95,
+    "restaurant_id": 13,
+    "name": "Dahi Puri",
+    "price": 50,
+    "cuisine": "Street Food",
+    "diet_type": "veg",
+    "tags": [
+      "light"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 96,
+    "restaurant_id": 13,
+    "name": "Pani Puri",
+    "price": 70,
+    "cuisine": "Street Food",
+    "diet_type": "veg",
+    "tags": [
+      "light",
+      "traditional"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 97,
+    "restaurant_id": 13,
+    "name": "Bhel Puri",
+    "price": 98,
+    "cuisine": "Street Food",
+    "diet_type": "veg",
+    "tags": [
+      "light"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 98,
+    "restaurant_id": 13,
+    "name": "Samosa",
+    "price": 52,
+    "cuisine": "Street Food",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "traditional"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 99,
+    "restaurant_id": 14,
+    "name": "Veg Biryani",
+    "price": 190,
+    "cuisine": "Biryani",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 100,
+    "restaurant_id": 14,
+    "name": "Hyderabadi Dum Biryani",
+    "price": 423,
+    "cuisine": "Biryani",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "heavy",
+      "traditional"
+    ],
+    "meal_time": "lunch",
+    "offer": {
+      "type": "flat_off",
+      "label": "₹100 OFF",
+      "value": 100
+    }
+  },
+  {
+    "id": 101,
+    "restaurant_id": 14,
+    "name": "Chicken 65 Biryani",
+    "price": 326,
+    "cuisine": "Biryani",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 102,
+    "restaurant_id": 14,
+    "name": "Mutton Biryani",
+    "price": 368,
+    "cuisine": "Biryani",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "heavy",
+      "traditional"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 103,
+    "restaurant_id": 14,
+    "name": "Naan",
+    "price": 41,
+    "cuisine": "Mughlai",
+    "diet_type": "veg",
+    "tags": [
+      "light"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 104,
+    "restaurant_id": 14,
+    "name": "Chicken Nihari",
+    "price": 420,
+    "cuisine": "Mughlai",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "heavy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 105,
+    "restaurant_id": 14,
+    "name": "Mutton Korma",
+    "price": 417,
+    "cuisine": "Mughlai",
+    "diet_type": "non-veg",
+    "tags": [
+      "heavy",
+      "traditional"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 106,
+    "restaurant_id": 14,
+    "name": "Shahi Paneer",
+    "price": 291,
+    "cuisine": "Mughlai",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "traditional"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 107,
+    "restaurant_id": 15,
+    "name": "Chicken 65 Biryani",
+    "price": 361,
+    "cuisine": "Biryani",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 108,
+    "restaurant_id": 15,
+    "name": "Hyderabadi Dum Biryani",
+    "price": 365,
+    "cuisine": "Biryani",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "heavy",
+      "traditional"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 109,
+    "restaurant_id": 15,
+    "name": "Mutton Biryani",
+    "price": 375,
+    "cuisine": "Biryani",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "heavy",
+      "traditional"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 110,
+    "restaurant_id": 15,
+    "name": "Veg Biryani",
+    "price": 204,
+    "cuisine": "Biryani",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 111,
+    "restaurant_id": 15,
+    "name": "Egg Biryani",
+    "price": 280,
+    "cuisine": "Biryani",
+    "diet_type": "egg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "lunch",
+    "offer": {
+      "type": "flat_off",
+      "label": "₹30 OFF",
+      "value": 30
+    }
+  },
+  {
+    "id": 112,
+    "restaurant_id": 15,
+    "name": "Butter Chicken",
+    "price": 231,
+    "cuisine": "North Indian",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "comfort",
+      "heavy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 113,
+    "restaurant_id": 15,
+    "name": "Dal Makhani",
+    "price": 151,
+    "cuisine": "North Indian",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "traditional"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 114,
+    "restaurant_id": 15,
+    "name": "Aloo Paratha",
+    "price": 114,
+    "cuisine": "North Indian",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "heavy"
+    ],
+    "meal_time": "breakfast",
+    "offer": null
+  },
+  {
+    "id": 115,
+    "restaurant_id": 15,
+    "name": "Chicken Tikka",
+    "price": 254,
+    "cuisine": "North Indian",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "protein-rich"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 116,
+    "restaurant_id": 15,
+    "name": "Rajma Chawal",
+    "price": 171,
+    "cuisine": "North Indian",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "protein-rich"
+    ],
+    "meal_time": "lunch",
+    "offer": {
+      "type": "percent_off",
+      "label": "30% OFF",
+      "value": 30
+    }
+  },
+  {
+    "id": 117,
+    "restaurant_id": 15,
+    "name": "Mediterranean Salad",
+    "price": 248,
+    "cuisine": "Healthy Bowls",
+    "diet_type": "veg",
+    "tags": [
+      "healthy",
+      "light",
+      "low-calorie"
+    ],
+    "meal_time": "lunch",
+    "offer": {
+      "type": "percent_off",
+      "label": "20% OFF",
+      "value": 20
+    }
+  },
+  {
+    "id": 118,
+    "restaurant_id": 15,
+    "name": "Smoothie Bowl",
+    "price": 332,
+    "cuisine": "Healthy Bowls",
+    "diet_type": "vegan",
+    "tags": [
+      "healthy",
+      "light"
+    ],
+    "meal_time": "breakfast",
+    "offer": {
+      "type": "flat_off",
+      "label": "₹125 OFF",
+      "value": 125
+    }
+  },
+  {
+    "id": 119,
+    "restaurant_id": 15,
+    "name": "Chicken Protein Bowl",
+    "price": 365,
+    "cuisine": "Healthy Bowls",
+    "diet_type": "non-veg",
+    "tags": [
+      "healthy",
+      "protein-rich",
+      "keto"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 120,
+    "restaurant_id": 15,
+    "name": "Poke Bowl",
+    "price": 304,
+    "cuisine": "Healthy Bowls",
+    "diet_type": "non-veg",
+    "tags": [
+      "healthy",
+      "protein-rich"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 121,
+    "restaurant_id": 15,
+    "name": "Acai Bowl",
+    "price": 277,
+    "cuisine": "Healthy Bowls",
+    "diet_type": "vegan",
+    "tags": [
+      "healthy",
+      "low-calorie",
+      "high-fibre"
+    ],
+    "meal_time": "breakfast",
+    "offer": {
+      "type": "flat_off",
+      "label": "₹75 OFF",
+      "value": 75
+    }
+  },
+  {
+    "id": 122,
+    "restaurant_id": 16,
+    "name": "Smoothie Bowl",
+    "price": 319,
+    "cuisine": "Healthy Bowls",
+    "diet_type": "vegan",
+    "tags": [
+      "healthy",
+      "light"
+    ],
+    "meal_time": "breakfast",
+    "offer": {
+      "type": "percent_off",
+      "label": "25% OFF",
+      "value": 25
+    }
+  },
+  {
+    "id": 123,
+    "restaurant_id": 16,
+    "name": "Poke Bowl",
+    "price": 404,
+    "cuisine": "Healthy Bowls",
+    "diet_type": "non-veg",
+    "tags": [
+      "healthy",
+      "protein-rich"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 124,
+    "restaurant_id": 16,
+    "name": "Chicken Protein Bowl",
+    "price": 361,
+    "cuisine": "Healthy Bowls",
+    "diet_type": "non-veg",
+    "tags": [
+      "healthy",
+      "protein-rich",
+      "keto"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 125,
+    "restaurant_id": 17,
+    "name": "Pav Bhaji",
+    "price": 158,
+    "cuisine": "Street Food",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "heavy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 126,
+    "restaurant_id": 17,
+    "name": "Bhel Puri",
+    "price": 76,
+    "cuisine": "Street Food",
+    "diet_type": "veg",
+    "tags": [
+      "light"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 127,
+    "restaurant_id": 17,
+    "name": "Vada Pav",
+    "price": 44,
+    "cuisine": "Street Food",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "snack",
+    "offer": {
+      "type": "percent_off",
+      "label": "20% OFF",
+      "value": 20
+    }
+  },
+  {
+    "id": 128,
+    "restaurant_id": 17,
+    "name": "Brownie with Ice Cream",
+    "price": 219,
+    "cuisine": "Desserts",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 129,
+    "restaurant_id": 17,
+    "name": "Gulab Jamun",
+    "price": 118,
+    "cuisine": "Desserts",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "traditional"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 130,
+    "restaurant_id": 17,
+    "name": "Double Ka Meetha",
+    "price": 122,
+    "cuisine": "Desserts",
+    "diet_type": "veg",
+    "tags": [
+      "traditional",
+      "comfort"
+    ],
+    "meal_time": "all-day",
+    "offer": {
+      "type": "flat_off",
+      "label": "₹30 OFF",
+      "value": 30
+    }
+  },
+  {
+    "id": 131,
+    "restaurant_id": 18,
+    "name": "Acai Bowl",
+    "price": 399,
+    "cuisine": "Healthy Bowls",
+    "diet_type": "vegan",
+    "tags": [
+      "healthy",
+      "low-calorie",
+      "high-fibre"
+    ],
+    "meal_time": "breakfast",
+    "offer": {
+      "type": "flat_off",
+      "label": "₹125 OFF",
+      "value": 125
+    }
+  },
+  {
+    "id": 132,
+    "restaurant_id": 18,
+    "name": "Chicken Protein Bowl",
+    "price": 363,
+    "cuisine": "Healthy Bowls",
+    "diet_type": "non-veg",
+    "tags": [
+      "healthy",
+      "protein-rich",
+      "keto"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 133,
+    "restaurant_id": 18,
+    "name": "Poke Bowl",
+    "price": 416,
+    "cuisine": "Healthy Bowls",
+    "diet_type": "non-veg",
+    "tags": [
+      "healthy",
+      "protein-rich"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 134,
+    "restaurant_id": 18,
+    "name": "Smoothie Bowl",
+    "price": 336,
+    "cuisine": "Healthy Bowls",
+    "diet_type": "vegan",
+    "tags": [
+      "healthy",
+      "light"
+    ],
+    "meal_time": "breakfast",
+    "offer": null
+  },
+  {
+    "id": 135,
+    "restaurant_id": 18,
+    "name": "Mediterranean Salad",
+    "price": 288,
+    "cuisine": "Healthy Bowls",
+    "diet_type": "veg",
+    "tags": [
+      "healthy",
+      "light",
+      "low-calorie"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 136,
+    "restaurant_id": 18,
+    "name": "Bruschetta",
+    "price": 170,
+    "cuisine": "Italian",
+    "diet_type": "veg",
+    "tags": [
+      "light",
+      "healthy"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 137,
+    "restaurant_id": 18,
+    "name": "Margherita Pizza",
+    "price": 216,
+    "cuisine": "Italian",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "dinner",
+    "offer": {
+      "type": "percent_off",
+      "label": "15% OFF",
+      "value": 15
+    }
+  },
+  {
+    "id": 138,
+    "restaurant_id": 18,
+    "name": "Chicken Penne Arrabiata",
+    "price": 250,
+    "cuisine": "Italian",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 139,
+    "restaurant_id": 18,
+    "name": "Garlic Bread",
+    "price": 128,
+    "cuisine": "Italian",
+    "diet_type": "veg",
+    "tags": [
+      "light"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 140,
+    "restaurant_id": 18,
+    "name": "Pasta Alfredo",
+    "price": 257,
+    "cuisine": "Italian",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "heavy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 141,
+    "restaurant_id": 18,
+    "name": "Naan",
+    "price": 72,
+    "cuisine": "Mughlai",
+    "diet_type": "veg",
+    "tags": [
+      "light"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 142,
+    "restaurant_id": 18,
+    "name": "Mutton Korma",
+    "price": 419,
+    "cuisine": "Mughlai",
+    "diet_type": "non-veg",
+    "tags": [
+      "heavy",
+      "traditional"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 143,
+    "restaurant_id": 18,
+    "name": "Chicken Nihari",
+    "price": 340,
+    "cuisine": "Mughlai",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "heavy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 144,
+    "restaurant_id": 18,
+    "name": "Kebab Platter",
+    "price": 480,
+    "cuisine": "Mughlai",
+    "diet_type": "non-veg",
+    "tags": [
+      "protein-rich",
+      "spicy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 145,
+    "restaurant_id": 18,
+    "name": "Shahi Paneer",
+    "price": 316,
+    "cuisine": "Mughlai",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "traditional"
+    ],
+    "meal_time": "dinner",
+    "offer": {
+      "type": "percent_off",
+      "label": "20% OFF",
+      "value": 20
+    }
+  },
+  {
+    "id": 146,
+    "restaurant_id": 19,
+    "name": "Acai Bowl",
+    "price": 275,
+    "cuisine": "Healthy Bowls",
+    "diet_type": "vegan",
+    "tags": [
+      "healthy",
+      "low-calorie",
+      "high-fibre"
+    ],
+    "meal_time": "breakfast",
+    "offer": null
+  },
+  {
+    "id": 147,
+    "restaurant_id": 19,
+    "name": "Smoothie Bowl",
+    "price": 374,
+    "cuisine": "Healthy Bowls",
+    "diet_type": "vegan",
+    "tags": [
+      "healthy",
+      "light"
+    ],
+    "meal_time": "breakfast",
+    "offer": {
+      "type": "flat_off",
+      "label": "₹125 OFF",
+      "value": 125
+    }
+  },
+  {
+    "id": 148,
+    "restaurant_id": 19,
+    "name": "Mediterranean Salad",
+    "price": 240,
+    "cuisine": "Healthy Bowls",
+    "diet_type": "veg",
+    "tags": [
+      "healthy",
+      "light",
+      "low-calorie"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 149,
+    "restaurant_id": 19,
+    "name": "Chicken Protein Bowl",
+    "price": 441,
+    "cuisine": "Healthy Bowls",
+    "diet_type": "non-veg",
+    "tags": [
+      "healthy",
+      "protein-rich",
+      "keto"
+    ],
+    "meal_time": "lunch",
+    "offer": {
+      "type": "flat_off",
+      "label": "₹150 OFF",
+      "value": 150
+    }
+  },
+  {
+    "id": 150,
+    "restaurant_id": 19,
+    "name": "Poke Bowl",
+    "price": 504,
+    "cuisine": "Healthy Bowls",
+    "diet_type": "non-veg",
+    "tags": [
+      "healthy",
+      "protein-rich"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 151,
+    "restaurant_id": 19,
+    "name": "Chicken Penne Arrabiata",
+    "price": 435,
+    "cuisine": "Italian",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 152,
+    "restaurant_id": 19,
+    "name": "Bruschetta",
+    "price": 170,
+    "cuisine": "Italian",
+    "diet_type": "veg",
+    "tags": [
+      "light",
+      "healthy"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 153,
+    "restaurant_id": 19,
+    "name": "Garlic Bread",
+    "price": 139,
+    "cuisine": "Italian",
+    "diet_type": "veg",
+    "tags": [
+      "light"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 154,
+    "restaurant_id": 19,
+    "name": "Margherita Pizza",
+    "price": 317,
+    "cuisine": "Italian",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 155,
+    "restaurant_id": 20,
+    "name": "Chicken Tikka",
+    "price": 220,
+    "cuisine": "North Indian",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "protein-rich"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 156,
+    "restaurant_id": 20,
+    "name": "Dal Makhani",
+    "price": 238,
+    "cuisine": "North Indian",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "traditional"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 157,
+    "restaurant_id": 20,
+    "name": "Aloo Paratha",
+    "price": 82,
+    "cuisine": "North Indian",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "heavy"
+    ],
+    "meal_time": "breakfast",
+    "offer": null
+  },
+  {
+    "id": 158,
+    "restaurant_id": 20,
+    "name": "Veg Burger",
+    "price": 101,
+    "cuisine": "Fast Food",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 159,
+    "restaurant_id": 20,
+    "name": "French Fries",
+    "price": 96,
+    "cuisine": "Fast Food",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 160,
+    "restaurant_id": 20,
+    "name": "Chicken Wrap",
+    "price": 154,
+    "cuisine": "Fast Food",
+    "diet_type": "non-veg",
+    "tags": [
+      "light"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 161,
+    "restaurant_id": 21,
+    "name": "Spring Rolls",
+    "price": 162,
+    "cuisine": "Chinese",
+    "diet_type": "veg",
+    "tags": [
+      "light"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 162,
+    "restaurant_id": 21,
+    "name": "Schezwan Noodles",
+    "price": 184,
+    "cuisine": "Chinese",
+    "diet_type": "veg",
+    "tags": [
+      "spicy"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 163,
+    "restaurant_id": 21,
+    "name": "Chicken Fried Rice",
+    "price": 212,
+    "cuisine": "Chinese",
+    "diet_type": "non-veg",
+    "tags": [
+      "comfort",
+      "heavy"
+    ],
+    "meal_time": "lunch",
+    "offer": {
+      "type": "flat_off",
+      "label": "₹75 OFF",
+      "value": 75
+    }
+  },
+  {
+    "id": 164,
+    "restaurant_id": 21,
+    "name": "Veg Manchurian",
+    "price": 214,
+    "cuisine": "Chinese",
+    "diet_type": "veg",
+    "tags": [
+      "spicy",
+      "comfort"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 165,
+    "restaurant_id": 21,
+    "name": "Dragon Chicken",
+    "price": 341,
+    "cuisine": "Chinese",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "fusion"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 166,
+    "restaurant_id": 21,
+    "name": "Chicken Nihari",
+    "price": 344,
+    "cuisine": "Mughlai",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "heavy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 167,
+    "restaurant_id": 21,
+    "name": "Kebab Platter",
+    "price": 388,
+    "cuisine": "Mughlai",
+    "diet_type": "non-veg",
+    "tags": [
+      "protein-rich",
+      "spicy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 168,
+    "restaurant_id": 21,
+    "name": "Naan",
+    "price": 63,
+    "cuisine": "Mughlai",
+    "diet_type": "veg",
+    "tags": [
+      "light"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 169,
+    "restaurant_id": 21,
+    "name": "Shahi Paneer",
+    "price": 206,
+    "cuisine": "Mughlai",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "traditional"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 170,
+    "restaurant_id": 22,
+    "name": "Bhel Puri",
+    "price": 51,
+    "cuisine": "Street Food",
+    "diet_type": "veg",
+    "tags": [
+      "light"
+    ],
+    "meal_time": "snack",
+    "offer": {
+      "type": "percent_off",
+      "label": "10% OFF",
+      "value": 10
+    }
+  },
+  {
+    "id": 171,
+    "restaurant_id": 22,
+    "name": "Pani Puri",
+    "price": 59,
+    "cuisine": "Street Food",
+    "diet_type": "veg",
+    "tags": [
+      "light",
+      "traditional"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 172,
+    "restaurant_id": 22,
+    "name": "Pav Bhaji",
+    "price": 127,
+    "cuisine": "Street Food",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "heavy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 173,
+    "restaurant_id": 22,
+    "name": "Fish Curry",
+    "price": 344,
+    "cuisine": "Seafood",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "traditional"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 174,
+    "restaurant_id": 22,
+    "name": "Prawn Masala",
+    "price": 388,
+    "cuisine": "Seafood",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "protein-rich"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 175,
+    "restaurant_id": 22,
+    "name": "Fish Fry",
+    "price": 254,
+    "cuisine": "Seafood",
+    "diet_type": "non-veg",
+    "tags": [
+      "comfort",
+      "protein-rich"
+    ],
+    "meal_time": "snack",
+    "offer": {
+      "type": "flat_off",
+      "label": "₹50 OFF",
+      "value": 50
+    }
+  },
+  {
+    "id": 176,
+    "restaurant_id": 22,
+    "name": "Crab Roast",
+    "price": 499,
+    "cuisine": "Seafood",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "heavy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 177,
+    "restaurant_id": 23,
+    "name": "Veg Burger",
+    "price": 184,
+    "cuisine": "Fast Food",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "all-day",
+    "offer": {
+      "type": "percent_off",
+      "label": "30% OFF",
+      "value": 30
+    }
+  },
+  {
+    "id": 178,
+    "restaurant_id": 23,
+    "name": "Loaded Nachos",
+    "price": 301,
+    "cuisine": "Fast Food",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "snack",
+    "offer": {
+      "type": "percent_off",
+      "label": "15% OFF",
+      "value": 15
+    }
+  },
+  {
+    "id": 179,
+    "restaurant_id": 23,
+    "name": "French Fries",
+    "price": 122,
+    "cuisine": "Fast Food",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 180,
+    "restaurant_id": 23,
+    "name": "Chicken Wrap",
+    "price": 165,
+    "cuisine": "Fast Food",
+    "diet_type": "non-veg",
+    "tags": [
+      "light"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 181,
+    "restaurant_id": 24,
+    "name": "Veg Manchurian",
+    "price": 213,
+    "cuisine": "Chinese",
+    "diet_type": "veg",
+    "tags": [
+      "spicy",
+      "comfort"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 182,
+    "restaurant_id": 24,
+    "name": "Chicken Fried Rice",
+    "price": 215,
+    "cuisine": "Chinese",
+    "diet_type": "non-veg",
+    "tags": [
+      "comfort",
+      "heavy"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 183,
+    "restaurant_id": 24,
+    "name": "Chilli Chicken",
+    "price": 292,
+    "cuisine": "Chinese",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "protein-rich"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 184,
+    "restaurant_id": 24,
+    "name": "Hakka Noodles",
+    "price": 197,
+    "cuisine": "Chinese",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 185,
+    "restaurant_id": 24,
+    "name": "Masala Dosa",
+    "price": 129,
+    "cuisine": "South Indian",
+    "diet_type": "veg",
+    "tags": [
+      "light",
+      "traditional"
+    ],
+    "meal_time": "breakfast",
+    "offer": null
+  },
+  {
+    "id": 186,
+    "restaurant_id": 24,
+    "name": "Uttapam",
+    "price": 135,
+    "cuisine": "South Indian",
+    "diet_type": "veg",
+    "tags": [
+      "light"
+    ],
+    "meal_time": "breakfast",
+    "offer": null
+  },
+  {
+    "id": 187,
+    "restaurant_id": 24,
+    "name": "Pesarattu",
+    "price": 111,
+    "cuisine": "South Indian",
+    "diet_type": "veg",
+    "tags": [
+      "healthy",
+      "protein-rich",
+      "high-fibre"
+    ],
+    "meal_time": "breakfast",
+    "offer": null
+  },
+  {
+    "id": 188,
+    "restaurant_id": 24,
+    "name": "Hyderabadi Chicken Biryani",
+    "price": 349,
+    "cuisine": "South Indian",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "heavy"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 189,
+    "restaurant_id": 24,
+    "name": "Pongal",
+    "price": 118,
+    "cuisine": "South Indian",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "traditional"
+    ],
+    "meal_time": "breakfast",
+    "offer": null
+  },
+  {
+    "id": 190,
+    "restaurant_id": 25,
+    "name": "Chicken Penne Arrabiata",
+    "price": 414,
+    "cuisine": "Italian",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 191,
+    "restaurant_id": 25,
+    "name": "Bruschetta",
+    "price": 190,
+    "cuisine": "Italian",
+    "diet_type": "veg",
+    "tags": [
+      "light",
+      "healthy"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 192,
+    "restaurant_id": 25,
+    "name": "Margherita Pizza",
+    "price": 294,
+    "cuisine": "Italian",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "dinner",
+    "offer": {
+      "type": "percent_off",
+      "label": "25% OFF",
+      "value": 25
+    }
+  },
+  {
+    "id": 193,
+    "restaurant_id": 25,
+    "name": "Pasta Alfredo",
+    "price": 375,
+    "cuisine": "Italian",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "heavy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 194,
+    "restaurant_id": 25,
+    "name": "Garlic Bread",
+    "price": 109,
+    "cuisine": "Italian",
+    "diet_type": "veg",
+    "tags": [
+      "light"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 195,
+    "restaurant_id": 25,
+    "name": "Chicken Nihari",
+    "price": 332,
+    "cuisine": "Mughlai",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "heavy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 196,
+    "restaurant_id": 25,
+    "name": "Mutton Korma",
+    "price": 347,
+    "cuisine": "Mughlai",
+    "diet_type": "non-veg",
+    "tags": [
+      "heavy",
+      "traditional"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 197,
+    "restaurant_id": 25,
+    "name": "Shahi Paneer",
+    "price": 289,
+    "cuisine": "Mughlai",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "traditional"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 198,
+    "restaurant_id": 26,
+    "name": "Chicken Nihari",
+    "price": 451,
+    "cuisine": "Mughlai",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "heavy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 199,
+    "restaurant_id": 26,
+    "name": "Naan",
+    "price": 52,
+    "cuisine": "Mughlai",
+    "diet_type": "veg",
+    "tags": [
+      "light"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 200,
+    "restaurant_id": 26,
+    "name": "Mutton Korma",
+    "price": 438,
+    "cuisine": "Mughlai",
+    "diet_type": "non-veg",
+    "tags": [
+      "heavy",
+      "traditional"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 201,
+    "restaurant_id": 26,
+    "name": "Kebab Platter",
+    "price": 521,
+    "cuisine": "Mughlai",
+    "diet_type": "non-veg",
+    "tags": [
+      "protein-rich",
+      "spicy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 202,
+    "restaurant_id": 26,
+    "name": "Shahi Paneer",
+    "price": 372,
+    "cuisine": "Mughlai",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "traditional"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 203,
+    "restaurant_id": 26,
+    "name": "Rajma Chawal",
+    "price": 203,
+    "cuisine": "North Indian",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "protein-rich"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 204,
+    "restaurant_id": 26,
+    "name": "Dal Makhani",
+    "price": 184,
+    "cuisine": "North Indian",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "traditional"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 205,
+    "restaurant_id": 26,
+    "name": "Butter Chicken",
+    "price": 415,
+    "cuisine": "North Indian",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "comfort",
+      "heavy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 206,
+    "restaurant_id": 26,
+    "name": "Tandoori Roti",
+    "price": 38,
+    "cuisine": "North Indian",
+    "diet_type": "veg",
+    "tags": [
+      "light"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 207,
+    "restaurant_id": 26,
+    "name": "Paneer Tikka Masala",
+    "price": 270,
+    "cuisine": "North Indian",
+    "diet_type": "veg",
+    "tags": [
+      "spicy",
+      "protein-rich"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 208,
+    "restaurant_id": 27,
+    "name": "Chole Bhature",
+    "price": 209,
+    "cuisine": "North Indian",
+    "diet_type": "veg",
+    "tags": [
+      "heavy",
+      "traditional"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 209,
+    "restaurant_id": 27,
+    "name": "Rajma Chawal",
+    "price": 262,
+    "cuisine": "North Indian",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "protein-rich"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 210,
+    "restaurant_id": 27,
+    "name": "Paneer Tikka Masala",
+    "price": 294,
+    "cuisine": "North Indian",
+    "diet_type": "veg",
+    "tags": [
+      "spicy",
+      "protein-rich"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 211,
+    "restaurant_id": 27,
+    "name": "Fish Curry",
+    "price": 356,
+    "cuisine": "Seafood",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "traditional"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 212,
+    "restaurant_id": 27,
+    "name": "Prawn Masala",
+    "price": 360,
+    "cuisine": "Seafood",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "protein-rich"
+    ],
+    "meal_time": "dinner",
+    "offer": {
+      "type": "percent_off",
+      "label": "25% OFF",
+      "value": 25
+    }
+  },
+  {
+    "id": 213,
+    "restaurant_id": 27,
+    "name": "Crab Roast",
+    "price": 486,
+    "cuisine": "Seafood",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "heavy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 214,
+    "restaurant_id": 28,
+    "name": "Mutton Biryani",
+    "price": 315,
+    "cuisine": "Biryani",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "heavy",
+      "traditional"
+    ],
+    "meal_time": "lunch",
+    "offer": {
+      "type": "percent_off",
+      "label": "10% OFF",
+      "value": 10
+    }
+  },
+  {
+    "id": 215,
+    "restaurant_id": 28,
+    "name": "Hyderabadi Dum Biryani",
+    "price": 275,
+    "cuisine": "Biryani",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "heavy",
+      "traditional"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 216,
+    "restaurant_id": 28,
+    "name": "Veg Biryani",
+    "price": 250,
+    "cuisine": "Biryani",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 217,
+    "restaurant_id": 28,
+    "name": "Egg Biryani",
+    "price": 226,
+    "cuisine": "Biryani",
+    "diet_type": "egg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 218,
+    "restaurant_id": 28,
+    "name": "Smoothie Bowl",
+    "price": 328,
+    "cuisine": "Healthy Bowls",
+    "diet_type": "vegan",
+    "tags": [
+      "healthy",
+      "light"
+    ],
+    "meal_time": "breakfast",
+    "offer": null
+  },
+  {
+    "id": 219,
+    "restaurant_id": 28,
+    "name": "Poke Bowl",
+    "price": 415,
+    "cuisine": "Healthy Bowls",
+    "diet_type": "non-veg",
+    "tags": [
+      "healthy",
+      "protein-rich"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 220,
+    "restaurant_id": 28,
+    "name": "Acai Bowl",
+    "price": 282,
+    "cuisine": "Healthy Bowls",
+    "diet_type": "vegan",
+    "tags": [
+      "healthy",
+      "low-calorie",
+      "high-fibre"
+    ],
+    "meal_time": "breakfast",
+    "offer": null
+  },
+  {
+    "id": 221,
+    "restaurant_id": 28,
+    "name": "Mediterranean Salad",
+    "price": 234,
+    "cuisine": "Healthy Bowls",
+    "diet_type": "veg",
+    "tags": [
+      "healthy",
+      "light",
+      "low-calorie"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 222,
+    "restaurant_id": 29,
+    "name": "Pav Bhaji",
+    "price": 147,
+    "cuisine": "Street Food",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "heavy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 223,
+    "restaurant_id": 29,
+    "name": "Vada Pav",
+    "price": 53,
+    "cuisine": "Street Food",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 224,
+    "restaurant_id": 29,
+    "name": "Samosa",
+    "price": 56,
+    "cuisine": "Street Food",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "traditional"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 225,
+    "restaurant_id": 29,
+    "name": "Dahi Puri",
+    "price": 71,
+    "cuisine": "Street Food",
+    "diet_type": "veg",
+    "tags": [
+      "light"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 226,
+    "restaurant_id": 29,
+    "name": "Pani Puri",
+    "price": 42,
+    "cuisine": "Street Food",
+    "diet_type": "veg",
+    "tags": [
+      "light",
+      "traditional"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 227,
+    "restaurant_id": 29,
+    "name": "Hyderabadi Chicken Biryani",
+    "price": 273,
+    "cuisine": "South Indian",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "heavy"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 228,
+    "restaurant_id": 29,
+    "name": "Masala Dosa",
+    "price": 148,
+    "cuisine": "South Indian",
+    "diet_type": "veg",
+    "tags": [
+      "light",
+      "traditional"
+    ],
+    "meal_time": "breakfast",
+    "offer": null
+  },
+  {
+    "id": 229,
+    "restaurant_id": 29,
+    "name": "Uttapam",
+    "price": 129,
+    "cuisine": "South Indian",
+    "diet_type": "veg",
+    "tags": [
+      "light"
+    ],
+    "meal_time": "breakfast",
+    "offer": {
+      "type": "flat_off",
+      "label": "₹30 OFF",
+      "value": 30
+    }
+  },
+  {
+    "id": 230,
+    "restaurant_id": 29,
+    "name": "Idli Sambar",
+    "price": 108,
+    "cuisine": "South Indian",
+    "diet_type": "veg",
+    "tags": [
+      "healthy",
+      "light",
+      "low-calorie"
+    ],
+    "meal_time": "breakfast",
+    "offer": null
+  },
+  {
+    "id": 231,
+    "restaurant_id": 30,
+    "name": "Mediterranean Salad",
+    "price": 316,
+    "cuisine": "Healthy Bowls",
+    "diet_type": "veg",
+    "tags": [
+      "healthy",
+      "light",
+      "low-calorie"
+    ],
+    "meal_time": "lunch",
+    "offer": {
+      "type": "percent_off",
+      "label": "10% OFF",
+      "value": 10
+    }
+  },
+  {
+    "id": 232,
+    "restaurant_id": 30,
+    "name": "Acai Bowl",
+    "price": 392,
+    "cuisine": "Healthy Bowls",
+    "diet_type": "vegan",
+    "tags": [
+      "healthy",
+      "low-calorie",
+      "high-fibre"
+    ],
+    "meal_time": "breakfast",
+    "offer": null
+  },
+  {
+    "id": 233,
+    "restaurant_id": 30,
+    "name": "Smoothie Bowl",
+    "price": 277,
+    "cuisine": "Healthy Bowls",
+    "diet_type": "vegan",
+    "tags": [
+      "healthy",
+      "light"
+    ],
+    "meal_time": "breakfast",
+    "offer": null
+  },
+  {
+    "id": 234,
+    "restaurant_id": 30,
+    "name": "Poke Bowl",
+    "price": 473,
+    "cuisine": "Healthy Bowls",
+    "diet_type": "non-veg",
+    "tags": [
+      "healthy",
+      "protein-rich"
+    ],
+    "meal_time": "lunch",
+    "offer": {
+      "type": "percent_off",
+      "label": "15% OFF",
+      "value": 15
+    }
+  },
+  {
+    "id": 235,
+    "restaurant_id": 30,
+    "name": "Fish Curry",
+    "price": 334,
+    "cuisine": "Seafood",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "traditional"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 236,
+    "restaurant_id": 30,
+    "name": "Fish Fry",
+    "price": 254,
+    "cuisine": "Seafood",
+    "diet_type": "non-veg",
+    "tags": [
+      "comfort",
+      "protein-rich"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 237,
+    "restaurant_id": 30,
+    "name": "Crab Roast",
+    "price": 416,
+    "cuisine": "Seafood",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "heavy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 238,
+    "restaurant_id": 30,
+    "name": "Double Ka Meetha",
+    "price": 111,
+    "cuisine": "Desserts",
+    "diet_type": "veg",
+    "tags": [
+      "traditional",
+      "comfort"
+    ],
+    "meal_time": "all-day",
+    "offer": {
+      "type": "percent_off",
+      "label": "20% OFF",
+      "value": 20
+    }
+  },
+  {
+    "id": 239,
+    "restaurant_id": 30,
+    "name": "Fruit Custard",
+    "price": 170,
+    "cuisine": "Desserts",
+    "diet_type": "veg",
+    "tags": [
+      "light",
+      "healthy"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 240,
+    "restaurant_id": 30,
+    "name": "Brownie with Ice Cream",
+    "price": 201,
+    "cuisine": "Desserts",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 241,
+    "restaurant_id": 30,
+    "name": "Rasgulla",
+    "price": 92,
+    "cuisine": "Desserts",
+    "diet_type": "veg",
+    "tags": [
+      "light",
+      "traditional"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 242,
+    "restaurant_id": 30,
+    "name": "Gulab Jamun",
+    "price": 84,
+    "cuisine": "Desserts",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "traditional"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 243,
+    "restaurant_id": 31,
+    "name": "Bhel Puri",
+    "price": 70,
+    "cuisine": "Street Food",
+    "diet_type": "veg",
+    "tags": [
+      "light"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 244,
+    "restaurant_id": 31,
+    "name": "Pani Puri",
+    "price": 75,
+    "cuisine": "Street Food",
+    "diet_type": "veg",
+    "tags": [
+      "light",
+      "traditional"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 245,
+    "restaurant_id": 31,
+    "name": "Vada Pav",
+    "price": 49,
+    "cuisine": "Street Food",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 246,
+    "restaurant_id": 31,
+    "name": "Rajma Chawal",
+    "price": 213,
+    "cuisine": "North Indian",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "protein-rich"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 247,
+    "restaurant_id": 31,
+    "name": "Tandoori Roti",
+    "price": 37,
+    "cuisine": "North Indian",
+    "diet_type": "veg",
+    "tags": [
+      "light"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 248,
+    "restaurant_id": 31,
+    "name": "Dal Makhani",
+    "price": 197,
+    "cuisine": "North Indian",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "traditional"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 249,
+    "restaurant_id": 32,
+    "name": "Loaded Nachos",
+    "price": 207,
+    "cuisine": "Fast Food",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 250,
+    "restaurant_id": 32,
+    "name": "French Fries",
+    "price": 124,
+    "cuisine": "Fast Food",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 251,
+    "restaurant_id": 32,
+    "name": "Chicken Wrap",
+    "price": 211,
+    "cuisine": "Fast Food",
+    "diet_type": "non-veg",
+    "tags": [
+      "light"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 252,
+    "restaurant_id": 32,
+    "name": "Veg Burger",
+    "price": 107,
+    "cuisine": "Fast Food",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 253,
+    "restaurant_id": 32,
+    "name": "Classic Burger",
+    "price": 125,
+    "cuisine": "Fast Food",
+    "diet_type": "non-veg",
+    "tags": [
+      "comfort",
+      "heavy"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 254,
+    "restaurant_id": 32,
+    "name": "Veg Manchurian",
+    "price": 201,
+    "cuisine": "Chinese",
+    "diet_type": "veg",
+    "tags": [
+      "spicy",
+      "comfort"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 255,
+    "restaurant_id": 32,
+    "name": "Schezwan Noodles",
+    "price": 229,
+    "cuisine": "Chinese",
+    "diet_type": "veg",
+    "tags": [
+      "spicy"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 256,
+    "restaurant_id": 32,
+    "name": "Dragon Chicken",
+    "price": 283,
+    "cuisine": "Chinese",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "fusion"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 257,
+    "restaurant_id": 32,
+    "name": "Chilli Chicken",
+    "price": 291,
+    "cuisine": "Chinese",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "protein-rich"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 258,
+    "restaurant_id": 32,
+    "name": "Chicken 65 Biryani",
+    "price": 294,
+    "cuisine": "Biryani",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 259,
+    "restaurant_id": 32,
+    "name": "Veg Biryani",
+    "price": 221,
+    "cuisine": "Biryani",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 260,
+    "restaurant_id": 32,
+    "name": "Hyderabadi Dum Biryani",
+    "price": 351,
+    "cuisine": "Biryani",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "heavy",
+      "traditional"
+    ],
+    "meal_time": "lunch",
+    "offer": {
+      "type": "percent_off",
+      "label": "25% OFF",
+      "value": 25
+    }
+  },
+  {
+    "id": 261,
+    "restaurant_id": 32,
+    "name": "Mutton Biryani",
+    "price": 498,
+    "cuisine": "Biryani",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "heavy",
+      "traditional"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 262,
+    "restaurant_id": 33,
+    "name": "Grilled Chicken Salad",
+    "price": 336,
+    "cuisine": "Continental",
+    "diet_type": "non-veg",
+    "tags": [
+      "healthy",
+      "light",
+      "low-calorie",
+      "protein-rich"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 263,
+    "restaurant_id": 33,
+    "name": "Mushroom Soup",
+    "price": 231,
+    "cuisine": "Continental",
+    "diet_type": "veg",
+    "tags": [
+      "light",
+      "healthy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 264,
+    "restaurant_id": 33,
+    "name": "Quinoa Bowl",
+    "price": 300,
+    "cuisine": "Continental",
+    "diet_type": "vegan",
+    "tags": [
+      "healthy",
+      "protein-rich",
+      "gluten-free",
+      "keto"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 265,
+    "restaurant_id": 33,
+    "name": "Avocado Toast",
+    "price": 197,
+    "cuisine": "Continental",
+    "diet_type": "vegan",
+    "tags": [
+      "healthy",
+      "light"
+    ],
+    "meal_time": "breakfast",
+    "offer": null
+  },
+  {
+    "id": 266,
+    "restaurant_id": 33,
+    "name": "Crab Roast",
+    "price": 462,
+    "cuisine": "Seafood",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "heavy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 267,
+    "restaurant_id": 33,
+    "name": "Fish Curry",
+    "price": 299,
+    "cuisine": "Seafood",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "traditional"
+    ],
+    "meal_time": "dinner",
+    "offer": {
+      "type": "percent_off",
+      "label": "25% OFF",
+      "value": 25
+    }
+  },
+  {
+    "id": 268,
+    "restaurant_id": 33,
+    "name": "Fish Fry",
+    "price": 241,
+    "cuisine": "Seafood",
+    "diet_type": "non-veg",
+    "tags": [
+      "comfort",
+      "protein-rich"
+    ],
+    "meal_time": "snack",
+    "offer": {
+      "type": "flat_off",
+      "label": "₹30 OFF",
+      "value": 30
+    }
+  },
+  {
+    "id": 269,
+    "restaurant_id": 33,
+    "name": "Prawn Masala",
+    "price": 471,
+    "cuisine": "Seafood",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "protein-rich"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 270,
+    "restaurant_id": 34,
+    "name": "Egg Biryani",
+    "price": 234,
+    "cuisine": "Biryani",
+    "diet_type": "egg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 271,
+    "restaurant_id": 34,
+    "name": "Veg Biryani",
+    "price": 298,
+    "cuisine": "Biryani",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 272,
+    "restaurant_id": 34,
+    "name": "Chicken 65 Biryani",
+    "price": 389,
+    "cuisine": "Biryani",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy"
+    ],
+    "meal_time": "dinner",
+    "offer": {
+      "type": "flat_off",
+      "label": "₹125 OFF",
+      "value": 125
+    }
+  },
+  {
+    "id": 273,
+    "restaurant_id": 34,
+    "name": "Mutton Biryani",
+    "price": 415,
+    "cuisine": "Biryani",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "heavy",
+      "traditional"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 274,
+    "restaurant_id": 34,
+    "name": "Hyderabadi Dum Biryani",
+    "price": 391,
+    "cuisine": "Biryani",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "heavy",
+      "traditional"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 275,
+    "restaurant_id": 34,
+    "name": "Prawn Masala",
+    "price": 511,
+    "cuisine": "Seafood",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "protein-rich"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 276,
+    "restaurant_id": 34,
+    "name": "Crab Roast",
+    "price": 466,
+    "cuisine": "Seafood",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "heavy"
+    ],
+    "meal_time": "dinner",
+    "offer": {
+      "type": "percent_off",
+      "label": "20% OFF",
+      "value": 20
+    }
+  },
+  {
+    "id": 277,
+    "restaurant_id": 34,
+    "name": "Fish Fry",
+    "price": 209,
+    "cuisine": "Seafood",
+    "diet_type": "non-veg",
+    "tags": [
+      "comfort",
+      "protein-rich"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 278,
+    "restaurant_id": 34,
+    "name": "Fish Curry",
+    "price": 451,
+    "cuisine": "Seafood",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "traditional"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 279,
+    "restaurant_id": 35,
+    "name": "Hyderabadi Chicken Biryani",
+    "price": 309,
+    "cuisine": "South Indian",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "heavy"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 280,
+    "restaurant_id": 35,
+    "name": "Masala Dosa",
+    "price": 111,
+    "cuisine": "South Indian",
+    "diet_type": "veg",
+    "tags": [
+      "light",
+      "traditional"
+    ],
+    "meal_time": "breakfast",
+    "offer": {
+      "type": "percent_off",
+      "label": "10% OFF",
+      "value": 10
+    }
+  },
+  {
+    "id": 281,
+    "restaurant_id": 35,
+    "name": "Pesarattu",
+    "price": 89,
+    "cuisine": "South Indian",
+    "diet_type": "veg",
+    "tags": [
+      "healthy",
+      "protein-rich",
+      "high-fibre"
+    ],
+    "meal_time": "breakfast",
+    "offer": null
+  },
+  {
+    "id": 282,
+    "restaurant_id": 35,
+    "name": "Medu Vada",
+    "price": 100,
+    "cuisine": "South Indian",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "breakfast",
+    "offer": null
+  },
+  {
+    "id": 283,
+    "restaurant_id": 36,
+    "name": "Chicken Nihari",
+    "price": 297,
+    "cuisine": "Mughlai",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "heavy"
+    ],
+    "meal_time": "dinner",
+    "offer": {
+      "type": "flat_off",
+      "label": "₹30 OFF",
+      "value": 30
+    }
+  },
+  {
+    "id": 284,
+    "restaurant_id": 36,
+    "name": "Shahi Paneer",
+    "price": 216,
+    "cuisine": "Mughlai",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "traditional"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 285,
+    "restaurant_id": 36,
+    "name": "Naan",
+    "price": 64,
+    "cuisine": "Mughlai",
+    "diet_type": "veg",
+    "tags": [
+      "light"
+    ],
+    "meal_time": "all-day",
+    "offer": {
+      "type": "percent_off",
+      "label": "15% OFF",
+      "value": 15
+    }
+  },
+  {
+    "id": 286,
+    "restaurant_id": 36,
+    "name": "Chilli Chicken",
+    "price": 234,
+    "cuisine": "Chinese",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "protein-rich"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 287,
+    "restaurant_id": 36,
+    "name": "Veg Manchurian",
+    "price": 223,
+    "cuisine": "Chinese",
+    "diet_type": "veg",
+    "tags": [
+      "spicy",
+      "comfort"
+    ],
+    "meal_time": "dinner",
+    "offer": {
+      "type": "flat_off",
+      "label": "₹30 OFF",
+      "value": 30
+    }
+  },
+  {
+    "id": 288,
+    "restaurant_id": 36,
+    "name": "Spring Rolls",
+    "price": 176,
+    "cuisine": "Chinese",
+    "diet_type": "veg",
+    "tags": [
+      "light"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 289,
+    "restaurant_id": 36,
+    "name": "Hakka Noodles",
+    "price": 219,
+    "cuisine": "Chinese",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 290,
+    "restaurant_id": 36,
+    "name": "Crab Roast",
+    "price": 477,
+    "cuisine": "Seafood",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "heavy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 291,
+    "restaurant_id": 36,
+    "name": "Prawn Masala",
+    "price": 346,
+    "cuisine": "Seafood",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "protein-rich"
+    ],
+    "meal_time": "dinner",
+    "offer": {
+      "type": "percent_off",
+      "label": "20% OFF",
+      "value": 20
+    }
+  },
+  {
+    "id": 292,
+    "restaurant_id": 36,
+    "name": "Fish Curry",
+    "price": 286,
+    "cuisine": "Seafood",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "traditional"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 293,
+    "restaurant_id": 37,
+    "name": "Chicken Protein Bowl",
+    "price": 389,
+    "cuisine": "Healthy Bowls",
+    "diet_type": "non-veg",
+    "tags": [
+      "healthy",
+      "protein-rich",
+      "keto"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 294,
+    "restaurant_id": 37,
+    "name": "Acai Bowl",
+    "price": 294,
+    "cuisine": "Healthy Bowls",
+    "diet_type": "vegan",
+    "tags": [
+      "healthy",
+      "low-calorie",
+      "high-fibre"
+    ],
+    "meal_time": "breakfast",
+    "offer": {
+      "type": "percent_off",
+      "label": "10% OFF",
+      "value": 10
+    }
+  },
+  {
+    "id": 295,
+    "restaurant_id": 37,
+    "name": "Mediterranean Salad",
+    "price": 247,
+    "cuisine": "Healthy Bowls",
+    "diet_type": "veg",
+    "tags": [
+      "healthy",
+      "light",
+      "low-calorie"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 296,
+    "restaurant_id": 38,
+    "name": "Brownie with Ice Cream",
+    "price": 247,
+    "cuisine": "Desserts",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 297,
+    "restaurant_id": 38,
+    "name": "Fruit Custard",
+    "price": 107,
+    "cuisine": "Desserts",
+    "diet_type": "veg",
+    "tags": [
+      "light",
+      "healthy"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 298,
+    "restaurant_id": 38,
+    "name": "Rasgulla",
+    "price": 90,
+    "cuisine": "Desserts",
+    "diet_type": "veg",
+    "tags": [
+      "light",
+      "traditional"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 299,
+    "restaurant_id": 38,
+    "name": "Chicken Nihari",
+    "price": 340,
+    "cuisine": "Mughlai",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "heavy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 300,
+    "restaurant_id": 38,
+    "name": "Mutton Korma",
+    "price": 332,
+    "cuisine": "Mughlai",
+    "diet_type": "non-veg",
+    "tags": [
+      "heavy",
+      "traditional"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 301,
+    "restaurant_id": 38,
+    "name": "Kebab Platter",
+    "price": 371,
+    "cuisine": "Mughlai",
+    "diet_type": "non-veg",
+    "tags": [
+      "protein-rich",
+      "spicy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 302,
+    "restaurant_id": 38,
+    "name": "Shahi Paneer",
+    "price": 241,
+    "cuisine": "Mughlai",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "traditional"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 303,
+    "restaurant_id": 38,
+    "name": "Naan",
+    "price": 69,
+    "cuisine": "Mughlai",
+    "diet_type": "veg",
+    "tags": [
+      "light"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 304,
+    "restaurant_id": 39,
+    "name": "Dal Makhani",
+    "price": 162,
+    "cuisine": "North Indian",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "traditional"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 305,
+    "restaurant_id": 39,
+    "name": "Butter Chicken",
+    "price": 309,
+    "cuisine": "North Indian",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "comfort",
+      "heavy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 306,
+    "restaurant_id": 39,
+    "name": "Paneer Tikka Masala",
+    "price": 291,
+    "cuisine": "North Indian",
+    "diet_type": "veg",
+    "tags": [
+      "spicy",
+      "protein-rich"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 307,
+    "restaurant_id": 39,
+    "name": "Aloo Paratha",
+    "price": 123,
+    "cuisine": "North Indian",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "heavy"
+    ],
+    "meal_time": "breakfast",
+    "offer": null
+  },
+  {
+    "id": 308,
+    "restaurant_id": 39,
+    "name": "Chicken Tikka",
+    "price": 310,
+    "cuisine": "North Indian",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "protein-rich"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 309,
+    "restaurant_id": 39,
+    "name": "Grilled Chicken Salad",
+    "price": 282,
+    "cuisine": "Continental",
+    "diet_type": "non-veg",
+    "tags": [
+      "healthy",
+      "light",
+      "low-calorie",
+      "protein-rich"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 310,
+    "restaurant_id": 39,
+    "name": "Grilled Fish",
+    "price": 350,
+    "cuisine": "Continental",
+    "diet_type": "non-veg",
+    "tags": [
+      "healthy",
+      "protein-rich",
+      "low-calorie"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 311,
+    "restaurant_id": 39,
+    "name": "Avocado Toast",
+    "price": 235,
+    "cuisine": "Continental",
+    "diet_type": "vegan",
+    "tags": [
+      "healthy",
+      "light"
+    ],
+    "meal_time": "breakfast",
+    "offer": null
+  },
+  {
+    "id": 312,
+    "restaurant_id": 40,
+    "name": "Hyderabadi Dum Biryani",
+    "price": 466,
+    "cuisine": "Biryani",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "heavy",
+      "traditional"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 313,
+    "restaurant_id": 40,
+    "name": "Egg Biryani",
+    "price": 310,
+    "cuisine": "Biryani",
+    "diet_type": "egg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "lunch",
+    "offer": {
+      "type": "percent_off",
+      "label": "15% OFF",
+      "value": 15
+    }
+  },
+  {
+    "id": 314,
+    "restaurant_id": 40,
+    "name": "Veg Biryani",
+    "price": 234,
+    "cuisine": "Biryani",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 315,
+    "restaurant_id": 40,
+    "name": "Chicken 65 Biryani",
+    "price": 403,
+    "cuisine": "Biryani",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 316,
+    "restaurant_id": 40,
+    "name": "Uttapam",
+    "price": 134,
+    "cuisine": "South Indian",
+    "diet_type": "veg",
+    "tags": [
+      "light"
+    ],
+    "meal_time": "breakfast",
+    "offer": null
+  },
+  {
+    "id": 317,
+    "restaurant_id": 40,
+    "name": "Masala Dosa",
+    "price": 142,
+    "cuisine": "South Indian",
+    "diet_type": "veg",
+    "tags": [
+      "light",
+      "traditional"
+    ],
+    "meal_time": "breakfast",
+    "offer": null
+  },
+  {
+    "id": 318,
+    "restaurant_id": 40,
+    "name": "Medu Vada",
+    "price": 77,
+    "cuisine": "South Indian",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "breakfast",
+    "offer": null
+  },
+  {
+    "id": 319,
+    "restaurant_id": 40,
+    "name": "Chilli Chicken",
+    "price": 256,
+    "cuisine": "Chinese",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "protein-rich"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 320,
+    "restaurant_id": 40,
+    "name": "Schezwan Noodles",
+    "price": 244,
+    "cuisine": "Chinese",
+    "diet_type": "veg",
+    "tags": [
+      "spicy"
+    ],
+    "meal_time": "all-day",
+    "offer": {
+      "type": "percent_off",
+      "label": "10% OFF",
+      "value": 10
+    }
+  },
+  {
+    "id": 321,
+    "restaurant_id": 40,
+    "name": "Spring Rolls",
+    "price": 154,
+    "cuisine": "Chinese",
+    "diet_type": "veg",
+    "tags": [
+      "light"
+    ],
+    "meal_time": "snack",
+    "offer": {
+      "type": "percent_off",
+      "label": "20% OFF",
+      "value": 20
+    }
+  },
+  {
+    "id": 322,
+    "restaurant_id": 40,
+    "name": "Hakka Noodles",
+    "price": 265,
+    "cuisine": "Chinese",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 323,
+    "restaurant_id": 41,
+    "name": "Veg Biryani",
+    "price": 279,
+    "cuisine": "Biryani",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "lunch",
+    "offer": {
+      "type": "percent_off",
+      "label": "30% OFF",
+      "value": 30
+    }
+  },
+  {
+    "id": 324,
+    "restaurant_id": 41,
+    "name": "Chicken 65 Biryani",
+    "price": 317,
+    "cuisine": "Biryani",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy"
+    ],
+    "meal_time": "dinner",
+    "offer": {
+      "type": "flat_off",
+      "label": "₹125 OFF",
+      "value": 125
+    }
+  },
+  {
+    "id": 325,
+    "restaurant_id": 41,
+    "name": "Egg Biryani",
+    "price": 257,
+    "cuisine": "Biryani",
+    "diet_type": "egg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 326,
+    "restaurant_id": 41,
+    "name": "Mutton Biryani",
+    "price": 425,
+    "cuisine": "Biryani",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "heavy",
+      "traditional"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 327,
+    "restaurant_id": 41,
+    "name": "Hyderabadi Dum Biryani",
+    "price": 441,
+    "cuisine": "Biryani",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "heavy",
+      "traditional"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 328,
+    "restaurant_id": 42,
+    "name": "Chicken Wrap",
+    "price": 178,
+    "cuisine": "Fast Food",
+    "diet_type": "non-veg",
+    "tags": [
+      "light"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 329,
+    "restaurant_id": 42,
+    "name": "Veg Burger",
+    "price": 127,
+    "cuisine": "Fast Food",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "all-day",
+    "offer": {
+      "type": "percent_off",
+      "label": "10% OFF",
+      "value": 10
+    }
+  },
+  {
+    "id": 330,
+    "restaurant_id": 42,
+    "name": "Loaded Nachos",
+    "price": 188,
+    "cuisine": "Fast Food",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 331,
+    "restaurant_id": 42,
+    "name": "Classic Burger",
+    "price": 200,
+    "cuisine": "Fast Food",
+    "diet_type": "non-veg",
+    "tags": [
+      "comfort",
+      "heavy"
+    ],
+    "meal_time": "all-day",
+    "offer": {
+      "type": "percent_off",
+      "label": "20% OFF",
+      "value": 20
+    }
+  },
+  {
+    "id": 332,
+    "restaurant_id": 42,
+    "name": "Pav Bhaji",
+    "price": 180,
+    "cuisine": "Street Food",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "heavy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 333,
+    "restaurant_id": 42,
+    "name": "Vada Pav",
+    "price": 75,
+    "cuisine": "Street Food",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 334,
+    "restaurant_id": 42,
+    "name": "Samosa",
+    "price": 33,
+    "cuisine": "Street Food",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "traditional"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 335,
+    "restaurant_id": 42,
+    "name": "Pani Puri",
+    "price": 58,
+    "cuisine": "Street Food",
+    "diet_type": "veg",
+    "tags": [
+      "light",
+      "traditional"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 336,
+    "restaurant_id": 42,
+    "name": "Bhel Puri",
+    "price": 52,
+    "cuisine": "Street Food",
+    "diet_type": "veg",
+    "tags": [
+      "light"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 337,
+    "restaurant_id": 42,
+    "name": "Garlic Bread",
+    "price": 114,
+    "cuisine": "Italian",
+    "diet_type": "veg",
+    "tags": [
+      "light"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 338,
+    "restaurant_id": 42,
+    "name": "Chicken Penne Arrabiata",
+    "price": 374,
+    "cuisine": "Italian",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 339,
+    "restaurant_id": 42,
+    "name": "Bruschetta",
+    "price": 149,
+    "cuisine": "Italian",
+    "diet_type": "veg",
+    "tags": [
+      "light",
+      "healthy"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 340,
+    "restaurant_id": 42,
+    "name": "Margherita Pizza",
+    "price": 314,
+    "cuisine": "Italian",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "dinner",
+    "offer": {
+      "type": "flat_off",
+      "label": "₹30 OFF",
+      "value": 30
+    }
+  },
+  {
+    "id": 341,
+    "restaurant_id": 42,
+    "name": "Pasta Alfredo",
+    "price": 282,
+    "cuisine": "Italian",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "heavy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 342,
+    "restaurant_id": 43,
+    "name": "Chicken Protein Bowl",
+    "price": 286,
+    "cuisine": "Healthy Bowls",
+    "diet_type": "non-veg",
+    "tags": [
+      "healthy",
+      "protein-rich",
+      "keto"
+    ],
+    "meal_time": "lunch",
+    "offer": {
+      "type": "flat_off",
+      "label": "₹100 OFF",
+      "value": 100
+    }
+  },
+  {
+    "id": 343,
+    "restaurant_id": 43,
+    "name": "Smoothie Bowl",
+    "price": 278,
+    "cuisine": "Healthy Bowls",
+    "diet_type": "vegan",
+    "tags": [
+      "healthy",
+      "light"
+    ],
+    "meal_time": "breakfast",
+    "offer": {
+      "type": "percent_off",
+      "label": "20% OFF",
+      "value": 20
+    }
+  },
+  {
+    "id": 344,
+    "restaurant_id": 43,
+    "name": "Mediterranean Salad",
+    "price": 340,
+    "cuisine": "Healthy Bowls",
+    "diet_type": "veg",
+    "tags": [
+      "healthy",
+      "light",
+      "low-calorie"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 345,
+    "restaurant_id": 43,
+    "name": "Loaded Nachos",
+    "price": 216,
+    "cuisine": "Fast Food",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 346,
+    "restaurant_id": 43,
+    "name": "French Fries",
+    "price": 114,
+    "cuisine": "Fast Food",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 347,
+    "restaurant_id": 43,
+    "name": "Chicken Wrap",
+    "price": 197,
+    "cuisine": "Fast Food",
+    "diet_type": "non-veg",
+    "tags": [
+      "light"
+    ],
+    "meal_time": "lunch",
+    "offer": {
+      "type": "flat_off",
+      "label": "₹75 OFF",
+      "value": 75
+    }
+  },
+  {
+    "id": 348,
+    "restaurant_id": 43,
+    "name": "Veg Burger",
+    "price": 111,
+    "cuisine": "Fast Food",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 349,
+    "restaurant_id": 44,
+    "name": "Prawn Masala",
+    "price": 448,
+    "cuisine": "Seafood",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "protein-rich"
+    ],
+    "meal_time": "dinner",
+    "offer": {
+      "type": "percent_off",
+      "label": "15% OFF",
+      "value": 15
+    }
+  },
+  {
+    "id": 350,
+    "restaurant_id": 44,
+    "name": "Fish Fry",
+    "price": 182,
+    "cuisine": "Seafood",
+    "diet_type": "non-veg",
+    "tags": [
+      "comfort",
+      "protein-rich"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 351,
+    "restaurant_id": 44,
+    "name": "Crab Roast",
+    "price": 380,
+    "cuisine": "Seafood",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "heavy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 352,
+    "restaurant_id": 44,
+    "name": "Fish Curry",
+    "price": 312,
+    "cuisine": "Seafood",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "traditional"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 353,
+    "restaurant_id": 44,
+    "name": "Classic Burger",
+    "price": 193,
+    "cuisine": "Fast Food",
+    "diet_type": "non-veg",
+    "tags": [
+      "comfort",
+      "heavy"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 354,
+    "restaurant_id": 44,
+    "name": "Veg Burger",
+    "price": 148,
+    "cuisine": "Fast Food",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 355,
+    "restaurant_id": 44,
+    "name": "French Fries",
+    "price": 147,
+    "cuisine": "Fast Food",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 356,
+    "restaurant_id": 44,
+    "name": "Loaded Nachos",
+    "price": 219,
+    "cuisine": "Fast Food",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 357,
+    "restaurant_id": 45,
+    "name": "Prawn Masala",
+    "price": 386,
+    "cuisine": "Seafood",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "protein-rich"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 358,
+    "restaurant_id": 45,
+    "name": "Fish Fry",
+    "price": 292,
+    "cuisine": "Seafood",
+    "diet_type": "non-veg",
+    "tags": [
+      "comfort",
+      "protein-rich"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 359,
+    "restaurant_id": 45,
+    "name": "Crab Roast",
+    "price": 408,
+    "cuisine": "Seafood",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "heavy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 360,
+    "restaurant_id": 45,
+    "name": "Fish Curry",
+    "price": 331,
+    "cuisine": "Seafood",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "traditional"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 361,
+    "restaurant_id": 45,
+    "name": "French Fries",
+    "price": 100,
+    "cuisine": "Fast Food",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 362,
+    "restaurant_id": 45,
+    "name": "Veg Burger",
+    "price": 135,
+    "cuisine": "Fast Food",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 363,
+    "restaurant_id": 45,
+    "name": "Chicken Wrap",
+    "price": 171,
+    "cuisine": "Fast Food",
+    "diet_type": "non-veg",
+    "tags": [
+      "light"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 364,
+    "restaurant_id": 45,
+    "name": "Classic Burger",
+    "price": 146,
+    "cuisine": "Fast Food",
+    "diet_type": "non-veg",
+    "tags": [
+      "comfort",
+      "heavy"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 365,
+    "restaurant_id": 46,
+    "name": "Crab Roast",
+    "price": 543,
+    "cuisine": "Seafood",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "heavy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 366,
+    "restaurant_id": 46,
+    "name": "Fish Curry",
+    "price": 274,
+    "cuisine": "Seafood",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "traditional"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 367,
+    "restaurant_id": 46,
+    "name": "Fish Fry",
+    "price": 286,
+    "cuisine": "Seafood",
+    "diet_type": "non-veg",
+    "tags": [
+      "comfort",
+      "protein-rich"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 368,
+    "restaurant_id": 46,
+    "name": "Prawn Masala",
+    "price": 417,
+    "cuisine": "Seafood",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "protein-rich"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 369,
+    "restaurant_id": 46,
+    "name": "Chicken Penne Arrabiata",
+    "price": 404,
+    "cuisine": "Italian",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy"
+    ],
+    "meal_time": "dinner",
+    "offer": {
+      "type": "percent_off",
+      "label": "30% OFF",
+      "value": 30
+    }
+  },
+  {
+    "id": 370,
+    "restaurant_id": 46,
+    "name": "Bruschetta",
+    "price": 179,
+    "cuisine": "Italian",
+    "diet_type": "veg",
+    "tags": [
+      "light",
+      "healthy"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 371,
+    "restaurant_id": 46,
+    "name": "Garlic Bread",
+    "price": 83,
+    "cuisine": "Italian",
+    "diet_type": "veg",
+    "tags": [
+      "light"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 372,
+    "restaurant_id": 46,
+    "name": "Margherita Pizza",
+    "price": 284,
+    "cuisine": "Italian",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 373,
+    "restaurant_id": 46,
+    "name": "Dragon Chicken",
+    "price": 246,
+    "cuisine": "Chinese",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "fusion"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 374,
+    "restaurant_id": 46,
+    "name": "Chilli Chicken",
+    "price": 322,
+    "cuisine": "Chinese",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "protein-rich"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 375,
+    "restaurant_id": 46,
+    "name": "Schezwan Noodles",
+    "price": 154,
+    "cuisine": "Chinese",
+    "diet_type": "veg",
+    "tags": [
+      "spicy"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 376,
+    "restaurant_id": 47,
+    "name": "Avocado Toast",
+    "price": 235,
+    "cuisine": "Continental",
+    "diet_type": "vegan",
+    "tags": [
+      "healthy",
+      "light"
+    ],
+    "meal_time": "breakfast",
+    "offer": null
+  },
+  {
+    "id": 377,
+    "restaurant_id": 47,
+    "name": "Quinoa Bowl",
+    "price": 278,
+    "cuisine": "Continental",
+    "diet_type": "vegan",
+    "tags": [
+      "healthy",
+      "protein-rich",
+      "gluten-free",
+      "keto"
+    ],
+    "meal_time": "lunch",
+    "offer": null
+  },
+  {
+    "id": 378,
+    "restaurant_id": 47,
+    "name": "Grilled Fish",
+    "price": 414,
+    "cuisine": "Continental",
+    "diet_type": "non-veg",
+    "tags": [
+      "healthy",
+      "protein-rich",
+      "low-calorie"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 379,
+    "restaurant_id": 47,
+    "name": "Pasta Alfredo",
+    "price": 302,
+    "cuisine": "Italian",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "heavy"
+    ],
+    "meal_time": "dinner",
+    "offer": {
+      "type": "percent_off",
+      "label": "15% OFF",
+      "value": 15
+    }
+  },
+  {
+    "id": 380,
+    "restaurant_id": 47,
+    "name": "Garlic Bread",
+    "price": 159,
+    "cuisine": "Italian",
+    "diet_type": "veg",
+    "tags": [
+      "light"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 381,
+    "restaurant_id": 47,
+    "name": "Bruschetta",
+    "price": 195,
+    "cuisine": "Italian",
+    "diet_type": "veg",
+    "tags": [
+      "light",
+      "healthy"
+    ],
+    "meal_time": "snack",
+    "offer": {
+      "type": "flat_off",
+      "label": "₹30 OFF",
+      "value": 30
+    }
+  },
+  {
+    "id": 382,
+    "restaurant_id": 48,
+    "name": "Bruschetta",
+    "price": 171,
+    "cuisine": "Italian",
+    "diet_type": "veg",
+    "tags": [
+      "light",
+      "healthy"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 383,
+    "restaurant_id": 48,
+    "name": "Chicken Penne Arrabiata",
+    "price": 312,
+    "cuisine": "Italian",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy"
+    ],
+    "meal_time": "dinner",
+    "offer": {
+      "type": "percent_off",
+      "label": "25% OFF",
+      "value": 25
+    }
+  },
+  {
+    "id": 384,
+    "restaurant_id": 48,
+    "name": "Garlic Bread",
+    "price": 92,
+    "cuisine": "Italian",
+    "diet_type": "veg",
+    "tags": [
+      "light"
+    ],
+    "meal_time": "snack",
+    "offer": null
+  },
+  {
+    "id": 385,
+    "restaurant_id": 48,
+    "name": "Margherita Pizza",
+    "price": 321,
+    "cuisine": "Italian",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 386,
+    "restaurant_id": 48,
+    "name": "Mushroom Soup",
+    "price": 193,
+    "cuisine": "Continental",
+    "diet_type": "veg",
+    "tags": [
+      "light",
+      "healthy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 387,
+    "restaurant_id": 48,
+    "name": "Quinoa Bowl",
+    "price": 388,
+    "cuisine": "Continental",
+    "diet_type": "vegan",
+    "tags": [
+      "healthy",
+      "protein-rich",
+      "gluten-free",
+      "keto"
+    ],
+    "meal_time": "lunch",
+    "offer": {
+      "type": "percent_off",
+      "label": "30% OFF",
+      "value": 30
+    }
+  },
+  {
+    "id": 388,
+    "restaurant_id": 48,
+    "name": "Grilled Chicken Salad",
+    "price": 306,
+    "cuisine": "Continental",
+    "diet_type": "non-veg",
+    "tags": [
+      "healthy",
+      "light",
+      "low-calorie",
+      "protein-rich"
+    ],
+    "meal_time": "lunch",
+    "offer": {
+      "type": "flat_off",
+      "label": "₹30 OFF",
+      "value": 30
+    }
+  },
+  {
+    "id": 389,
+    "restaurant_id": 48,
+    "name": "Avocado Toast",
+    "price": 262,
+    "cuisine": "Continental",
+    "diet_type": "vegan",
+    "tags": [
+      "healthy",
+      "light"
+    ],
+    "meal_time": "breakfast",
+    "offer": null
+  },
+  {
+    "id": 390,
+    "restaurant_id": 48,
+    "name": "Grilled Fish",
+    "price": 363,
+    "cuisine": "Continental",
+    "diet_type": "non-veg",
+    "tags": [
+      "healthy",
+      "protein-rich",
+      "low-calorie"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 391,
+    "restaurant_id": 49,
+    "name": "Chicken Tikka",
+    "price": 207,
+    "cuisine": "North Indian",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "protein-rich"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 392,
+    "restaurant_id": 49,
+    "name": "Aloo Paratha",
+    "price": 84,
+    "cuisine": "North Indian",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "heavy"
+    ],
+    "meal_time": "breakfast",
+    "offer": null
+  },
+  {
+    "id": 393,
+    "restaurant_id": 49,
+    "name": "Butter Chicken",
+    "price": 370,
+    "cuisine": "North Indian",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "comfort",
+      "heavy"
+    ],
+    "meal_time": "dinner",
+    "offer": {
+      "type": "flat_off",
+      "label": "₹30 OFF",
+      "value": 30
+    }
+  },
+  {
+    "id": 394,
+    "restaurant_id": 49,
+    "name": "Naan",
+    "price": 55,
+    "cuisine": "Mughlai",
+    "diet_type": "veg",
+    "tags": [
+      "light"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 395,
+    "restaurant_id": 49,
+    "name": "Shahi Paneer",
+    "price": 263,
+    "cuisine": "Mughlai",
+    "diet_type": "veg",
+    "tags": [
+      "comfort",
+      "traditional"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 396,
+    "restaurant_id": 49,
+    "name": "Mutton Korma",
+    "price": 368,
+    "cuisine": "Mughlai",
+    "diet_type": "non-veg",
+    "tags": [
+      "heavy",
+      "traditional"
+    ],
+    "meal_time": "dinner",
+    "offer": {
+      "type": "percent_off",
+      "label": "20% OFF",
+      "value": 20
+    }
+  },
+  {
+    "id": 397,
+    "restaurant_id": 49,
+    "name": "Kebab Platter",
+    "price": 374,
+    "cuisine": "Mughlai",
+    "diet_type": "non-veg",
+    "tags": [
+      "protein-rich",
+      "spicy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 398,
+    "restaurant_id": 50,
+    "name": "Chicken Fried Rice",
+    "price": 199,
+    "cuisine": "Chinese",
+    "diet_type": "non-veg",
+    "tags": [
+      "comfort",
+      "heavy"
+    ],
+    "meal_time": "lunch",
+    "offer": {
+      "type": "percent_off",
+      "label": "10% OFF",
+      "value": 10
+    }
+  },
+  {
+    "id": 399,
+    "restaurant_id": 50,
+    "name": "Chilli Chicken",
+    "price": 313,
+    "cuisine": "Chinese",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "protein-rich"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 400,
+    "restaurant_id": 50,
+    "name": "Hakka Noodles",
+    "price": 217,
+    "cuisine": "Chinese",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "all-day",
+    "offer": null
+  },
+  {
+    "id": 401,
+    "restaurant_id": 50,
+    "name": "Veg Biryani",
+    "price": 192,
+    "cuisine": "Biryani",
+    "diet_type": "veg",
+    "tags": [
+      "comfort"
+    ],
+    "meal_time": "lunch",
+    "offer": {
+      "type": "percent_off",
+      "label": "15% OFF",
+      "value": 15
+    }
+  },
+  {
+    "id": 402,
+    "restaurant_id": 50,
+    "name": "Chicken 65 Biryani",
+    "price": 384,
+    "cuisine": "Biryani",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy"
+    ],
+    "meal_time": "dinner",
+    "offer": null
+  },
+  {
+    "id": 403,
+    "restaurant_id": 50,
+    "name": "Hyderabadi Dum Biryani",
+    "price": 297,
+    "cuisine": "Biryani",
+    "diet_type": "non-veg",
+    "tags": [
+      "spicy",
+      "heavy",
+      "traditional"
+    ],
+    "meal_time": "lunch",
+    "offer": {
+      "type": "percent_off",
+      "label": "15% OFF",
+      "value": 15
+    }
+  }
+]

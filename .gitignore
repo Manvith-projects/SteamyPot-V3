@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment files
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+AI-Layer/.env
+
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+AI-Layer/Ai-layer/
+
+# Build outputs
+dist/
+build/
+frontend/dist/
+AI-Layer/**/outputs/
+AI-Layer/**/cache/
+AI-Layer/**/pipeline_log.txt
+AI-Layer/**/.checkpoints
+
+# Logs
+*.log
+logs/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

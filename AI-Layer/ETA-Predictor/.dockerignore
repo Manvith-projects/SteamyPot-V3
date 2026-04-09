@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+Ai-layer/
+.venv/
+venv/
+env/
+.env
+cache/
+*.graphml
+node_modules/
+.git/
+*.egg-info/
+dist/
+build/

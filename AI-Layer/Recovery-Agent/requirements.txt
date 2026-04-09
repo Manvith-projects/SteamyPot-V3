@@ -1,0 +1,11 @@
+# Autonomous Customer Recovery Agent — Dependencies
+# ===================================================
+# Event-driven agent: Monitor → Classify → Decide → Act
+
+# Web framework
+fastapi>=0.110.0
+uvicorn>=0.27.0
+pydantic>=2.5.0
+
+# Utilities (likely already installed)
+numpy>=1.24.0

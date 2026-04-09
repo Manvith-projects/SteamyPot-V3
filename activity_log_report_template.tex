@@ -1,0 +1,901 @@
+\documentclass[12pt,a4paper]{report}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{times}
+\usepackage{longtable}
+
+\titleformat{\chapter}{\normalfont\fontsize{16}{19}\bfseries}{\thechapter.}{1em}{}
+\titleformat{\section}{\normalfont\fontsize{14}{17}\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\fontsize{12}{14}\bfseries}{\thesubsection}{1em}{}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+    citecolor=blue
+}
+
+\onehalfspacing
+
+\newcommand{\ReportTitle}{MERN Stack Food Delivery Platform with Modular Full-Stack Architecture}
+\newcommand{\StudentName}{<YOUR NAME>}
+\newcommand{\RollNo}{<YOUR ROLL NUMBER>}
+\newcommand{\DepartmentName}{Department of Computer Science and Engineering}
+\newcommand{\CollegeName}{<YOUR COLLEGE NAME>}
+\newcommand{\UniversityName}{<YOUR UNIVERSITY NAME>}
+\newcommand{\GuideName}{<GUIDE NAME>}
+\newcommand{\AcademicYear}{2025--2026}
+
+\begin{document}
+
+%---------------------------- TITLE PAGE ----------------------------%
+\begin{titlepage}
+    \centering
+    \vspace*{1.5cm}
+    {\Large \textbf{\UniversityName} \par}
+    \vspace{1.0cm}
+    {\large \textbf{Final Year Project Report} \par}
+    \vspace{0.8cm}
+    {\large Submitted in partial fulfillment of the requirements for the award of the degree of \par}
+    {\large \textbf{Bachelor of Technology in Computer Science and Engineering} \par}
+    \vspace{1.5cm}
+    {\LARGE \textbf{\ReportTitle} \par}
+    \vspace{1.8cm}
+    \begin{flushleft}
+        \textbf{Submitted by:} \\
+        \StudentName \\
+        Roll No: \RollNo \\
+        \vspace{0.5cm}
+        \DepartmentName \\
+        \CollegeName
+    \end{flushleft}
+    \vspace{1.3cm}
+    \begin{flushleft}
+        \textbf{Under the Guidance of:} \\
+        \GuideName
+    \end{flushleft}
+    \vfill
+    {\large \textbf{Academic Year:} \AcademicYear \par}
+\end{titlepage}
+
+\pagenumbering{roman}
+
+%---------------------------- CERTIFICATE ----------------------------%
+\chapter*{Certificate}
+\addcontentsline{toc}{chapter}{Certificate}
+
+This is to certify that the project report entitled \textbf{``\ReportTitle''} is a bona fide record of work carried out by \textbf{\StudentName} (Roll No: \textbf{\RollNo}), under the supervision of \textbf{\GuideName}, in the \textbf{\DepartmentName}, \textbf{\CollegeName}, during the academic year \textbf{\AcademicYear}.
+
+\vspace{0.5cm}
+The work presented in this report is original and has not been submitted, either in part or full, for the award of any other degree or diploma.
+
+\vspace{1.8cm}
+\noindent
+\begin{tabular}{p{0.45\textwidth} p{0.45\textwidth}}
+\textbf{Project Guide} & \textbf{Head of Department} \\
+\GuideName & <HOD NAME> \\
+\vspace{1.2cm} & \\
+Signature & Signature \\
+Date: <DD/MM/YYYY> & Date: <DD/MM/YYYY> \\
+\end{tabular}
+
+%---------------------------- DECLARATION ----------------------------%
+\chapter*{Declaration}
+\addcontentsline{toc}{chapter}{Declaration}
+
+I hereby declare that the report entitled \textbf{``\ReportTitle''} submitted by me is an original work carried out under the guidance of \textbf{\GuideName}. I further declare that this report has not been submitted to any other university or institution for the award of any degree or diploma.
+
+\vspace{1.5cm}
+\noindent
+\begin{tabular}{p{0.6\textwidth} p{0.35\textwidth}}
+\textbf{Name:} \StudentName & \textbf{Roll No:} \RollNo \\
+\vspace{0.8cm} & \\
+\textbf{Signature of Student} & \textbf{Date:} <DD/MM/YYYY> \\
+\end{tabular}
+
+%---------------------------- ACKNOWLEDGEMENT ----------------------------%
+\chapter*{Acknowledgement}
+\addcontentsline{toc}{chapter}{Acknowledgement}
+
+I express my sincere gratitude to \textbf{\GuideName} for valuable guidance, motivation, and continuous support throughout the project. I also thank the faculty members of \textbf{\DepartmentName}, \textbf{\CollegeName}, for providing the resources and academic environment required to complete this work successfully.
+
+I extend my appreciation to my peers for their constructive feedback during implementation and testing phases. Finally, I thank my family for their constant encouragement and support.
+
+\clearpage
+
+% Abstract (shown in TOC as unnumbered chapter)
+\chapter*{Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+This report presents the design and implementation of a full-stack food delivery platform built entirely on the MERN stack with modular architecture principles. The system includes customer, restaurant, and delivery workflows such as registration, login, menu browsing, cart management, order placement, payment flow simulation, order status tracking, and admin-side order control. The goal of the project is to improve usability, reliability, and maintainability while supporting practical deployment needs.
+
+The backend layer is implemented with Node.js and Express, the frontend uses React with Vite, and MongoDB stores application data such as users, restaurants, carts, and orders. Real-time updates are handled using Socket.IO, and containerization is performed using Docker with docker-compose support for local multi-service setup.
+
+The project follows an iterative build-and-validate workflow. Core modules are built first, followed by API integration, UI refinements, testing, and deployment preparation. This document includes the activity log, implementation details, prerequisites, package requirements, architecture milestones, and supplementary appendices to support reproducibility.
+
+\tableofcontents
+\clearpage
+
+\pagenumbering{arabic}
+
+\chapter{ACTIVITY LOG AND REPORT}
+This chapter records day-wise progress carried out during the project lifecycle. It captures implementation activities, practical challenges, and learning outcomes achieved through each stage.
+
+\section*{ACTIVITY LOG FOR FIRST WEEK(FROM: 06/01/26 TO: 10/01/26)}
+\begin{longtable}{|p{2.2cm}|p{5.2cm}|p{4.3cm}|p{3.2cm}|}
+\hline
+\textbf{DAY \& DATE} & \textbf{BRIEF DESCRIPTION OF THE DAILY ACTIVITY} & \textbf{LEARNING OUTCOME} & \textbf{PERSON IN- CHARGE} \\
+\hline
+MONDAY (06/01/2026) & Finalized project scope, user roles, and feature boundaries for the MERN platform. & Learned how strong planning reduces implementation rework. & Student Developer \\
+\hline
+TUESDAY (07/01/2026) & Created repository structure for frontend, backend, and shared documentation. & Learned the value of modular directory standards. & Student Developer \\
+\hline
+WEDNESDAY (08/01/2026) & Configured backend server bootstrap, environment variables, and base middleware. & Learned practical setup of secure and scalable server foundations. & Student Developer \\
+\hline
+THURSDAY (09/01/2026) & Designed initial MongoDB schema drafts for users, restaurants, and orders. & Learned schema decisions that improve maintainability. & Student Developer \\
+\hline
+FRIDAY (10/01/2026) & Initialized React app layout and route skeleton for main pages. & Learned early route planning for cleaner frontend growth. & Student Developer \\
+\hline
+\end{longtable}
+
+WEEKLY REPORT
+WEEK - 1 (06-01-2026 to 10-01-2026)
+
+Project Scoping and Requirement Mapping:
+This week focused on defining the complete project scope and role boundaries for customer, admin, and delivery-side operations. Functional requirements were translated into a practical module plan so each implementation phase could be tracked and validated without ambiguity.
+
+Repository and Architecture Foundation:
+A modular repository layout was established to separate backend, frontend, and documentation concerns. The backend bootstrap was configured with environment support and middleware structure, while frontend route skeletons were initialized for predictable navigation design.
+
+Initial Data Modeling:
+Core MongoDB schema ideas for users, restaurants, and orders were drafted to support future CRUD and workflow modules. The outcome of this week was a stable foundation that reduced implementation risk in subsequent weeks.
+
+Challenges Faced and Resolution:
+The main challenge this week was balancing future scalability with simple initial implementation. To solve this, collections and route groups were structured with extension in mind, so later features could be added without breaking existing module boundaries.
+
+Outcome of the Week:
+By week end, the project moved from idea stage to implementation-ready stage with clear architecture direction, coding conventions, and task distribution for the upcoming modules.
+
+\section*{ACTIVITY LOG FOR SECOND WEEK(FROM: 13/01/26 TO: 17/01/26)}
+\begin{longtable}{|p{2.2cm}|p{5.2cm}|p{4.3cm}|p{3.2cm}|}
+\hline
+\textbf{DAY \& DATE} & \textbf{BRIEF DESCRIPTION OF THE DAILY ACTIVITY} & \textbf{LEARNING OUTCOME} & \textbf{PERSON IN- CHARGE} \\
+\hline
+MONDAY (13/01/2026) & Implemented user registration endpoint with input validation rules. & Learned robust validation improves data quality at source. & Student Developer \\
+\hline
+TUESDAY (14/01/2026) & Implemented login API with password hash verification and token generation. & Learned secure authentication flow design patterns. & Student Developer \\
+\hline
+WEDNESDAY (15/01/2026) & Added JWT middleware and tested protected backend routes. & Learned route guarding and token verification lifecycle. & Student Developer \\
+\hline
+THURSDAY (16/01/2026) & Built frontend authentication pages and API integration for login/signup. & Learned consistent request handling with loading/error states. & Student Developer \\
+\hline
+FRIDAY (17/01/2026) & Implemented logout handling and persistent auth state in client storage. & Learned safe session management on the frontend. & Student Developer \\
+\hline
+\end{longtable}
+
+WEEKLY REPORT
+WEEK - 2 (13-01-2026 to 17-01-2026)
+
+Authentication Lifecycle Design:
+The major objective of this week was to build secure authentication flow. Registration and login APIs were implemented with proper input validation, password hashing, and credential verification.
+
+JWT-Based Access Control:
+JWT middleware was introduced to protect sensitive routes and enforce authenticated access across backend modules. Token verification and authorization checks were tested under valid and invalid scenarios.
+
+Frontend Auth Integration:
+Login and signup pages were integrated with backend APIs, including error and loading states. Logout handling and persistent session behavior were added to complete end-to-end user authentication.
+
+Challenges Faced and Resolution:
+Token expiry and invalid credential flows initially caused inconsistent UI state transitions. This was resolved by introducing centralized error handling on client API calls and redirect guards for unauthorized access.
+
+Outcome of the Week:
+Authentication became fully functional from UI to backend, enabling secure progression into business modules without exposing protected routes.
+
+\section*{ACTIVITY LOG FOR THIRD WEEK(FROM: 20/01/26 TO: 24/01/26)}
+\begin{longtable}{|p{2.2cm}|p{5.2cm}|p{4.3cm}|p{3.2cm}|}
+\hline
+\textbf{DAY \& DATE} & \textbf{BRIEF DESCRIPTION OF THE DAILY ACTIVITY} & \textbf{LEARNING OUTCOME} & \textbf{PERSON IN- CHARGE} \\
+\hline
+MONDAY (20/01/2026) & Developed restaurant CRUD APIs for admin-facing operations. & Learned modular controller-service organization. & Student Developer \\
+\hline
+TUESDAY (21/01/2026) & Added menu item and category endpoints with relationship mapping. & Learned nested data modeling with Mongoose references. & Student Developer \\
+\hline
+WEDNESDAY (22/01/2026) & Built restaurant listing page with category filters and search support. & Learned UX improvements through filtered data rendering. & Student Developer \\
+\hline
+THURSDAY (23/01/2026) & Implemented menu details page with dynamic route parameters. & Learned route-driven page composition in React. & Student Developer \\
+\hline
+FRIDAY (24/01/2026) & Validated restaurant and menu workflows using sample seeded data. & Learned importance of realistic test data for UI checks. & Student Developer \\
+\hline
+\end{longtable}
+
+WEEKLY REPORT
+WEEK - 3 (20-01-2026 to 24-01-2026)
+
+Restaurant Domain Implementation:
+This week concentrated on restaurant and menu management modules. CRUD operations were built for restaurant records, and category/menu endpoints were added to support practical admin-side content updates.
+
+Menu Data Flow and UI Rendering:
+Frontend listing pages were developed with category filtering and search support. Dynamic route-driven menu detail pages were integrated to enable smooth user navigation across restaurant catalogs.
+
+Module Validation:
+Sample seeded data was used to verify API behavior and UI rendering consistency. This week produced a functional restaurant discovery and menu browsing pipeline.
+
+Challenges Faced and Resolution:
+Some responses from menu and category endpoints required structure normalization for frontend reuse. The issue was solved by aligning response contracts and creating reusable mapping logic in UI components.
+
+Outcome of the Week:
+A complete restaurant browsing experience was established, with admin-controlled content reflected correctly in user-facing screens.
+
+\section*{ACTIVITY LOG FOR FOURTH WEEK(FROM: 27/01/26 TO: 31/01/26)}
+\begin{longtable}{|p{2.2cm}|p{5.2cm}|p{4.3cm}|p{3.2cm}|}
+\hline
+\textbf{DAY \& DATE} & \textbf{BRIEF DESCRIPTION OF THE DAILY ACTIVITY} & \textbf{LEARNING OUTCOME} & \textbf{PERSON IN- CHARGE} \\
+\hline
+MONDAY (27/01/2026) & Created cart schema and backend APIs for add/remove item actions. & Learned clear cart lifecycle modeling patterns. & Student Developer \\
+\hline
+TUESDAY (28/01/2026) & Added quantity update endpoint and subtotal recalculation logic. & Learned consistency techniques for pricing calculations. & Student Developer \\
+\hline
+WEDNESDAY (29/01/2026) & Connected cart APIs to frontend with optimistic UI updates. & Learned balancing responsiveness and API confirmation. & Student Developer \\
+\hline
+THURSDAY (30/01/2026) & Implemented cart summary UI including taxes and delivery charges. & Learned composable UI sections for checkout readiness. & Student Developer \\
+\hline
+FRIDAY (31/01/2026) & Performed unit checks on cart edge cases and invalid quantity updates. & Learned defensive handling of input anomalies. & Student Developer \\
+\hline
+\end{longtable}
+
+WEEKLY REPORT
+WEEK - 4 (27-01-2026 to 31-01-2026)
+
+Cart Lifecycle Engineering:
+The cart module was designed with schema and API support for item addition, removal, and quantity updates. Special focus was given to predictable state transitions to avoid inconsistency between client and server data.
+
+Pricing and Checkout Preparation:
+Subtotal recalculation logic and cart summary UI were implemented with tax and delivery charge components. Optimistic updates were introduced to improve user responsiveness without compromising backend confirmation.
+
+Quality Checks:
+Boundary and invalid quantity scenarios were tested to confirm defensive behavior. The week concluded with a stable cart management experience ready for order conversion.
+
+Challenges Faced and Resolution:
+Maintaining subtotal accuracy during rapid quantity updates was a key challenge. Debounced update handling and server-side recalculation validation were added to eliminate mismatch between displayed and persisted values.
+
+Outcome of the Week:
+The cart system became robust and dependable, providing a reliable base for checkout and order creation workflows.
+
+\section*{ACTIVITY LOG FOR FIFTH WEEK(FROM: 03/02/26 TO: 07/02/26)}
+\begin{longtable}{|p{2.2cm}|p{5.2cm}|p{4.3cm}|p{3.2cm}|}
+\hline
+\textbf{DAY \& DATE} & \textbf{BRIEF DESCRIPTION OF THE DAILY ACTIVITY} & \textbf{LEARNING OUTCOME} & \textbf{PERSON IN- CHARGE} \\
+\hline
+MONDAY (03/02/2026) & Implemented order placement API with cart-to-order conversion flow. & Learned transactional sequencing for order creation. & Student Developer \\
+\hline
+TUESDAY (04/02/2026) & Added order history and order detail endpoints for users. & Learned pagination and query optimization basics. & Student Developer \\
+\hline
+WEDNESDAY (05/02/2026) & Built checkout and order confirmation pages on frontend. & Learned structured confirmation flows improve trust. & Student Developer \\
+\hline
+THURSDAY (06/02/2026) & Implemented order status transition endpoints for admin operations. & Learned controlled state machine style transitions. & Student Developer \\
+\hline
+FRIDAY (07/02/2026) & Verified complete order lifecycle from add-to-cart to delivered state. & Learned end-to-end scenario testing discipline. & Student Developer \\
+\hline
+\end{longtable}
+
+WEEKLY REPORT
+WEEK - 5 (03-02-2026 to 07-02-2026)
+
+Order Workflow Construction:
+This phase transformed cart data into formal order records through a dedicated placement pipeline. Backend logic was structured to maintain sequence integrity from checkout to saved order state.
+
+User and Admin Order Views:
+Order history and detail endpoints were added for users, while admin-facing status transition APIs were implemented for operations control. Frontend checkout and confirmation pages were connected to these APIs.
+
+End-to-End Validation:
+Complete add-to-cart to delivered-state flow was tested in realistic scenarios. This week delivered a complete functional order management backbone.
+
+Challenges Faced and Resolution:
+Order status progression rules required strict transition control to avoid invalid state jumps. Validation rules were added in status-update endpoints to ensure transitions only occur in logical sequence.
+
+Outcome of the Week:
+The project reached a significant milestone with complete order lifecycle support from checkout initiation to delivery completion.
+
+\section*{ACTIVITY LOG FOR SIXTH WEEK(FROM: 10/02/26 TO: 14/02/26)}
+\begin{longtable}{|p{2.2cm}|p{5.2cm}|p{4.3cm}|p{3.2cm}|}
+\hline
+\textbf{DAY \& DATE} & \textbf{BRIEF DESCRIPTION OF THE DAILY ACTIVITY} & \textbf{LEARNING OUTCOME} & \textbf{PERSON IN- CHARGE} \\
+\hline
+MONDAY (10/02/2026) & Integrated Socket.IO server events for order status updates. & Learned event-driven architecture for live updates. & Student Developer \\
+\hline
+TUESDAY (11/02/2026) & Added client socket listeners and UI refresh on order changes. & Learned reliable real-time UI synchronization patterns. & Student Developer \\
+\hline
+WEDNESDAY (12/02/2026) & Implemented reconnection handling for temporary socket disconnects. & Learned resilience techniques in real-time channels. & Student Developer \\
+\hline
+THURSDAY (13/02/2026) & Tested multiple-session update propagation across user and admin pages. & Learned concurrent client event consistency checks. & Student Developer \\
+\hline
+FRIDAY (14/02/2026) & Optimized event payloads to reduce redundant client re-renders. & Learned performance awareness in websocket messaging. & Student Developer \\
+\hline
+\end{longtable}
+
+WEEKLY REPORT
+WEEK - 6 (10-02-2026 to 14-02-2026)
+
+Real-Time Communication Setup:
+This week focused on enabling real-time order updates using Socket.IO. Server-side event emission and client-side listeners were integrated to reflect status changes instantly.
+
+Reliability and Session Consistency:
+Reconnection handling and multi-session propagation were validated to ensure that users and admins receive synchronized updates even under temporary network interruptions.
+
+Performance Improvements:
+Event payload size and frequency were refined to reduce unnecessary rerenders on the frontend. The outcome was a stable and responsive live order tracking experience.
+
+Challenges Faced and Resolution:
+Socket reconnection behavior occasionally produced duplicated update events. Event de-duplication checks and listener cleanup logic were implemented to maintain consistent UI behavior.
+
+Outcome of the Week:
+Real-time features became production-like in responsiveness and reliability, improving overall user trust in order status visibility.
+
+\section*{ACTIVITY LOG FOR SEVENTH WEEK(FROM: 17/02/26 TO: 21/02/26)}
+\begin{longtable}{|p{2.2cm}|p{5.2cm}|p{4.3cm}|p{3.2cm}|}
+\hline
+\textbf{DAY \& DATE} & \textbf{BRIEF DESCRIPTION OF THE DAILY ACTIVITY} & \textbf{LEARNING OUTCOME} & \textbf{PERSON IN- CHARGE} \\
+\hline
+MONDAY (17/02/2026) & Built admin dashboard shell with protected navigation routes. & Learned role-based navigation management. & Student Developer \\
+\hline
+TUESDAY (18/02/2026) & Added admin order monitoring table with status filters. & Learned data-table design for operational visibility. & Student Developer \\
+\hline
+WEDNESDAY (19/02/2026) & Implemented restaurant and menu management pages for admins. & Learned reuse of form components across modules. & Student Developer \\
+\hline
+THURSDAY (20/02/2026) & Added user management view with account status actions. & Learned safe administrative action constraints. & Student Developer \\
+\hline
+FRIDAY (21/02/2026) & Completed dashboard UI refinements and role-based access checks. & Learned cohesive admin UX structuring. & Student Developer \\
+\hline
+\end{longtable}
+
+WEEKLY REPORT
+WEEK - 7 (17-02-2026 to 21-02-2026)
+
+Admin Dashboard Development:
+The primary objective this week was to create an operational admin workspace. Protected navigation and role-aware access patterns were implemented to isolate administrative capabilities from customer routes.
+
+Operations Visibility Features:
+Order monitoring tables with status filters were introduced to improve operational tracking. Additional pages for restaurant/menu management and user administration were completed.
+
+Usability Refinement:
+Layout and interaction improvements were applied to support efficient admin workflows. The week ended with a usable control panel for operational management.
+
+Challenges Faced and Resolution:
+Admin actions needed clarity to prevent accidental updates to menus and statuses. Confirmation prompts and stricter action labeling were introduced for safer operations.
+
+Outcome of the Week:
+An operationally useful and role-protected admin console was delivered, enabling better system control and monitoring.
+
+\section*{ACTIVITY LOG FOR EIGHTH WEEK(FROM: 24/02/26 TO: 28/02/26)}
+\begin{longtable}{|p{2.2cm}|p{5.2cm}|p{4.3cm}|p{3.2cm}|}
+\hline
+\textbf{DAY \& DATE} & \textbf{BRIEF DESCRIPTION OF THE DAILY ACTIVITY} & \textbf{LEARNING OUTCOME} & \textbf{PERSON IN- CHARGE} \\
+\hline
+MONDAY (24/02/2026) & Standardized backend error response format across all APIs. & Learned consistent error contracts simplify frontend handling. & Student Developer \\
+\hline
+TUESDAY (25/02/2026) & Added centralized error middleware and route-level try-catch cleanup. & Learned maintainable exception flow design. & Student Developer \\
+\hline
+WEDNESDAY (26/02/2026) & Implemented frontend form validations for auth, cart, and checkout pages. & Learned preventing invalid submissions at UI level. & Student Developer \\
+\hline
+THURSDAY (27/02/2026) & Improved feedback UX with inline messages and toast notifications. & Learned user-centric error communication methods. & Student Developer \\
+\hline
+FRIDAY (28/02/2026) & Re-tested all major forms using invalid and boundary value inputs. & Learned systematic validation test coverage. & Student Developer \\
+\hline
+\end{longtable}
+
+WEEKLY REPORT
+WEEK - 8 (24-02-2026 to 28-02-2026)
+
+Error Handling Standardization:
+This week concentrated on reliability and consistency across API responses. A centralized error middleware and unified response contract were implemented to simplify debugging and frontend handling.
+
+Validation and Feedback Improvements:
+Frontend forms were strengthened with better validation coverage for authentication, cart, and checkout pages. User feedback was improved using clearer inline messages and notification patterns.
+
+Quality Re-Verification:
+Boundary-value and invalid-input test passes were executed again to confirm robustness. The final outcome was cleaner error communication and fewer UI-level failures.
+
+Challenges Faced and Resolution:
+Error messages across modules were initially inconsistent in tone and format. A common response template and frontend message parser were implemented to standardize user-visible errors.
+
+Outcome of the Week:
+The platform became significantly more stable and user-friendly, with predictable behavior under valid and invalid inputs.
+
+\section*{ACTIVITY LOG FOR NINTH WEEK(FROM: 03/03/26 TO: 07/03/26)}
+\begin{longtable}{|p{2.2cm}|p{5.2cm}|p{4.3cm}|p{3.2cm}|}
+\hline
+\textbf{DAY \& DATE} & \textbf{BRIEF DESCRIPTION OF THE DAILY ACTIVITY} & \textbf{LEARNING OUTCOME} & \textbf{PERSON IN- CHARGE} \\
+\hline
+MONDAY (03/03/2026) & Added API rate-limit and basic security hardening middleware. & Learned practical endpoint abuse protection. & Student Developer \\
+\hline
+TUESDAY (04/03/2026) & Reviewed JWT expiry behavior and refresh login prompts in frontend. & Learned secure session expiration handling. & Student Developer \\
+\hline
+WEDNESDAY (05/03/2026) & Audited route permissions for customer and admin modules. & Learned strict authorization mapping by role. & Student Developer \\
+\hline
+THURSDAY (06/03/2026) & Cleaned unused routes/components and refactored utility helpers. & Learned maintainability improvements through refactoring. & Student Developer \\
+\hline
+FRIDAY (07/03/2026) & Updated coding standards and inline docs for major modules. & Learned documentation improves team onboarding. & Student Developer \\
+\hline
+\end{longtable}
+
+WEEKLY REPORT
+WEEK - 9 (03-03-2026 to 07-03-2026)
+
+Security Hardening Activities:
+API-level protections were enhanced using rate-limiting and additional middleware constraints. Session expiry behavior and permission boundaries were reviewed to reduce unauthorized access risk.
+
+Authorization and Code Hygiene:
+Route permissions were audited for all customer and admin operations. Refactoring of utilities and removal of unused code improved readability and long-term maintainability.
+
+Documentation Improvements:
+Coding standards and inline documentation were updated to support future developers and reduce onboarding overhead.
+
+Challenges Faced and Resolution:
+Some helper functions were duplicated across modules, increasing maintenance effort. Shared utilities were consolidated and naming conventions were unified for clarity.
+
+Outcome of the Week:
+Security posture and maintainability improved together, reducing long-term technical debt while preserving delivery velocity.
+
+\section*{ACTIVITY LOG FOR TENTH WEEK(FROM: 10/03/26 TO: 14/03/26)}
+\begin{longtable}{|p{2.2cm}|p{5.2cm}|p{4.3cm}|p{3.2cm}|}
+\hline
+\textbf{DAY \& DATE} & \textbf{BRIEF DESCRIPTION OF THE DAILY ACTIVITY} & \textbf{LEARNING OUTCOME} & \textbf{PERSON IN- CHARGE} \\
+\hline
+MONDAY (10/03/2026) & Created Dockerfiles for backend and frontend services. & Learned multi-stage build basics and image optimization. & Student Developer \\
+\hline
+TUESDAY (11/03/2026) & Configured docker-compose networking, volumes, and environment mapping. & Learned service orchestration with shared network context. & Student Developer \\
+\hline
+WEDNESDAY (12/03/2026) & Validated container startup sequence with database dependency checks. & Learned dependency ordering for stable bootstrapping. & Student Developer \\
+\hline
+THURSDAY (13/03/2026) & Fixed container-related CORS and API URL configuration issues. & Learned environment-driven endpoint configuration. & Student Developer \\
+\hline
+FRIDAY (14/03/2026) & Documented local and containerized run instructions in report notes. & Learned reproducibility through clear runbooks. & Student Developer \\
+\hline
+\end{longtable}
+
+WEEKLY REPORT
+WEEK - 10 (10-03-2026 to 14-03-2026)
+
+Containerization and Deployment Setup:
+This week focused on creating reproducible execution environments for the complete MERN stack. Dockerfiles were prepared for backend and frontend, and service orchestration was configured through docker-compose.
+
+Environment Integration:
+Network wiring, volume mapping, and environment variable injection were validated. Startup sequencing with database readiness checks helped prevent runtime initialization issues.
+
+Operational Documentation:
+Runbooks for local and container-based setup were documented to ensure reproducibility during evaluation and demonstration.
+
+Challenges Faced and Resolution:
+Environment differences between local and container runs caused configuration drift. This was addressed by explicit environment templates and consistent service naming in compose configuration.
+
+Outcome of the Week:
+Deployment readiness improved substantially, enabling repeatable setup for testing, demonstration, and review.
+
+\section*{ACTIVITY LOG FOR ELEVENTH WEEK(FROM: 17/03/26 TO: 21/03/26)}
+\begin{longtable}{|p{2.2cm}|p{5.2cm}|p{4.3cm}|p{3.2cm}|}
+\hline
+\textbf{DAY \& DATE} & \textbf{BRIEF DESCRIPTION OF THE DAILY ACTIVITY} & \textbf{LEARNING OUTCOME} & \textbf{PERSON IN- CHARGE} \\
+\hline
+MONDAY (17/03/2026) & Executed end-to-end regression test across auth, menu, cart, and orders. & Learned phased regression strategy for confidence. & Student Developer \\
+\hline
+TUESDAY (18/03/2026) & Performed API contract verification using Postman collections. & Learned early detection of payload contract drifts. & Student Developer \\
+\hline
+WEDNESDAY (19/03/2026) & Captured screenshots and evidence for key functional scenarios. & Learned preparation of demonstrable proof artifacts. & Student Developer \\
+\hline
+THURSDAY (20/03/2026) & Tuned frontend performance by reducing unnecessary rerenders. & Learned practical performance tuning in React components. & Student Developer \\
+\hline
+FRIDAY (21/03/2026) & Finalized issue tracker and closure notes for pending bugs. & Learned disciplined defect closure workflow. & Student Developer \\
+\hline
+\end{longtable}
+
+WEEKLY REPORT
+WEEK - 11 (17-03-2026 to 21-03-2026)
+
+System Validation and Regression:
+End-to-end regression was executed across authentication, menu, cart, and order modules. The objective was to verify stability after integration and hardening changes.
+
+API Contract and Evidence Collection:
+Postman-based contract validation ensured request-response consistency across endpoints. Screenshots and test evidence were captured to support final project reporting and review transparency.
+
+Performance Refinement:
+Frontend rerender behavior was tuned to improve perceived responsiveness. The week concluded with a cleaner and more stable user experience.
+
+Challenges Faced and Resolution:
+Regression execution surfaced minor contract mismatches in optional fields. Endpoint response contracts were corrected and revalidated with Postman test collections.
+
+Outcome of the Week:
+The system achieved pre-submission quality confidence with reliable end-to-end behavior and documented validation evidence.
+
+\section*{ACTIVITY LOG FOR TWELFTH WEEK(FROM: 24/03/26 TO: 28/03/26)}
+\begin{longtable}{|p{2.2cm}|p{5.2cm}|p{4.3cm}|p{3.2cm}|}
+\hline
+\textbf{DAY \& DATE} & \textbf{BRIEF DESCRIPTION OF THE DAILY ACTIVITY} & \textbf{LEARNING OUTCOME} & \textbf{PERSON IN- CHARGE} \\
+\hline
+MONDAY (24/03/2026) & Consolidated all chapters and aligned report terminology. & Learned consistency improves professional documentation quality. & Student Developer \\
+\hline
+TUESDAY (25/03/2026) & Expanded architecture diagrams and milestone deliverable details. & Learned clearer structure improves evaluator readability. & Student Developer \\
+\hline
+WEDNESDAY (26/03/2026) & Reviewed appendix checklist and command sequence for reproducibility. & Learned operational clarity in technical appendices. & Student Developer \\
+\hline
+THURSDAY (27/03/2026) & Conducted final full demo run and corrected minor UI text defects. & Learned value of final pass polishing before submission. & Student Developer \\
+\hline
+FRIDAY (28/03/2026) & Prepared final submission package and presentation pointers. & Learned concise storytelling for project defense. & Student Developer \\
+\hline
+\end{longtable}
+
+WEEKLY REPORT
+WEEK - 12 (24-03-2026 to 28-03-2026)
+
+Final Consolidation:
+The final week was dedicated to aligning chapter content, terminology, and architecture descriptions for report-level consistency. Supporting appendices were reviewed for completeness and reproducibility.
+
+Demo and Submission Readiness:
+Final demo walkthroughs were rehearsed, minor UI and documentation defects were corrected, and evidence artifacts were organized. Architecture and milestone sections were refined for evaluator readability.
+
+Final Output Prepared:
+By the end of this week, the report, activity logs, weekly summaries, and presentation pointers were fully packaged for submission and viva preparation.
+
+Challenges Faced and Resolution:
+The final challenge was ensuring consistency across documentation, screenshots, and demonstrated feature flow. A complete final review checklist was followed to align artifacts with implemented functionality.
+
+Outcome of the Week:
+The project was finalized in submission-ready form with technical completeness, documentation quality, and presentation readiness.
+
+\chapter{PROJECT DESCRIPTION}
+The project addresses common challenges in food delivery applications such as fragmented code organization, inconsistent API handling, limited scalability, and poor maintainability. Many basic implementations work for small demos but become difficult to extend when adding new features like role-based access, real-time status updates, and operational dashboards.
+
+To solve this, the system is built using a clean MERN architecture with clear separation between frontend, backend, and data layers. REST APIs are organized by domain modules such as authentication, users, restaurants, cart, and orders. This modular design improves team collaboration and allows future feature additions without disrupting existing workflows.
+
+The solution supports customer, restaurant, and delivery stakeholder journeys including browsing, ordering, payment flow simulation, order tracking, and management operations. The architecture is designed for extensibility, so future modules such as coupons, ratings, and analytics can be added with minimal disruption.
+
+\section{Problem Statement}
+Most entry-level food delivery platforms fail to maintain code quality and reliability as feature count increases. Common issues include duplicated business logic, weak input validation, unclear ownership of API modules, and delayed UI synchronization when order status changes. These issues directly impact user trust, system maintainability, and deployment confidence.
+
+\section{Scope of the Project}
+The implemented scope covers both customer-facing and admin-facing operations. Customer-side scope includes account creation, login, browsing restaurants and menus, cart management, order placement, and order tracking. Admin-side scope includes menu management, order monitoring, and operational control over order status updates.
+
+\subsection{In-Scope Features}
+\begin{itemize}
+    \item Authentication and authorization using token-based access control.
+    \item CRUD operations for restaurants, categories, and menu items.
+    \item Cart creation, item quantity updates, and order placement workflow.
+    \item Real-time order status updates using websocket events.
+    \item Dockerized setup for consistent local execution.
+\end{itemize}
+
+\subsection{Out-of-Scope Features}
+\begin{itemize}
+    \item Production payment gateway integration with financial settlement.
+    \item Native mobile applications for Android and iOS.
+    \item Geo-optimized route intelligence and third-party map billing integrations.
+\end{itemize}
+
+\section{Stakeholders and Use Cases}
+Primary stakeholders are customers, administrators, and delivery operations staff. Customers require fast browsing and transparent order progress. Administrators require clear dashboard visibility and controlled status transitions. Delivery operations depend on consistent data flow to reduce communication gaps.
+
+\chapter{PRE-REQUISITES}
+The following prerequisites are required to run and reproduce the project:
+
+\textbf{Software Requirements}
+\begin{itemize}
+    \item Node.js 18+ and npm 9+ for backend and frontend services.
+    \item MongoDB 6+ for persistence of user, order, and analytics data.
+    \item Docker and Docker Compose for containerized deployment.
+    \item Git for version control and collaboration.
+\end{itemize}
+
+\textbf{Hardware Requirements}
+\begin{itemize}
+    \item Minimum 8 GB RAM (16 GB recommended for parallel service execution).
+    \item Multi-core CPU (4 cores recommended).
+    \item At least 10 GB free disk space for datasets, containers, and logs.
+\end{itemize}
+
+\textbf{Environment Setup}
+\begin{itemize}
+    \item Configure environment variables for database URI, API ports, and service endpoints.
+    \item Install npm dependencies for both backend and frontend workspaces.
+    \item Seed demo data to validate workflows end-to-end.
+\end{itemize}
+
+\section{Recommended Development Tools}
+\begin{itemize}
+    \item Visual Studio Code with ESLint and Prettier extensions.
+    \item Postman or similar API testing tool for route verification.
+    \item MongoDB Compass for collection-level data inspection.
+    \item GitHub Desktop or command-line Git for branch-based collaboration.
+\end{itemize}
+
+\section{Runtime Configuration Checklist}
+Before running the project, the following configuration values should be verified:
+\begin{itemize}
+    \item Backend environment file contains MongoDB URI, JWT secret, and server port.
+    \item Frontend environment file contains API base URL and socket endpoint URL.
+    \item Docker ports do not conflict with local system services.
+    \item Seed data scripts are executed before end-to-end tests.
+\end{itemize}
+
+\chapter{NPM PACKAGES}
+The project uses the following key npm packages across backend and frontend modules:
+
+\begin{itemize}
+    \item \textbf{express}: Backend web framework for route and middleware handling.
+    \item \textbf{mongoose}: MongoDB object modeling and schema-based data management.
+    \item \textbf{jsonwebtoken}: Token-based authentication and authorization.
+    \item \textbf{bcryptjs}: Password hashing and secure credential verification.
+    \item \textbf{cors}: Cross-origin request handling between frontend and backend.
+    \item \textbf{dotenv}: Environment variable management.
+    \item \textbf{socket.io}: Real-time order status and event communication.
+    \item \textbf{react}: Frontend component-based UI framework.
+    \item \textbf{react-router-dom}: Client-side routing and navigation management.
+    \item \textbf{axios}: HTTP client for API communication.
+    \item \textbf{vite}: Frontend build tooling and local development server.
+\end{itemize}
+
+Additional package choices may vary slightly based on UI utilities and deployment needs.
+
+\section{Package Grouping by Layer}
+\subsection{Backend Layer}
+\begin{itemize}
+    \item \textbf{express}, \textbf{mongoose}, \textbf{jsonwebtoken}, \textbf{bcryptjs}, \textbf{cors}, \textbf{dotenv}, \textbf{socket.io}.
+\end{itemize}
+
+\subsection{Frontend Layer}
+\begin{itemize}
+    \item \textbf{react}, \textbf{react-router-dom}, \textbf{axios}, \textbf{vite}.
+\end{itemize}
+
+\subsection{Quality and Tooling}
+\begin{itemize}
+    \item ESLint for static analysis and style consistency.
+    \item npm scripts for predictable build, run, and lint workflows.
+\end{itemize}
+
+\section{Dependency Management Approach}
+Dependencies are versioned through package lock files and installed per workspace to avoid cross-layer conflicts. Sensitive runtime values are externalized through environment files, and shared constants are centralized to reduce hard-coded values and improve maintainability.
+
+\chapter{PRIOR KNOWLEDGE}
+Successful implementation requires baseline knowledge in the following domains:
+
+\begin{itemize}
+    \item MERN stack development: MongoDB, Express.js, React, and Node.js.
+    \item REST API design, status handling, and request validation.
+    \item Docker fundamentals including images, containers, and compose orchestration.
+    \item Basic software architecture concepts: modularity, loose coupling, and scalability.
+    \item Debugging and logging across multi-service environments.
+\end{itemize}
+
+\section{Conceptual Foundations}
+\subsection{Data Modeling}
+Developers should understand one-to-many and embedded-document patterns in MongoDB, including when to denormalize for read efficiency and when to separate collections for write safety.
+
+\subsection{Security Basics}
+Working knowledge of password hashing, token expiry, role-based access control, and secure API design is required to protect user data and administrative routes.
+
+\subsection{Frontend State and Navigation}
+Practical understanding of component state, shared state, route guards, and asynchronous UI behavior is necessary for stable user journeys.
+
+\chapter{PROJECT OBJECTIVES}
+The project is designed with the following objectives:
+
+\begin{itemize}
+    \item Build a full-stack food delivery platform with reliable user and order workflows.
+    \item Design a modular backend architecture for maintainable feature growth.
+    \item Build role-based access for customers and administrators.
+    \item Provide real-time order tracking updates through event-driven communication.
+    \item Improve user experience with responsive and structured frontend flows.
+    \item Implement robust validation and centralized error handling.
+    \item Ensure deployment readiness with containerized environment support.
+    \item Ensure modularity for future expansion and independent service upgrades.
+\end{itemize}
+
+\textbf{Expected measurable outcomes} include faster API response consistency, reduced functional defects, and improved user journey completion rates.
+
+\section{Functional Objectives}
+\begin{itemize}
+    \item Deliver complete order lifecycle management from cart to final delivery status.
+    \item Provide a clear administrative interface for menu and order supervision.
+    \item Enable secure and role-aware access to protected operations.
+\end{itemize}
+
+\section{Non-Functional Objectives}
+\begin{itemize}
+    \item Ensure maintainability through modular folder structure and reusable utilities.
+    \item Improve reliability through structured validation and centralized error handling.
+    \item Support scalability by separating domain modules and stateless API design.
+\end{itemize}
+
+\section{Evaluation Targets}
+\begin{itemize}
+    \item Successful completion of all major user journeys without critical runtime failures.
+    \item Stable real-time order update behavior under concurrent client sessions.
+    \item Consistent API response shape and error contract across all major endpoints.
+\end{itemize}
+
+\chapter{PROJECT FLOW}
+The end-to-end project workflow is organized into the following stages:
+
+\begin{enumerate}
+    \item \textbf{Requirement Analysis}: Define user roles, use cases, and project boundaries.
+    \item \textbf{Database Design}: Create MongoDB schemas for users, restaurants, carts, and orders.
+    \item \textbf{Backend Development}: Build modular Express APIs and middleware pipeline.
+    \item \textbf{Frontend Development}: Implement React pages and reusable UI components.
+    \item \textbf{Integration}: Connect frontend and backend using REST APIs.
+    \item \textbf{Real-Time Features}: Add Socket.IO events for live order status updates.
+    \item \textbf{Containerization}: Package services with Docker for repeatable environment setup.
+    \item \textbf{Validation}: Perform module-level and end-to-end tests with seeded demo scenarios.
+\end{enumerate}
+
+This flow ensures each component can be validated independently before full-system integration.
+
+\section{Detailed Lifecycle View}
+\subsection{Phase 1: Planning and Design}
+Requirements were translated into user stories and domain modules. Data entities and endpoint responsibilities were defined before implementation to avoid rework.
+
+\subsection{Phase 2: Backend Construction}
+Authentication, user, restaurant, cart, and order APIs were implemented with middleware-based validation and structured controller logic.
+
+\subsection{Phase 3: Frontend Construction}
+React pages were built for discoverability and task clarity. Navigation paths were optimized to minimize clicks between browse, cart, and order history actions.
+
+\subsection{Phase 4: Integration and Real-Time Enablement}
+REST endpoint consumption was connected through service utilities. Socket channels were introduced for event-driven order updates.
+
+\subsection{Phase 5: Verification and Stabilization}
+Manual and scripted checks validated API behavior, error responses, token flow, and UI fallback states under invalid inputs.
+
+\chapter{PROJECT ARCHITECTURE}
+The architecture follows a layered microservices-inspired model:
+
+\begin{itemize}
+    \item \textbf{Presentation Layer}: React frontend for customer and operator interactions.
+    \item \textbf{Application Layer}: Node.js/Express backend handling authentication, orders, and orchestration.
+    \item \textbf{Data Layer}: MongoDB for users, restaurants, carts, and order lifecycle data.
+    \item \textbf{Platform Layer}: Docker-based packaging and optional cloud deployment configuration.
+\end{itemize}
+
+Inter-service communication occurs through HTTP APIs with clear request-response contracts. The architecture separates concern domains to minimize coupling and improve maintainability.
+
+\section{Backend Architecture Detail}
+The backend is organized into modular directories for routes, controllers, models, middleware, and utility helpers. This approach prevents controller bloat and keeps business logic decoupled from transport concerns.
+
+\subsection{Core Backend Modules}
+\begin{itemize}
+    \item \textbf{Auth Module}: Registration, login, token generation, and protected route checks.
+    \item \textbf{Restaurant Module}: Menu and category management with CRUD operations.
+    \item \textbf{Cart Module}: Item addition, quantity updates, and subtotal calculations.
+    \item \textbf{Order Module}: Order creation, status transitions, and user order history.
+\end{itemize}
+
+\section{Frontend Architecture Detail}
+Frontend code follows a component-first approach with route-level pages and reusable UI elements. API interactions are abstracted into utility services to minimize duplication and simplify testing.
+
+\section{Database Design Overview}
+MongoDB collections are modeled to reflect user accounts, restaurant entities, cart states, and orders. Schema-level validation is complemented by route-level validation for stronger data quality controls.
+
+\section{Security and Access Control}
+The platform uses JWT-based authentication and role checks for administrative routes. Passwords are stored in hashed form, and protected APIs enforce token verification before business logic execution.
+
+\section{Real-Time Communication}
+Socket.IO is used to publish order state changes from server to client, improving transparency for users and operational visibility for administrators.
+
+\section{Deployment View}
+The system can run in local development using separate backend and frontend processes, or through Docker Compose for repeatable multi-container startup with explicit port mapping and environment injection.
+
+\section{Milestone 1: Requirements and Project Setup}
+\textbf{Requirements and Project Setup}
+
+Problem analysis, requirement elicitation, and architecture definition were completed. Repository structure, development standards, branch strategy, and baseline environment setup were finalized.
+
+\subsection{Deliverables}
+\begin{itemize}
+    \item Requirement specification and use-case mapping.
+    \item Repository initialization with frontend and backend segmentation.
+    \item Initial data model draft and API naming conventions.
+\end{itemize}
+
+\section{Milestone 2: Authentication and Core APIs}
+\textbf{Authentication and Core APIs}
+
+Backend endpoints, database schemas, authentication middleware, and frontend user flows were developed. Initial order management, restaurant listing, and cart functionalities were validated.
+
+\subsection{Deliverables}
+\begin{itemize}
+    \item Working user authentication and protected route handling.
+    \item Restaurant listing, menu rendering, and cart update flows.
+    \item Initial admin-side controls for operational actions.
+\end{itemize}
+
+\section{Milestone 3: Business Module Integration}
+\textbf{Business Module Integration}
+
+Core module integration was completed across authentication, restaurants, cart, orders, and admin features. API contract-level testing ensured payload compatibility between frontend and backend.
+
+\subsection{Deliverables}
+\begin{itemize}
+    \item End-to-end routing from UI actions to backend persistence.
+    \item Unified API error response schema for client predictability.
+    \item Real-time order update signaling wired to relevant UI screens.
+\end{itemize}
+
+\section{Milestone 4: Hardening and Deployment Readiness}
+\textbf{Hardening and Deployment Readiness}
+
+Input validation, centralized error responses, and route-level protections were strengthened. Container-level reproducibility and cross-module stability tests were performed.
+
+\subsection{Deliverables}
+\begin{itemize}
+    \item Improved validation and guarded failure states.
+    \item Runtime checks for edge-case order and auth transitions.
+    \item Dockerized execution path for reproducible setup.
+\end{itemize}
+
+\section{Milestone 5: Final Validation and Submission}
+\textbf{Final Validation and Submission}
+
+End-to-end demo scenarios were prepared, seeded data was validated, and documentation artifacts were consolidated. Final testing included key user journeys, order flows, and role-based access checks.
+
+\subsection{Deliverables}
+\begin{itemize}
+    \item Final report, demonstration flow, and validation evidence.
+    \item Presentation-ready screenshots and workflow documentation.
+    \item Consolidated deployment and run instructions.
+\end{itemize}
+
+\appendix
+
+\chapter{Appendix - 1}
+\textbf{Supplementary Commands and Execution Notes}
+
+\begin{itemize}
+    \item Backend startup: install dependencies and run server using project scripts.
+    \item Frontend startup: install dependencies and run Vite development server.
+    \item Docker workflow: build and run all services using compose configuration.
+\end{itemize}
+
+\section{Suggested Command Sequence}
+\begin{enumerate}
+    \item Install backend dependencies and configure backend environment variables.
+    \item Install frontend dependencies and configure frontend API endpoint values.
+    \item Start MongoDB service and seed required test data.
+    \item Start backend, then start frontend, and verify connectivity.
+    \item Execute docker-compose workflow as an alternative reproducible run path.
+\end{enumerate}
+
+\textbf{Validation Checklist}
+\begin{itemize}
+    \item User registration and login successful.
+    \item Order creation and tracking endpoints functional.
+    \item Real-time status updates received through socket events.
+    \item Protected routes deny unauthorized access.
+\end{itemize}
+
+\chapter{Appendix - 2}
+\textbf{Glossary}
+
+\begin{itemize}
+    \item \textbf{MERN}: MongoDB, Express.js, React, and Node.js stack.
+    \item \textbf{Microservice}: Independently deployable service focused on one domain capability.
+    \item \textbf{JWT}: JSON Web Token used for stateless authentication.
+    \item \textbf{Socket Event}: Real-time message sent between server and client.
+\end{itemize}
+
+\textbf{References}
+
+\begin{itemize}
+    \item Official documentation for Node.js, React, and MongoDB.
+    \item Docker and Docker Compose documentation for deployment workflows.
+    \item Express, Mongoose, and Socket.IO official documentation.
+\end{itemize}
+
+\section{Future Enhancements}
+\begin{itemize}
+    \item Coupon and promotional campaign management module.
+    \item Integrated payment gateway with transaction audit history.
+    \item Delivery partner mobile-friendly interface and push notifications.
+    \item Advanced reporting dashboard for operational KPIs.
+\end{itemize}
+
+\end{document}

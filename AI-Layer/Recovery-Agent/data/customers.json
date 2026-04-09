@@ -1,0 +1,1802 @@
+[
+  {
+    "customer_id": "cust_0000",
+    "name": "Aarav Mehta",
+    "zone": "Madhapur",
+    "lat": 17.44410058636738,
+    "lon": 78.38526421476297,
+    "total_orders": 95,
+    "avg_rating_given": 2.8
+  },
+  {
+    "customer_id": "cust_0001",
+    "name": "Aditya Nair",
+    "zone": "Miyapur",
+    "lat": 17.495338436393705,
+    "lon": 78.34539594438876,
+    "total_orders": 28,
+    "avg_rating_given": 3.1
+  },
+  {
+    "customer_id": "cust_0002",
+    "name": "Aarav Iyer",
+    "zone": "Dilsukhnagar",
+    "lat": 17.362776753013733,
+    "lon": 78.52769768875558,
+    "total_orders": 70,
+    "avg_rating_given": 3.5
+  },
+  {
+    "customer_id": "cust_0003",
+    "name": "Riya Rao",
+    "zone": "Begumpet",
+    "lat": 17.450188609133555,
+    "lon": 78.45752997519357,
+    "total_orders": 104,
+    "avg_rating_given": 2.9
+  },
+  {
+    "customer_id": "cust_0004",
+    "name": "Ananya Rao",
+    "zone": "Ameerpet",
+    "lat": 17.430609589996237,
+    "lon": 78.45744426144414,
+    "total_orders": 44,
+    "avg_rating_given": 2.8
+  },
+  {
+    "customer_id": "cust_0005",
+    "name": "Sai Singh",
+    "zone": "Ameerpet",
+    "lat": 17.44444988732695,
+    "lon": 78.45037452062734,
+    "total_orders": 104,
+    "avg_rating_given": 2.6
+  },
+  {
+    "customer_id": "cust_0006",
+    "name": "Kiara Sharma",
+    "zone": "Begumpet",
+    "lat": 17.453462315279587,
+    "lon": 78.46497068754417,
+    "total_orders": 71,
+    "avg_rating_given": 3.2
+  },
+  {
+    "customer_id": "cust_0007",
+    "name": "Diya Nair",
+    "zone": "Dilsukhnagar",
+    "lat": 17.362645771805134,
+    "lon": 78.51609110297647,
+    "total_orders": 85,
+    "avg_rating_given": 3.1
+  },
+  {
+    "customer_id": "cust_0008",
+    "name": "Aditya Das",
+    "zone": "Banjara Hills",
+    "lat": 17.410255817727222,
+    "lon": 78.4267200285882,
+    "total_orders": 36,
+    "avg_rating_given": 3.6
+  },
+  {
+    "customer_id": "cust_0009",
+    "name": "Reyansh Singh",
+    "zone": "Kondapur",
+    "lat": 17.457105414004552,
+    "lon": 78.35820350348754,
+    "total_orders": 90,
+    "avg_rating_given": 4.8
+  },
+  {
+    "customer_id": "cust_0010",
+    "name": "Nisha Joshi",
+    "zone": "Madhapur",
+    "lat": 17.44202277296396,
+    "lon": 78.395382535959,
+    "total_orders": 21,
+    "avg_rating_given": 3.7
+  },
+  {
+    "customer_id": "cust_0011",
+    "name": "Kiara Kumar",
+    "zone": "Banjara Hills",
+    "lat": 17.4192922850198,
+    "lon": 78.4415570384038,
+    "total_orders": 100,
+    "avg_rating_given": 2.6
+  },
+  {
+    "customer_id": "cust_0012",
+    "name": "Ananya Gupta",
+    "zone": "Kukatpally",
+    "lat": 17.490054817519514,
+    "lon": 78.39381965687173,
+    "total_orders": 73,
+    "avg_rating_given": 4.7
+  },
+  {
+    "customer_id": "cust_0013",
+    "name": "Ayaan Joshi",
+    "zone": "Kondapur",
+    "lat": 17.459984625189847,
+    "lon": 78.36249366307773,
+    "total_orders": 83,
+    "avg_rating_given": 3.6
+  },
+  {
+    "customer_id": "cust_0014",
+    "name": "Arjun Kumar",
+    "zone": "Banjara Hills",
+    "lat": 17.420499779641833,
+    "lon": 78.43547954579336,
+    "total_orders": 96,
+    "avg_rating_given": 4.0
+  },
+  {
+    "customer_id": "cust_0015",
+    "name": "Myra Singh",
+    "zone": "Dilsukhnagar",
+    "lat": 17.363186415183147,
+    "lon": 78.53465075212989,
+    "total_orders": 66,
+    "avg_rating_given": 3.7
+  },
+  {
+    "customer_id": "cust_0016",
+    "name": "Sai Patel",
+    "zone": "Kukatpally",
+    "lat": 17.497248920834064,
+    "lon": 78.40544158728727,
+    "total_orders": 55,
+    "avg_rating_given": 4.0
+  },
+  {
+    "customer_id": "cust_0017",
+    "name": "Myra Nair",
+    "zone": "Ameerpet",
+    "lat": 17.447422427604803,
+    "lon": 78.44888228690199,
+    "total_orders": 71,
+    "avg_rating_given": 4.7
+  },
+  {
+    "customer_id": "cust_0018",
+    "name": "Sai Joshi",
+    "zone": "Kukatpally",
+    "lat": 17.502395769002582,
+    "lon": 78.40461755599183,
+    "total_orders": 99,
+    "avg_rating_given": 4.1
+  },
+  {
+    "customer_id": "cust_0019",
+    "name": "Dhruv Gupta",
+    "zone": "Madhapur",
+    "lat": 17.441763155086893,
+    "lon": 78.38086490632203,
+    "total_orders": 93,
+    "avg_rating_given": 4.7
+  },
+  {
+    "customer_id": "cust_0020",
+    "name": "Isha Shah",
+    "zone": "Banjara Hills",
+    "lat": 17.409173037610604,
+    "lon": 78.4429525567869,
+    "total_orders": 112,
+    "avg_rating_given": 4.1
+  },
+  {
+    "customer_id": "cust_0021",
+    "name": "Nisha Kumar",
+    "zone": "Miyapur",
+    "lat": 17.489956785370993,
+    "lon": 78.3600502160015,
+    "total_orders": 70,
+    "avg_rating_given": 4.9
+  },
+  {
+    "customer_id": "cust_0022",
+    "name": "Aarav Nair",
+    "zone": "Miyapur",
+    "lat": 17.493383121140095,
+    "lon": 78.34518953484772,
+    "total_orders": 119,
+    "avg_rating_given": 3.4
+  },
+  {
+    "customer_id": "cust_0023",
+    "name": "Krishna Reddy",
+    "zone": "Banjara Hills",
+    "lat": 17.410417431848945,
+    "lon": 78.43604713887379,
+    "total_orders": 11,
+    "avg_rating_given": 2.7
+  },
+  {
+    "customer_id": "cust_0024",
+    "name": "Aditya Shah",
+    "zone": "Begumpet",
+    "lat": 17.44465412339059,
+    "lon": 78.4599152102304,
+    "total_orders": 85,
+    "avg_rating_given": 3.7
+  },
+  {
+    "customer_id": "cust_0025",
+    "name": "Reyansh Rao",
+    "zone": "Miyapur",
+    "lat": 17.497453475748365,
+    "lon": 78.35693187834966,
+    "total_orders": 28,
+    "avg_rating_given": 4.8
+  },
+  {
+    "customer_id": "cust_0026",
+    "name": "Dhruv Gupta",
+    "zone": "Hitech City",
+    "lat": 17.453402987133217,
+    "lon": 78.3801975611528,
+    "total_orders": 57,
+    "avg_rating_given": 4.7
+  },
+  {
+    "customer_id": "cust_0027",
+    "name": "Sai Kumar",
+    "zone": "Begumpet",
+    "lat": 17.438493946740632,
+    "lon": 78.46416171124295,
+    "total_orders": 76,
+    "avg_rating_given": 3.9
+  },
+  {
+    "customer_id": "cust_0028",
+    "name": "Krishna Reddy",
+    "zone": "Dilsukhnagar",
+    "lat": 17.360219861720182,
+    "lon": 78.52732205914539,
+    "total_orders": 30,
+    "avg_rating_given": 2.7
+  },
+  {
+    "customer_id": "cust_0029",
+    "name": "Ananya Sharma",
+    "zone": "Kukatpally",
+    "lat": 17.494983122396174,
+    "lon": 78.3951695452793,
+    "total_orders": 63,
+    "avg_rating_given": 3.0
+  },
+  {
+    "customer_id": "cust_0030",
+    "name": "Riya Nair",
+    "zone": "Gachibowli",
+    "lat": 17.439553420526238,
+    "lon": 78.35459238848581,
+    "total_orders": 104,
+    "avg_rating_given": 3.5
+  },
+  {
+    "customer_id": "cust_0031",
+    "name": "Sai Joshi",
+    "zone": "Madhapur",
+    "lat": 17.447221023648126,
+    "lon": 78.3892715724604,
+    "total_orders": 60,
+    "avg_rating_given": 4.7
+  },
+  {
+    "customer_id": "cust_0032",
+    "name": "Sai Reddy",
+    "zone": "Kukatpally",
+    "lat": 17.492752425642045,
+    "lon": 78.3963860521079,
+    "total_orders": 111,
+    "avg_rating_given": 2.8
+  },
+  {
+    "customer_id": "cust_0033",
+    "name": "Ayaan Iyer",
+    "zone": "Hitech City",
+    "lat": 17.442472270956664,
+    "lon": 78.3756376327967,
+    "total_orders": 36,
+    "avg_rating_given": 3.7
+  },
+  {
+    "customer_id": "cust_0034",
+    "name": "Aanya Shah",
+    "zone": "Madhapur",
+    "lat": 17.455826982095235,
+    "lon": 78.391806506249,
+    "total_orders": 7,
+    "avg_rating_given": 4.1
+  },
+  {
+    "customer_id": "cust_0035",
+    "name": "Aarav Sharma",
+    "zone": "Miyapur",
+    "lat": 17.505427339660162,
+    "lon": 78.36177391468829,
+    "total_orders": 22,
+    "avg_rating_given": 3.5
+  },
+  {
+    "customer_id": "cust_0036",
+    "name": "Ayaan Das",
+    "zone": "Begumpet",
+    "lat": 17.442020805850987,
+    "lon": 78.45857270799944,
+    "total_orders": 49,
+    "avg_rating_given": 2.5
+  },
+  {
+    "customer_id": "cust_0037",
+    "name": "Ishaan Shah",
+    "zone": "Ameerpet",
+    "lat": 17.443202587135882,
+    "lon": 78.44400498457894,
+    "total_orders": 90,
+    "avg_rating_given": 4.9
+  },
+  {
+    "customer_id": "cust_0038",
+    "name": "Aadhya Patel",
+    "zone": "Miyapur",
+    "lat": 17.490697957345354,
+    "lon": 78.34915401796827,
+    "total_orders": 8,
+    "avg_rating_given": 3.9
+  },
+  {
+    "customer_id": "cust_0039",
+    "name": "Vivaan Mehta",
+    "zone": "Miyapur",
+    "lat": 17.493172096195394,
+    "lon": 78.34580284674527,
+    "total_orders": 62,
+    "avg_rating_given": 3.8
+  },
+  {
+    "customer_id": "cust_0040",
+    "name": "Reyansh Reddy",
+    "zone": "Miyapur",
+    "lat": 17.50611557806549,
+    "lon": 78.34640222930481,
+    "total_orders": 24,
+    "avg_rating_given": 2.7
+  },
+  {
+    "customer_id": "cust_0041",
+    "name": "Krishna Gupta",
+    "zone": "Madhapur",
+    "lat": 17.44099773227894,
+    "lon": 78.39860574628258,
+    "total_orders": 32,
+    "avg_rating_given": 3.9
+  },
+  {
+    "customer_id": "cust_0042",
+    "name": "Nisha Sharma",
+    "zone": "Kukatpally",
+    "lat": 17.493084498306718,
+    "lon": 78.40127344578583,
+    "total_orders": 67,
+    "avg_rating_given": 3.3
+  },
+  {
+    "customer_id": "cust_0043",
+    "name": "Ayaan Joshi",
+    "zone": "Banjara Hills",
+    "lat": 17.41992383601579,
+    "lon": 78.42947371905233,
+    "total_orders": 51,
+    "avg_rating_given": 2.8
+  },
+  {
+    "customer_id": "cust_0044",
+    "name": "Aanya Singh",
+    "zone": "Banjara Hills",
+    "lat": 17.42418036663411,
+    "lon": 78.4434146857489,
+    "total_orders": 2,
+    "avg_rating_given": 3.6
+  },
+  {
+    "customer_id": "cust_0045",
+    "name": "Sai Sharma",
+    "zone": "Dilsukhnagar",
+    "lat": 17.36955268808203,
+    "lon": 78.52481769388098,
+    "total_orders": 17,
+    "avg_rating_given": 4.8
+  },
+  {
+    "customer_id": "cust_0046",
+    "name": "Krishna Singh",
+    "zone": "Madhapur",
+    "lat": 17.44429974782433,
+    "lon": 78.38956369146015,
+    "total_orders": 70,
+    "avg_rating_given": 4.3
+  },
+  {
+    "customer_id": "cust_0047",
+    "name": "Isha Reddy",
+    "zone": "Dilsukhnagar",
+    "lat": 17.372157264074254,
+    "lon": 78.5257920456498,
+    "total_orders": 120,
+    "avg_rating_given": 4.2
+  },
+  {
+    "customer_id": "cust_0048",
+    "name": "Ishaan Sharma",
+    "zone": "Gachibowli",
+    "lat": 17.447894254140117,
+    "lon": 78.35374833367962,
+    "total_orders": 20,
+    "avg_rating_given": 3.2
+  },
+  {
+    "customer_id": "cust_0049",
+    "name": "Ayaan Mehta",
+    "zone": "Dilsukhnagar",
+    "lat": 17.365657605755864,
+    "lon": 78.52844994257602,
+    "total_orders": 110,
+    "avg_rating_given": 3.2
+  },
+  {
+    "customer_id": "cust_0050",
+    "name": "Ishaan Das",
+    "zone": "Begumpet",
+    "lat": 17.43501597787325,
+    "lon": 78.47008568894618,
+    "total_orders": 107,
+    "avg_rating_given": 3.2
+  },
+  {
+    "customer_id": "cust_0051",
+    "name": "Ananya Shah",
+    "zone": "Kukatpally",
+    "lat": 17.487316393214037,
+    "lon": 78.40919595907658,
+    "total_orders": 21,
+    "avg_rating_given": 4.4
+  },
+  {
+    "customer_id": "cust_0052",
+    "name": "Saanvi Iyer",
+    "zone": "Miyapur",
+    "lat": 17.48709339399217,
+    "lon": 78.34630487720148,
+    "total_orders": 114,
+    "avg_rating_given": 4.2
+  },
+  {
+    "customer_id": "cust_0053",
+    "name": "Kiara Reddy",
+    "zone": "Gachibowli",
+    "lat": 17.44679190039772,
+    "lon": 78.3505501913298,
+    "total_orders": 19,
+    "avg_rating_given": 3.6
+  },
+  {
+    "customer_id": "cust_0054",
+    "name": "Dhruv Singh",
+    "zone": "Kukatpally",
+    "lat": 17.502679629774853,
+    "lon": 78.40552244609776,
+    "total_orders": 111,
+    "avg_rating_given": 2.6
+  },
+  {
+    "customer_id": "cust_0055",
+    "name": "Ayaan Joshi",
+    "zone": "Kondapur",
+    "lat": 17.45499059478446,
+    "lon": 78.34685587243344,
+    "total_orders": 100,
+    "avg_rating_given": 3.9
+  },
+  {
+    "customer_id": "cust_0056",
+    "name": "Nisha Mehta",
+    "zone": "Ameerpet",
+    "lat": 17.430591066766645,
+    "lon": 78.45689762031388,
+    "total_orders": 111,
+    "avg_rating_given": 2.9
+  },
+  {
+    "customer_id": "cust_0057",
+    "name": "Saanvi Reddy",
+    "zone": "Gachibowli",
+    "lat": 17.433687213268364,
+    "lon": 78.35738974590483,
+    "total_orders": 101,
+    "avg_rating_given": 4.8
+  },
+  {
+    "customer_id": "cust_0058",
+    "name": "Ishaan Patel",
+    "zone": "Hitech City",
+    "lat": 17.44924749018271,
+    "lon": 78.36936191252806,
+    "total_orders": 112,
+    "avg_rating_given": 2.6
+  },
+  {
+    "customer_id": "cust_0059",
+    "name": "Krishna Kumar",
+    "zone": "Begumpet",
+    "lat": 17.450331732111938,
+    "lon": 78.46660606469358,
+    "total_orders": 40,
+    "avg_rating_given": 4.6
+  },
+  {
+    "customer_id": "cust_0060",
+    "name": "Krishna Reddy",
+    "zone": "Hitech City",
+    "lat": 17.446700663654973,
+    "lon": 78.3751693195713,
+    "total_orders": 36,
+    "avg_rating_given": 4.7
+  },
+  {
+    "customer_id": "cust_0061",
+    "name": "Diya Joshi",
+    "zone": "Banjara Hills",
+    "lat": 17.415788113510562,
+    "lon": 78.43829036236721,
+    "total_orders": 108,
+    "avg_rating_given": 3.8
+  },
+  {
+    "customer_id": "cust_0062",
+    "name": "Sai Rao",
+    "zone": "Kukatpally",
+    "lat": 17.48827135632345,
+    "lon": 78.40885068631523,
+    "total_orders": 34,
+    "avg_rating_given": 2.6
+  },
+  {
+    "customer_id": "cust_0063",
+    "name": "Saanvi Singh",
+    "zone": "Dilsukhnagar",
+    "lat": 17.373370901213054,
+    "lon": 78.5209735462839,
+    "total_orders": 78,
+    "avg_rating_given": 5.0
+  },
+  {
+    "customer_id": "cust_0064",
+    "name": "Myra Nair",
+    "zone": "Madhapur",
+    "lat": 17.442401575490045,
+    "lon": 78.38168773067426,
+    "total_orders": 56,
+    "avg_rating_given": 2.5
+  },
+  {
+    "customer_id": "cust_0065",
+    "name": "Ayaan Singh",
+    "zone": "Miyapur",
+    "lat": 17.4955259479925,
+    "lon": 78.36377748971942,
+    "total_orders": 118,
+    "avg_rating_given": 3.3
+  },
+  {
+    "customer_id": "cust_0066",
+    "name": "Sai Mehta",
+    "zone": "Kondapur",
+    "lat": 17.468000936701944,
+    "lon": 78.3549424500807,
+    "total_orders": 86,
+    "avg_rating_given": 3.5
+  },
+  {
+    "customer_id": "cust_0067",
+    "name": "Dhruv Iyer",
+    "zone": "Ameerpet",
+    "lat": 17.430045755981183,
+    "lon": 78.44670892667546,
+    "total_orders": 49,
+    "avg_rating_given": 4.2
+  },
+  {
+    "customer_id": "cust_0068",
+    "name": "Nisha Nair",
+    "zone": "Gachibowli",
+    "lat": 17.436118997491313,
+    "lon": 78.34985874426272,
+    "total_orders": 1,
+    "avg_rating_given": 3.3
+  },
+  {
+    "customer_id": "cust_0069",
+    "name": "Saanvi Shah",
+    "zone": "Hitech City",
+    "lat": 17.445099695623913,
+    "lon": 78.38029411247406,
+    "total_orders": 60,
+    "avg_rating_given": 3.6
+  },
+  {
+    "customer_id": "cust_0070",
+    "name": "Isha Verma",
+    "zone": "Hitech City",
+    "lat": 17.44937470798212,
+    "lon": 78.38639664007366,
+    "total_orders": 95,
+    "avg_rating_given": 2.9
+  },
+  {
+    "customer_id": "cust_0071",
+    "name": "Dhruv Iyer",
+    "zone": "Madhapur",
+    "lat": 17.4518770767261,
+    "lon": 78.39318521610724,
+    "total_orders": 12,
+    "avg_rating_given": 4.5
+  },
+  {
+    "customer_id": "cust_0072",
+    "name": "Dhruv Kumar",
+    "zone": "Hitech City",
+    "lat": 17.449631257891525,
+    "lon": 78.37014707924492,
+    "total_orders": 6,
+    "avg_rating_given": 3.1
+  },
+  {
+    "customer_id": "cust_0073",
+    "name": "Nisha Das",
+    "zone": "Begumpet",
+    "lat": 17.449369786780004,
+    "lon": 78.4665083233676,
+    "total_orders": 114,
+    "avg_rating_given": 4.1
+  },
+  {
+    "customer_id": "cust_0074",
+    "name": "Myra Verma",
+    "zone": "Hitech City",
+    "lat": 17.44149305725753,
+    "lon": 78.37015142690183,
+    "total_orders": 89,
+    "avg_rating_given": 2.5
+  },
+  {
+    "customer_id": "cust_0075",
+    "name": "Saanvi Kumar",
+    "zone": "Madhapur",
+    "lat": 17.44211773363413,
+    "lon": 78.3999593208456,
+    "total_orders": 67,
+    "avg_rating_given": 3.7
+  },
+  {
+    "customer_id": "cust_0076",
+    "name": "Krishna Das",
+    "zone": "Miyapur",
+    "lat": 17.48932717198379,
+    "lon": 78.34746678211114,
+    "total_orders": 60,
+    "avg_rating_given": 4.2
+  },
+  {
+    "customer_id": "cust_0077",
+    "name": "Nisha Singh",
+    "zone": "Miyapur",
+    "lat": 17.505900792168863,
+    "lon": 78.3626285185162,
+    "total_orders": 79,
+    "avg_rating_given": 4.5
+  },
+  {
+    "customer_id": "cust_0078",
+    "name": "Saanvi Das",
+    "zone": "Miyapur",
+    "lat": 17.505037094609122,
+    "lon": 78.35371827224154,
+    "total_orders": 21,
+    "avg_rating_given": 4.4
+  },
+  {
+    "customer_id": "cust_0079",
+    "name": "Aanya Rao",
+    "zone": "Begumpet",
+    "lat": 17.449035535730008,
+    "lon": 78.47419725775684,
+    "total_orders": 36,
+    "avg_rating_given": 4.4
+  },
+  {
+    "customer_id": "cust_0080",
+    "name": "Aadhya Joshi",
+    "zone": "Miyapur",
+    "lat": 17.49168491727629,
+    "lon": 78.3535974518653,
+    "total_orders": 92,
+    "avg_rating_given": 3.2
+  },
+  {
+    "customer_id": "cust_0081",
+    "name": "Ananya Singh",
+    "zone": "Banjara Hills",
+    "lat": 17.423460536655806,
+    "lon": 78.42631155315316,
+    "total_orders": 20,
+    "avg_rating_given": 3.1
+  },
+  {
+    "customer_id": "cust_0082",
+    "name": "Ayaan Sharma",
+    "zone": "Gachibowli",
+    "lat": 17.438397357917964,
+    "lon": 78.34551762782077,
+    "total_orders": 60,
+    "avg_rating_given": 3.5
+  },
+  {
+    "customer_id": "cust_0083",
+    "name": "Saanvi Gupta",
+    "zone": "Hitech City",
+    "lat": 17.451596769566805,
+    "lon": 78.37888158828409,
+    "total_orders": 90,
+    "avg_rating_given": 2.5
+  },
+  {
+    "customer_id": "cust_0084",
+    "name": "Myra Verma",
+    "zone": "Dilsukhnagar",
+    "lat": 17.35891792167168,
+    "lon": 78.52173517605343,
+    "total_orders": 97,
+    "avg_rating_given": 3.5
+  },
+  {
+    "customer_id": "cust_0085",
+    "name": "Kiara Mehta",
+    "zone": "Ameerpet",
+    "lat": 17.442192681215126,
+    "lon": 78.45429736341883,
+    "total_orders": 115,
+    "avg_rating_given": 3.1
+  },
+  {
+    "customer_id": "cust_0086",
+    "name": "Ishaan Gupta",
+    "zone": "Hitech City",
+    "lat": 17.44321283987597,
+    "lon": 78.37497714406493,
+    "total_orders": 86,
+    "avg_rating_given": 4.2
+  },
+  {
+    "customer_id": "cust_0087",
+    "name": "Reyansh Das",
+    "zone": "Ameerpet",
+    "lat": 17.436847802984648,
+    "lon": 78.44085255594563,
+    "total_orders": 80,
+    "avg_rating_given": 3.8
+  },
+  {
+    "customer_id": "cust_0088",
+    "name": "Riya Nair",
+    "zone": "Ameerpet",
+    "lat": 17.440759995136723,
+    "lon": 78.43997894924324,
+    "total_orders": 55,
+    "avg_rating_given": 2.8
+  },
+  {
+    "customer_id": "cust_0089",
+    "name": "Reyansh Reddy",
+    "zone": "Begumpet",
+    "lat": 17.439203126278386,
+    "lon": 78.46394705333883,
+    "total_orders": 59,
+    "avg_rating_given": 3.3
+  },
+  {
+    "customer_id": "cust_0090",
+    "name": "Ishaan Shah",
+    "zone": "Ameerpet",
+    "lat": 17.44652408239721,
+    "lon": 78.44673129653518,
+    "total_orders": 107,
+    "avg_rating_given": 2.7
+  },
+  {
+    "customer_id": "cust_0091",
+    "name": "Kiara Reddy",
+    "zone": "Kukatpally",
+    "lat": 17.504698156570186,
+    "lon": 78.39659920687441,
+    "total_orders": 84,
+    "avg_rating_given": 2.7
+  },
+  {
+    "customer_id": "cust_0092",
+    "name": "Aarav Kumar",
+    "zone": "Kukatpally",
+    "lat": 17.488687213647253,
+    "lon": 78.39000760034641,
+    "total_orders": 20,
+    "avg_rating_given": 3.1
+  },
+  {
+    "customer_id": "cust_0093",
+    "name": "Sai Nair",
+    "zone": "Begumpet",
+    "lat": 17.45295514044433,
+    "lon": 78.4667006796687,
+    "total_orders": 33,
+    "avg_rating_given": 4.4
+  },
+  {
+    "customer_id": "cust_0094",
+    "name": "Nisha Nair",
+    "zone": "Gachibowli",
+    "lat": 17.449374694882025,
+    "lon": 78.35326714457192,
+    "total_orders": 100,
+    "avg_rating_given": 4.5
+  },
+  {
+    "customer_id": "cust_0095",
+    "name": "Sai Nair",
+    "zone": "Banjara Hills",
+    "lat": 17.40611356850995,
+    "lon": 78.4309391448879,
+    "total_orders": 87,
+    "avg_rating_given": 4.8
+  },
+  {
+    "customer_id": "cust_0096",
+    "name": "Myra Mehta",
+    "zone": "Ameerpet",
+    "lat": 17.431466595541835,
+    "lon": 78.450141957225,
+    "total_orders": 107,
+    "avg_rating_given": 4.1
+  },
+  {
+    "customer_id": "cust_0097",
+    "name": "Dhruv Das",
+    "zone": "Madhapur",
+    "lat": 17.45228518078333,
+    "lon": 78.39691055927292,
+    "total_orders": 102,
+    "avg_rating_given": 5.0
+  },
+  {
+    "customer_id": "cust_0098",
+    "name": "Diya Iyer",
+    "zone": "Kukatpally",
+    "lat": 17.493267560264698,
+    "lon": 78.39701141752437,
+    "total_orders": 65,
+    "avg_rating_given": 4.1
+  },
+  {
+    "customer_id": "cust_0099",
+    "name": "Saanvi Das",
+    "zone": "Kukatpally",
+    "lat": 17.49450403409981,
+    "lon": 78.39827046802652,
+    "total_orders": 47,
+    "avg_rating_given": 4.1
+  },
+  {
+    "customer_id": "cust_0100",
+    "name": "Arjun Gupta",
+    "zone": "Begumpet",
+    "lat": 17.43752273922172,
+    "lon": 78.46783493493876,
+    "total_orders": 84,
+    "avg_rating_given": 3.2
+  },
+  {
+    "customer_id": "cust_0101",
+    "name": "Aadhya Verma",
+    "zone": "Miyapur",
+    "lat": 17.495611489860078,
+    "lon": 78.3594205242861,
+    "total_orders": 35,
+    "avg_rating_given": 3.3
+  },
+  {
+    "customer_id": "cust_0102",
+    "name": "Aditya Rao",
+    "zone": "Hitech City",
+    "lat": 17.451132623680056,
+    "lon": 78.37207726878383,
+    "total_orders": 60,
+    "avg_rating_given": 3.9
+  },
+  {
+    "customer_id": "cust_0103",
+    "name": "Ananya Reddy",
+    "zone": "Ameerpet",
+    "lat": 17.43738613007232,
+    "lon": 78.44480028335778,
+    "total_orders": 63,
+    "avg_rating_given": 3.0
+  },
+  {
+    "customer_id": "cust_0104",
+    "name": "Ananya Rao",
+    "zone": "Banjara Hills",
+    "lat": 17.423206399595166,
+    "lon": 78.43872367500666,
+    "total_orders": 36,
+    "avg_rating_given": 3.9
+  },
+  {
+    "customer_id": "cust_0105",
+    "name": "Ayaan Sharma",
+    "zone": "Miyapur",
+    "lat": 17.491727121007454,
+    "lon": 78.3529285624934,
+    "total_orders": 72,
+    "avg_rating_given": 4.4
+  },
+  {
+    "customer_id": "cust_0106",
+    "name": "Aadhya Verma",
+    "zone": "Begumpet",
+    "lat": 17.449858657362647,
+    "lon": 78.45926106701108,
+    "total_orders": 29,
+    "avg_rating_given": 3.5
+  },
+  {
+    "customer_id": "cust_0107",
+    "name": "Dhruv Joshi",
+    "zone": "Hitech City",
+    "lat": 17.445131111706647,
+    "lon": 78.3766652097752,
+    "total_orders": 68,
+    "avg_rating_given": 3.4
+  },
+  {
+    "customer_id": "cust_0108",
+    "name": "Ananya Singh",
+    "zone": "Miyapur",
+    "lat": 17.500957098843717,
+    "lon": 78.35021832853953,
+    "total_orders": 33,
+    "avg_rating_given": 3.1
+  },
+  {
+    "customer_id": "cust_0109",
+    "name": "Ananya Sharma",
+    "zone": "Hitech City",
+    "lat": 17.448357621272784,
+    "lon": 78.38621755120786,
+    "total_orders": 89,
+    "avg_rating_given": 3.0
+  },
+  {
+    "customer_id": "cust_0110",
+    "name": "Aadhya Rao",
+    "zone": "Hitech City",
+    "lat": 17.447991700021863,
+    "lon": 78.38673214045767,
+    "total_orders": 68,
+    "avg_rating_given": 4.0
+  },
+  {
+    "customer_id": "cust_0111",
+    "name": "Ayaan Rao",
+    "zone": "Madhapur",
+    "lat": 17.44314966326965,
+    "lon": 78.3843888308737,
+    "total_orders": 2,
+    "avg_rating_given": 4.3
+  },
+  {
+    "customer_id": "cust_0112",
+    "name": "Ishaan Reddy",
+    "zone": "Gachibowli",
+    "lat": 17.449585898622058,
+    "lon": 78.34996717933598,
+    "total_orders": 90,
+    "avg_rating_given": 4.9
+  },
+  {
+    "customer_id": "cust_0113",
+    "name": "Sai Das",
+    "zone": "Begumpet",
+    "lat": 17.43424530806751,
+    "lon": 78.46308678654275,
+    "total_orders": 62,
+    "avg_rating_given": 3.6
+  },
+  {
+    "customer_id": "cust_0114",
+    "name": "Vivaan Rao",
+    "zone": "Gachibowli",
+    "lat": 17.44892127193536,
+    "lon": 78.34845458374531,
+    "total_orders": 106,
+    "avg_rating_given": 2.7
+  },
+  {
+    "customer_id": "cust_0115",
+    "name": "Aditya Nair",
+    "zone": "Begumpet",
+    "lat": 17.44658891413904,
+    "lon": 78.45847218148585,
+    "total_orders": 20,
+    "avg_rating_given": 4.5
+  },
+  {
+    "customer_id": "cust_0116",
+    "name": "Aditya Kumar",
+    "zone": "Banjara Hills",
+    "lat": 17.40796903124423,
+    "lon": 78.43998886890652,
+    "total_orders": 78,
+    "avg_rating_given": 4.0
+  },
+  {
+    "customer_id": "cust_0117",
+    "name": "Krishna Shah",
+    "zone": "Dilsukhnagar",
+    "lat": 17.369251450702606,
+    "lon": 78.52371028929777,
+    "total_orders": 57,
+    "avg_rating_given": 3.2
+  },
+  {
+    "customer_id": "cust_0118",
+    "name": "Saanvi Rao",
+    "zone": "Dilsukhnagar",
+    "lat": 17.370172589412483,
+    "lon": 78.51590460608745,
+    "total_orders": 95,
+    "avg_rating_given": 2.7
+  },
+  {
+    "customer_id": "cust_0119",
+    "name": "Ayaan Rao",
+    "zone": "Hitech City",
+    "lat": 17.44670856274384,
+    "lon": 78.37034114186761,
+    "total_orders": 23,
+    "avg_rating_given": 3.9
+  },
+  {
+    "customer_id": "cust_0120",
+    "name": "Aarav Gupta",
+    "zone": "Gachibowli",
+    "lat": 17.439110074092355,
+    "lon": 78.35077622390239,
+    "total_orders": 38,
+    "avg_rating_given": 2.6
+  },
+  {
+    "customer_id": "cust_0121",
+    "name": "Dhruv Mehta",
+    "zone": "Banjara Hills",
+    "lat": 17.42279213462681,
+    "lon": 78.42612359520308,
+    "total_orders": 30,
+    "avg_rating_given": 4.8
+  },
+  {
+    "customer_id": "cust_0122",
+    "name": "Ayaan Gupta",
+    "zone": "Dilsukhnagar",
+    "lat": 17.361095526049223,
+    "lon": 78.51919618900531,
+    "total_orders": 20,
+    "avg_rating_given": 4.8
+  },
+  {
+    "customer_id": "cust_0123",
+    "name": "Aditya Reddy",
+    "zone": "Gachibowli",
+    "lat": 17.433418455784416,
+    "lon": 78.34505223625229,
+    "total_orders": 96,
+    "avg_rating_given": 4.6
+  },
+  {
+    "customer_id": "cust_0124",
+    "name": "Aanya Sharma",
+    "zone": "Banjara Hills",
+    "lat": 17.414973959405526,
+    "lon": 78.4307818238109,
+    "total_orders": 52,
+    "avg_rating_given": 4.9
+  },
+  {
+    "customer_id": "cust_0125",
+    "name": "Kiara Verma",
+    "zone": "Miyapur",
+    "lat": 17.49565517727143,
+    "lon": 78.35676073324082,
+    "total_orders": 114,
+    "avg_rating_given": 3.6
+  },
+  {
+    "customer_id": "cust_0126",
+    "name": "Nisha Rao",
+    "zone": "Kondapur",
+    "lat": 17.450517297847767,
+    "lon": 78.34937848831443,
+    "total_orders": 87,
+    "avg_rating_given": 4.6
+  },
+  {
+    "customer_id": "cust_0127",
+    "name": "Riya Reddy",
+    "zone": "Dilsukhnagar",
+    "lat": 17.378791448337548,
+    "lon": 78.52814563168606,
+    "total_orders": 35,
+    "avg_rating_given": 3.9
+  },
+  {
+    "customer_id": "cust_0128",
+    "name": "Aadhya Iyer",
+    "zone": "Gachibowli",
+    "lat": 17.443130189788675,
+    "lon": 78.35722145575853,
+    "total_orders": 24,
+    "avg_rating_given": 5.0
+  },
+  {
+    "customer_id": "cust_0129",
+    "name": "Aadhya Sharma",
+    "zone": "Ameerpet",
+    "lat": 17.436900207899207,
+    "lon": 78.44646696186861,
+    "total_orders": 42,
+    "avg_rating_given": 4.2
+  },
+  {
+    "customer_id": "cust_0130",
+    "name": "Ananya Gupta",
+    "zone": "Gachibowli",
+    "lat": 17.44397347347967,
+    "lon": 78.34466435590723,
+    "total_orders": 52,
+    "avg_rating_given": 4.5
+  },
+  {
+    "customer_id": "cust_0131",
+    "name": "Vivaan Verma",
+    "zone": "Miyapur",
+    "lat": 17.488661195855517,
+    "lon": 78.34984797701884,
+    "total_orders": 15,
+    "avg_rating_given": 4.9
+  },
+  {
+    "customer_id": "cust_0132",
+    "name": "Isha Das",
+    "zone": "Ameerpet",
+    "lat": 17.447262384295634,
+    "lon": 78.45145320772967,
+    "total_orders": 70,
+    "avg_rating_given": 3.7
+  },
+  {
+    "customer_id": "cust_0133",
+    "name": "Ayaan Iyer",
+    "zone": "Kukatpally",
+    "lat": 17.491935587183036,
+    "lon": 78.40472886308112,
+    "total_orders": 81,
+    "avg_rating_given": 3.6
+  },
+  {
+    "customer_id": "cust_0134",
+    "name": "Ayaan Rao",
+    "zone": "Kukatpally",
+    "lat": 17.49568439278171,
+    "lon": 78.40815345521689,
+    "total_orders": 57,
+    "avg_rating_given": 4.7
+  },
+  {
+    "customer_id": "cust_0135",
+    "name": "Sai Reddy",
+    "zone": "Begumpet",
+    "lat": 17.453462936316434,
+    "lon": 78.46957743334164,
+    "total_orders": 31,
+    "avg_rating_given": 4.3
+  },
+  {
+    "customer_id": "cust_0136",
+    "name": "Kiara Reddy",
+    "zone": "Banjara Hills",
+    "lat": 17.416645028181076,
+    "lon": 78.42656418402564,
+    "total_orders": 108,
+    "avg_rating_given": 4.8
+  },
+  {
+    "customer_id": "cust_0137",
+    "name": "Sai Joshi",
+    "zone": "Begumpet",
+    "lat": 17.450642863475377,
+    "lon": 78.46736751009414,
+    "total_orders": 92,
+    "avg_rating_given": 3.2
+  },
+  {
+    "customer_id": "cust_0138",
+    "name": "Saanvi Das",
+    "zone": "Banjara Hills",
+    "lat": 17.41524999153916,
+    "lon": 78.43414439563807,
+    "total_orders": 59,
+    "avg_rating_given": 3.9
+  },
+  {
+    "customer_id": "cust_0139",
+    "name": "Ayaan Nair",
+    "zone": "Ameerpet",
+    "lat": 17.43766481783186,
+    "lon": 78.45588652510293,
+    "total_orders": 111,
+    "avg_rating_given": 2.7
+  },
+  {
+    "customer_id": "cust_0140",
+    "name": "Ananya Shah",
+    "zone": "Ameerpet",
+    "lat": 17.437654753516192,
+    "lon": 78.45471098946372,
+    "total_orders": 37,
+    "avg_rating_given": 4.3
+  },
+  {
+    "customer_id": "cust_0141",
+    "name": "Riya Joshi",
+    "zone": "Dilsukhnagar",
+    "lat": 17.368592806933115,
+    "lon": 78.51767190836765,
+    "total_orders": 69,
+    "avg_rating_given": 3.7
+  },
+  {
+    "customer_id": "cust_0142",
+    "name": "Kiara Shah",
+    "zone": "Kondapur",
+    "lat": 17.460868601259175,
+    "lon": 78.35390689233732,
+    "total_orders": 42,
+    "avg_rating_given": 4.7
+  },
+  {
+    "customer_id": "cust_0143",
+    "name": "Riya Gupta",
+    "zone": "Hitech City",
+    "lat": 17.438171248921158,
+    "lon": 78.382710889502,
+    "total_orders": 6,
+    "avg_rating_given": 3.3
+  },
+  {
+    "customer_id": "cust_0144",
+    "name": "Myra Gupta",
+    "zone": "Begumpet",
+    "lat": 17.453768280038787,
+    "lon": 78.47324787321399,
+    "total_orders": 84,
+    "avg_rating_given": 5.0
+  },
+  {
+    "customer_id": "cust_0145",
+    "name": "Vivaan Patel",
+    "zone": "Begumpet",
+    "lat": 17.444045823002657,
+    "lon": 78.46920360858618,
+    "total_orders": 112,
+    "avg_rating_given": 2.8
+  },
+  {
+    "customer_id": "cust_0146",
+    "name": "Sai Iyer",
+    "zone": "Begumpet",
+    "lat": 17.45220883355393,
+    "lon": 78.4577069519583,
+    "total_orders": 19,
+    "avg_rating_given": 3.5
+  },
+  {
+    "customer_id": "cust_0147",
+    "name": "Aditya Verma",
+    "zone": "Gachibowli",
+    "lat": 17.445730505825463,
+    "lon": 78.34420045559087,
+    "total_orders": 80,
+    "avg_rating_given": 4.2
+  },
+  {
+    "customer_id": "cust_0148",
+    "name": "Ananya Das",
+    "zone": "Madhapur",
+    "lat": 17.45208714990308,
+    "lon": 78.39147244624793,
+    "total_orders": 41,
+    "avg_rating_given": 4.1
+  },
+  {
+    "customer_id": "cust_0149",
+    "name": "Kiara Reddy",
+    "zone": "Begumpet",
+    "lat": 17.446349189232052,
+    "lon": 78.46209540486204,
+    "total_orders": 88,
+    "avg_rating_given": 4.8
+  },
+  {
+    "customer_id": "cust_0150",
+    "name": "Aditya Gupta",
+    "zone": "Hitech City",
+    "lat": 17.45306675456441,
+    "lon": 78.38240739385989,
+    "total_orders": 91,
+    "avg_rating_given": 4.7
+  },
+  {
+    "customer_id": "cust_0151",
+    "name": "Reyansh Mehta",
+    "zone": "Begumpet",
+    "lat": 17.43998932160488,
+    "lon": 78.45797894498794,
+    "total_orders": 42,
+    "avg_rating_given": 4.5
+  },
+  {
+    "customer_id": "cust_0152",
+    "name": "Diya Singh",
+    "zone": "Banjara Hills",
+    "lat": 17.41421373575711,
+    "lon": 78.42958394864368,
+    "total_orders": 53,
+    "avg_rating_given": 3.9
+  },
+  {
+    "customer_id": "cust_0153",
+    "name": "Reyansh Patel",
+    "zone": "Gachibowli",
+    "lat": 17.4316793670132,
+    "lon": 78.3563167919729,
+    "total_orders": 80,
+    "avg_rating_given": 4.2
+  },
+  {
+    "customer_id": "cust_0154",
+    "name": "Riya Patel",
+    "zone": "Begumpet",
+    "lat": 17.438643768885903,
+    "lon": 78.47015809262007,
+    "total_orders": 59,
+    "avg_rating_given": 3.1
+  },
+  {
+    "customer_id": "cust_0155",
+    "name": "Aanya Rao",
+    "zone": "Kukatpally",
+    "lat": 17.498252217713983,
+    "lon": 78.39275951244144,
+    "total_orders": 57,
+    "avg_rating_given": 4.9
+  },
+  {
+    "customer_id": "cust_0156",
+    "name": "Dhruv Joshi",
+    "zone": "Dilsukhnagar",
+    "lat": 17.378040581456467,
+    "lon": 78.5285062702492,
+    "total_orders": 59,
+    "avg_rating_given": 4.6
+  },
+  {
+    "customer_id": "cust_0157",
+    "name": "Myra Das",
+    "zone": "Hitech City",
+    "lat": 17.443164161221183,
+    "lon": 78.37194411403856,
+    "total_orders": 74,
+    "avg_rating_given": 3.4
+  },
+  {
+    "customer_id": "cust_0158",
+    "name": "Dhruv Reddy",
+    "zone": "Banjara Hills",
+    "lat": 17.425158889691538,
+    "lon": 78.43786459631858,
+    "total_orders": 36,
+    "avg_rating_given": 2.5
+  },
+  {
+    "customer_id": "cust_0159",
+    "name": "Nisha Mehta",
+    "zone": "Kukatpally",
+    "lat": 17.49463454573048,
+    "lon": 78.40768310581788,
+    "total_orders": 37,
+    "avg_rating_given": 4.4
+  },
+  {
+    "customer_id": "cust_0160",
+    "name": "Nisha Shah",
+    "zone": "Hitech City",
+    "lat": 17.440546419116707,
+    "lon": 78.37993235756012,
+    "total_orders": 80,
+    "avg_rating_given": 3.1
+  },
+  {
+    "customer_id": "cust_0161",
+    "name": "Sai Joshi",
+    "zone": "Gachibowli",
+    "lat": 17.443026812177813,
+    "lon": 78.34507865767905,
+    "total_orders": 57,
+    "avg_rating_given": 2.6
+  },
+  {
+    "customer_id": "cust_0162",
+    "name": "Arjun Sharma",
+    "zone": "Kondapur",
+    "lat": 17.468192556246386,
+    "lon": 78.35133438251428,
+    "total_orders": 54,
+    "avg_rating_given": 2.9
+  },
+  {
+    "customer_id": "cust_0163",
+    "name": "Kiara Singh",
+    "zone": "Gachibowli",
+    "lat": 17.440717047474056,
+    "lon": 78.35716973948963,
+    "total_orders": 107,
+    "avg_rating_given": 2.9
+  },
+  {
+    "customer_id": "cust_0164",
+    "name": "Dhruv Mehta",
+    "zone": "Begumpet",
+    "lat": 17.4514079391865,
+    "lon": 78.4734846507721,
+    "total_orders": 60,
+    "avg_rating_given": 4.9
+  },
+  {
+    "customer_id": "cust_0165",
+    "name": "Krishna Das",
+    "zone": "Gachibowli",
+    "lat": 17.443626474494373,
+    "lon": 78.35238812460601,
+    "total_orders": 51,
+    "avg_rating_given": 4.9
+  },
+  {
+    "customer_id": "cust_0166",
+    "name": "Diya Sharma",
+    "zone": "Miyapur",
+    "lat": 17.50271363937178,
+    "lon": 78.34507837310201,
+    "total_orders": 69,
+    "avg_rating_given": 2.8
+  },
+  {
+    "customer_id": "cust_0167",
+    "name": "Ishaan Nair",
+    "zone": "Kondapur",
+    "lat": 17.45762050998545,
+    "lon": 78.35757098535602,
+    "total_orders": 48,
+    "avg_rating_given": 2.8
+  },
+  {
+    "customer_id": "cust_0168",
+    "name": "Aadhya Reddy",
+    "zone": "Hitech City",
+    "lat": 17.44589093734089,
+    "lon": 78.38606338272116,
+    "total_orders": 42,
+    "avg_rating_given": 4.8
+  },
+  {
+    "customer_id": "cust_0169",
+    "name": "Aditya Joshi",
+    "zone": "Hitech City",
+    "lat": 17.44997710702781,
+    "lon": 78.38538775276857,
+    "total_orders": 39,
+    "avg_rating_given": 4.1
+  },
+  {
+    "customer_id": "cust_0170",
+    "name": "Arjun Reddy",
+    "zone": "Madhapur",
+    "lat": 17.457525230657637,
+    "lon": 78.38688729168712,
+    "total_orders": 64,
+    "avg_rating_given": 2.8
+  },
+  {
+    "customer_id": "cust_0171",
+    "name": "Kiara Patel",
+    "zone": "Hitech City",
+    "lat": 17.441272916623003,
+    "lon": 78.37462023030974,
+    "total_orders": 96,
+    "avg_rating_given": 4.2
+  },
+  {
+    "customer_id": "cust_0172",
+    "name": "Saanvi Nair",
+    "zone": "Miyapur",
+    "lat": 17.501745380295308,
+    "lon": 78.3478904580482,
+    "total_orders": 54,
+    "avg_rating_given": 4.1
+  },
+  {
+    "customer_id": "cust_0173",
+    "name": "Nisha Gupta",
+    "zone": "Begumpet",
+    "lat": 17.452781061314273,
+    "lon": 78.46299480280172,
+    "total_orders": 89,
+    "avg_rating_given": 3.4
+  },
+  {
+    "customer_id": "cust_0174",
+    "name": "Aanya Kumar",
+    "zone": "Begumpet",
+    "lat": 17.45110900386612,
+    "lon": 78.45938709249212,
+    "total_orders": 88,
+    "avg_rating_given": 3.4
+  },
+  {
+    "customer_id": "cust_0175",
+    "name": "Vivaan Gupta",
+    "zone": "Kondapur",
+    "lat": 17.455517628817233,
+    "lon": 78.36416413751873,
+    "total_orders": 109,
+    "avg_rating_given": 4.6
+  },
+  {
+    "customer_id": "cust_0176",
+    "name": "Ayaan Joshi",
+    "zone": "Madhapur",
+    "lat": 17.451389858370593,
+    "lon": 78.4002218662413,
+    "total_orders": 7,
+    "avg_rating_given": 4.5
+  },
+  {
+    "customer_id": "cust_0177",
+    "name": "Arjun Shah",
+    "zone": "Hitech City",
+    "lat": 17.44479155951816,
+    "lon": 78.36857220305649,
+    "total_orders": 98,
+    "avg_rating_given": 3.9
+  },
+  {
+    "customer_id": "cust_0178",
+    "name": "Ayaan Das",
+    "zone": "Dilsukhnagar",
+    "lat": 17.37619390853539,
+    "lon": 78.52127119106864,
+    "total_orders": 19,
+    "avg_rating_given": 4.5
+  },
+  {
+    "customer_id": "cust_0179",
+    "name": "Aarav Rao",
+    "zone": "Dilsukhnagar",
+    "lat": 17.375968122527603,
+    "lon": 78.5175937596064,
+    "total_orders": 17,
+    "avg_rating_given": 3.9
+  },
+  {
+    "customer_id": "cust_0180",
+    "name": "Sai Joshi",
+    "zone": "Gachibowli",
+    "lat": 17.447428957770136,
+    "lon": 78.34153606459124,
+    "total_orders": 46,
+    "avg_rating_given": 4.5
+  },
+  {
+    "customer_id": "cust_0181",
+    "name": "Riya Singh",
+    "zone": "Hitech City",
+    "lat": 17.433815621670224,
+    "lon": 78.3725073501665,
+    "total_orders": 17,
+    "avg_rating_given": 4.4
+  },
+  {
+    "customer_id": "cust_0182",
+    "name": "Sai Mehta",
+    "zone": "Miyapur",
+    "lat": 17.488171160762942,
+    "lon": 78.35376550428539,
+    "total_orders": 47,
+    "avg_rating_given": 3.8
+  },
+  {
+    "customer_id": "cust_0183",
+    "name": "Aanya Iyer",
+    "zone": "Madhapur",
+    "lat": 17.443030995128364,
+    "lon": 78.39310213672569,
+    "total_orders": 94,
+    "avg_rating_given": 4.5
+  },
+  {
+    "customer_id": "cust_0184",
+    "name": "Dhruv Verma",
+    "zone": "Miyapur",
+    "lat": 17.49976681368411,
+    "lon": 78.3454230127902,
+    "total_orders": 62,
+    "avg_rating_given": 4.6
+  },
+  {
+    "customer_id": "cust_0185",
+    "name": "Sai Verma",
+    "zone": "Ameerpet",
+    "lat": 17.44174802629794,
+    "lon": 78.44717124658726,
+    "total_orders": 116,
+    "avg_rating_given": 2.7
+  },
+  {
+    "customer_id": "cust_0186",
+    "name": "Arjun Sharma",
+    "zone": "Dilsukhnagar",
+    "lat": 17.3613238317661,
+    "lon": 78.52718634988562,
+    "total_orders": 75,
+    "avg_rating_given": 3.9
+  },
+  {
+    "customer_id": "cust_0187",
+    "name": "Myra Nair",
+    "zone": "Kondapur",
+    "lat": 17.46061113674863,
+    "lon": 78.35387430835151,
+    "total_orders": 78,
+    "avg_rating_given": 3.6
+  },
+  {
+    "customer_id": "cust_0188",
+    "name": "Kiara Mehta",
+    "zone": "Madhapur",
+    "lat": 17.455909846314047,
+    "lon": 78.38940139883333,
+    "total_orders": 114,
+    "avg_rating_given": 3.1
+  },
+  {
+    "customer_id": "cust_0189",
+    "name": "Aanya Gupta",
+    "zone": "Kondapur",
+    "lat": 17.45831979300523,
+    "lon": 78.3467017167855,
+    "total_orders": 55,
+    "avg_rating_given": 3.3
+  },
+  {
+    "customer_id": "cust_0190",
+    "name": "Diya Patel",
+    "zone": "Banjara Hills",
+    "lat": 17.419336420709342,
+    "lon": 78.43418535771178,
+    "total_orders": 12,
+    "avg_rating_given": 4.6
+  },
+  {
+    "customer_id": "cust_0191",
+    "name": "Saanvi Sharma",
+    "zone": "Madhapur",
+    "lat": 17.453491779383835,
+    "lon": 78.38825293718752,
+    "total_orders": 17,
+    "avg_rating_given": 3.9
+  },
+  {
+    "customer_id": "cust_0192",
+    "name": "Kiara Iyer",
+    "zone": "Dilsukhnagar",
+    "lat": 17.365392919628324,
+    "lon": 78.51714462570709,
+    "total_orders": 46,
+    "avg_rating_given": 4.7
+  },
+  {
+    "customer_id": "cust_0193",
+    "name": "Vivaan Rao",
+    "zone": "Ameerpet",
+    "lat": 17.439508201824495,
+    "lon": 78.44533292371386,
+    "total_orders": 74,
+    "avg_rating_given": 3.8
+  },
+  {
+    "customer_id": "cust_0194",
+    "name": "Aadhya Kumar",
+    "zone": "Gachibowli",
+    "lat": 17.4470454969627,
+    "lon": 78.34590227988443,
+    "total_orders": 72,
+    "avg_rating_given": 3.4
+  },
+  {
+    "customer_id": "cust_0195",
+    "name": "Riya Kumar",
+    "zone": "Banjara Hills",
+    "lat": 17.421744427423047,
+    "lon": 78.44160310322657,
+    "total_orders": 99,
+    "avg_rating_given": 4.5
+  },
+  {
+    "customer_id": "cust_0196",
+    "name": "Kiara Reddy",
+    "zone": "Dilsukhnagar",
+    "lat": 17.370979898311063,
+    "lon": 78.52785662455997,
+    "total_orders": 89,
+    "avg_rating_given": 3.2
+  },
+  {
+    "customer_id": "cust_0197",
+    "name": "Ishaan Mehta",
+    "zone": "Gachibowli",
+    "lat": 17.44534819035962,
+    "lon": 78.35733075042066,
+    "total_orders": 45,
+    "avg_rating_given": 2.5
+  },
+  {
+    "customer_id": "cust_0198",
+    "name": "Riya Joshi",
+    "zone": "Gachibowli",
+    "lat": 17.438115686879993,
+    "lon": 78.34173749308303,
+    "total_orders": 82,
+    "avg_rating_given": 4.9
+  },
+  {
+    "customer_id": "cust_0199",
+    "name": "Isha Kumar",
+    "zone": "Madhapur",
+    "lat": 17.44612388811407,
+    "lon": 78.38987291581346,
+    "total_orders": 21,
+    "avg_rating_given": 3.4
+  }
+]

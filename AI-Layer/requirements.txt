@@ -1,0 +1,15 @@
+# Gateway runtime
+fastapi>=0.110.0
+uvicorn>=0.27.0
+python-dotenv>=1.0.0
+scikit-learn==1.7.2
+
+# Pull in module-specific dependencies
+-r Churn-Prediction/requirements.txt
+-r Driver-Allocation/requirements.txt
+-r Dynamic-Pricing/requirements.txt
+-r ETA-Predictor/requirements.txt
+-r Food-Assistant/requirements.txt
+-r Recommendation_Engine/requirements.txt
+-r Recovery-Agent/requirements.txt
+-r Review-Summarizer/requirements.txt

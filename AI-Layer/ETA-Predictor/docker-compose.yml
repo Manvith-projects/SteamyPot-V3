@@ -1,0 +1,16 @@
+# docker-compose up --build
+version: "3.9"
+
+services:
+  eta-api:
+    build: .
+    ports:
+      - "5050:5050"
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5050/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3

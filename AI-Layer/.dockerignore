@@ -1,0 +1,7 @@
+**/__pycache__
+**/*.pyc
+Ai-layer
+.env
+.git
+.gitignore
+cache

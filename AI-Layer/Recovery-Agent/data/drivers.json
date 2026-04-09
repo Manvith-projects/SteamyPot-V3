@@ -1,0 +1,502 @@
+[
+  {
+    "driver_id": "drv_000",
+    "name": "Riya N.",
+    "zone": "Kondapur",
+    "lat": 17.455849570399774,
+    "lon": 78.35032608826425,
+    "status": "available",
+    "rating": 4.43,
+    "deliveries_today": 10
+  },
+  {
+    "driver_id": "drv_001",
+    "name": "Ishaan V.",
+    "zone": "Madhapur",
+    "lat": 17.450219386928083,
+    "lon": 78.3906566170489,
+    "status": "available",
+    "rating": 3.91,
+    "deliveries_today": 12
+  },
+  {
+    "driver_id": "drv_002",
+    "name": "Sai S.",
+    "zone": "Miyapur",
+    "lat": 17.496199136333978,
+    "lon": 78.3526324647008,
+    "status": "on_delivery",
+    "rating": 4.23,
+    "deliveries_today": 10
+  },
+  {
+    "driver_id": "drv_003",
+    "name": "Vivaan K.",
+    "zone": "Banjara Hills",
+    "lat": 17.414552633960877,
+    "lon": 78.43569324956945,
+    "status": "available",
+    "rating": 3.95,
+    "deliveries_today": 3
+  },
+  {
+    "driver_id": "drv_004",
+    "name": "Ishaan R.",
+    "zone": "Gachibowli",
+    "lat": 17.43838122355938,
+    "lon": 78.3439772990657,
+    "status": "on_delivery",
+    "rating": 3.76,
+    "deliveries_today": 6
+  },
+  {
+    "driver_id": "drv_005",
+    "name": "Krishna I.",
+    "zone": "Miyapur",
+    "lat": 17.497487235676747,
+    "lon": 78.35648048171745,
+    "status": "available",
+    "rating": 4.1,
+    "deliveries_today": 11
+  },
+  {
+    "driver_id": "drv_006",
+    "name": "Saanvi R.",
+    "zone": "Kukatpally",
+    "lat": 17.494297542503563,
+    "lon": 78.39537862611877,
+    "status": "available",
+    "rating": 4.14,
+    "deliveries_today": 6
+  },
+  {
+    "driver_id": "drv_007",
+    "name": "Dhruv S.",
+    "zone": "Ameerpet",
+    "lat": 17.436550323070648,
+    "lon": 78.45296199691033,
+    "status": "available",
+    "rating": 4.92,
+    "deliveries_today": 7
+  },
+  {
+    "driver_id": "drv_008",
+    "name": "Aditya G.",
+    "zone": "Kondapur",
+    "lat": 17.463444843598147,
+    "lon": 78.35223316474823,
+    "status": "on_delivery",
+    "rating": 4.29,
+    "deliveries_today": 6
+  },
+  {
+    "driver_id": "drv_009",
+    "name": "Ananya K.",
+    "zone": "Banjara Hills",
+    "lat": 17.413930686224933,
+    "lon": 78.43138132708046,
+    "status": "on_delivery",
+    "rating": 3.67,
+    "deliveries_today": 8
+  },
+  {
+    "driver_id": "drv_010",
+    "name": "Diya S.",
+    "zone": "Hitech City",
+    "lat": 17.44577379105674,
+    "lon": 78.38038948601525,
+    "status": "on_delivery",
+    "rating": 3.85,
+    "deliveries_today": 2
+  },
+  {
+    "driver_id": "drv_011",
+    "name": "Ayaan P.",
+    "zone": "Banjara Hills",
+    "lat": 17.416623989852734,
+    "lon": 78.43730215295548,
+    "status": "on_delivery",
+    "rating": 3.77,
+    "deliveries_today": 12
+  },
+  {
+    "driver_id": "drv_012",
+    "name": "Aanya S.",
+    "zone": "Begumpet",
+    "lat": 17.444637354832878,
+    "lon": 78.46819468089706,
+    "status": "on_delivery",
+    "rating": 4.82,
+    "deliveries_today": 10
+  },
+  {
+    "driver_id": "drv_013",
+    "name": "Ananya D.",
+    "zone": "Dilsukhnagar",
+    "lat": 17.37350973064208,
+    "lon": 78.5228613889449,
+    "status": "available",
+    "rating": 4.2,
+    "deliveries_today": 10
+  },
+  {
+    "driver_id": "drv_014",
+    "name": "Ishaan N.",
+    "zone": "Banjara Hills",
+    "lat": 17.41116172120213,
+    "lon": 78.4347733688529,
+    "status": "available",
+    "rating": 4.18,
+    "deliveries_today": 0
+  },
+  {
+    "driver_id": "drv_015",
+    "name": "Dhruv S.",
+    "zone": "Kondapur",
+    "lat": 17.46144666469576,
+    "lon": 78.35957368532533,
+    "status": "available",
+    "rating": 4.39,
+    "deliveries_today": 6
+  },
+  {
+    "driver_id": "drv_016",
+    "name": "Riya I.",
+    "zone": "Begumpet",
+    "lat": 17.448542314767227,
+    "lon": 78.4697892104548,
+    "status": "available",
+    "rating": 4.86,
+    "deliveries_today": 9
+  },
+  {
+    "driver_id": "drv_017",
+    "name": "Ananya N.",
+    "zone": "Hitech City",
+    "lat": 17.443256290279432,
+    "lon": 78.37370861076695,
+    "status": "available",
+    "rating": 3.66,
+    "deliveries_today": 5
+  },
+  {
+    "driver_id": "drv_018",
+    "name": "Isha J.",
+    "zone": "Madhapur",
+    "lat": 17.44532558911436,
+    "lon": 78.38827743723598,
+    "status": "available",
+    "rating": 4.16,
+    "deliveries_today": 8
+  },
+  {
+    "driver_id": "drv_019",
+    "name": "Reyansh S.",
+    "zone": "Dilsukhnagar",
+    "lat": 17.367528519821015,
+    "lon": 78.52252893578614,
+    "status": "available",
+    "rating": 4.01,
+    "deliveries_today": 9
+  },
+  {
+    "driver_id": "drv_020",
+    "name": "Ananya S.",
+    "zone": "Kukatpally",
+    "lat": 17.49299690755118,
+    "lon": 78.40017963212419,
+    "status": "available",
+    "rating": 3.88,
+    "deliveries_today": 10
+  },
+  {
+    "driver_id": "drv_021",
+    "name": "Arjun S.",
+    "zone": "Dilsukhnagar",
+    "lat": 17.364615019874478,
+    "lon": 78.52633612106006,
+    "status": "offline",
+    "rating": 3.97,
+    "deliveries_today": 10
+  },
+  {
+    "driver_id": "drv_022",
+    "name": "Arjun N.",
+    "zone": "Ameerpet",
+    "lat": 17.43958834014371,
+    "lon": 78.44414719012005,
+    "status": "on_delivery",
+    "rating": 4.47,
+    "deliveries_today": 5
+  },
+  {
+    "driver_id": "drv_023",
+    "name": "Isha S.",
+    "zone": "Gachibowli",
+    "lat": 17.441560248207335,
+    "lon": 78.34813406366322,
+    "status": "available",
+    "rating": 4.04,
+    "deliveries_today": 2
+  },
+  {
+    "driver_id": "drv_024",
+    "name": "Ananya S.",
+    "zone": "Hitech City",
+    "lat": 17.443362709208728,
+    "lon": 78.37446543046534,
+    "status": "available",
+    "rating": 3.62,
+    "deliveries_today": 12
+  },
+  {
+    "driver_id": "drv_025",
+    "name": "Isha S.",
+    "zone": "Madhapur",
+    "lat": 17.448997707584137,
+    "lon": 78.39318644003001,
+    "status": "on_delivery",
+    "rating": 4.49,
+    "deliveries_today": 12
+  },
+  {
+    "driver_id": "drv_026",
+    "name": "Arjun N.",
+    "zone": "Dilsukhnagar",
+    "lat": 17.367567198708226,
+    "lon": 78.52132247212089,
+    "status": "on_delivery",
+    "rating": 4.66,
+    "deliveries_today": 12
+  },
+  {
+    "driver_id": "drv_027",
+    "name": "Aanya R.",
+    "zone": "Gachibowli",
+    "lat": 17.439208586114965,
+    "lon": 78.35066362922188,
+    "status": "available",
+    "rating": 4.17,
+    "deliveries_today": 4
+  },
+  {
+    "driver_id": "drv_028",
+    "name": "Krishna I.",
+    "zone": "Begumpet",
+    "lat": 17.441391684972455,
+    "lon": 78.47205596637194,
+    "status": "on_delivery",
+    "rating": 4.86,
+    "deliveries_today": 3
+  },
+  {
+    "driver_id": "drv_029",
+    "name": "Riya V.",
+    "zone": "Kondapur",
+    "lat": 17.45961679978441,
+    "lon": 78.35261771732704,
+    "status": "available",
+    "rating": 4.29,
+    "deliveries_today": 2
+  },
+  {
+    "driver_id": "drv_030",
+    "name": "Nisha P.",
+    "zone": "Hitech City",
+    "lat": 17.447230019200592,
+    "lon": 78.37272179803261,
+    "status": "available",
+    "rating": 4.06,
+    "deliveries_today": 1
+  },
+  {
+    "driver_id": "drv_031",
+    "name": "Sai R.",
+    "zone": "Miyapur",
+    "lat": 17.492738751253718,
+    "lon": 78.35140312334245,
+    "status": "available",
+    "rating": 4.27,
+    "deliveries_today": 6
+  },
+  {
+    "driver_id": "drv_032",
+    "name": "Krishna D.",
+    "zone": "Madhapur",
+    "lat": 17.448111279902207,
+    "lon": 78.38929585078138,
+    "status": "available",
+    "rating": 3.58,
+    "deliveries_today": 8
+  },
+  {
+    "driver_id": "drv_033",
+    "name": "Krishna G.",
+    "zone": "Kondapur",
+    "lat": 17.464945253512383,
+    "lon": 78.35354912673418,
+    "status": "available",
+    "rating": 4.9,
+    "deliveries_today": 11
+  },
+  {
+    "driver_id": "drv_034",
+    "name": "Arjun P.",
+    "zone": "Kondapur",
+    "lat": 17.455383031911172,
+    "lon": 78.35897396171613,
+    "status": "available",
+    "rating": 4.75,
+    "deliveries_today": 12
+  },
+  {
+    "driver_id": "drv_035",
+    "name": "Aanya N.",
+    "zone": "Begumpet",
+    "lat": 17.439052511983054,
+    "lon": 78.4631922577127,
+    "status": "available",
+    "rating": 4.75,
+    "deliveries_today": 8
+  },
+  {
+    "driver_id": "drv_036",
+    "name": "Isha G.",
+    "zone": "Dilsukhnagar",
+    "lat": 17.364911868603244,
+    "lon": 78.52258101578039,
+    "status": "available",
+    "rating": 3.57,
+    "deliveries_today": 6
+  },
+  {
+    "driver_id": "drv_037",
+    "name": "Aanya S.",
+    "zone": "Dilsukhnagar",
+    "lat": 17.3649085789529,
+    "lon": 78.52875146885661,
+    "status": "on_delivery",
+    "rating": 3.52,
+    "deliveries_today": 8
+  },
+  {
+    "driver_id": "drv_038",
+    "name": "Krishna M.",
+    "zone": "Dilsukhnagar",
+    "lat": 17.365235768402464,
+    "lon": 78.52399238893103,
+    "status": "on_delivery",
+    "rating": 3.86,
+    "deliveries_today": 6
+  },
+  {
+    "driver_id": "drv_039",
+    "name": "Aditya I.",
+    "zone": "Gachibowli",
+    "lat": 17.444846544909524,
+    "lon": 78.3445767932291,
+    "status": "on_delivery",
+    "rating": 4.26,
+    "deliveries_today": 8
+  },
+  {
+    "driver_id": "drv_040",
+    "name": "Aarav G.",
+    "zone": "Miyapur",
+    "lat": 17.500633314385276,
+    "lon": 78.35023534425167,
+    "status": "available",
+    "rating": 4.06,
+    "deliveries_today": 11
+  },
+  {
+    "driver_id": "drv_041",
+    "name": "Diya S.",
+    "zone": "Kukatpally",
+    "lat": 17.490375595577422,
+    "lon": 78.39701125924387,
+    "status": "on_delivery",
+    "rating": 3.66,
+    "deliveries_today": 9
+  },
+  {
+    "driver_id": "drv_042",
+    "name": "Arjun R.",
+    "zone": "Kondapur",
+    "lat": 17.45852299046114,
+    "lon": 78.3531854725818,
+    "status": "on_delivery",
+    "rating": 4.75,
+    "deliveries_today": 10
+  },
+  {
+    "driver_id": "drv_043",
+    "name": "Aadhya J.",
+    "zone": "Begumpet",
+    "lat": 17.44082277998414,
+    "lon": 78.46374852581197,
+    "status": "on_delivery",
+    "rating": 4.92,
+    "deliveries_today": 0
+  },
+  {
+    "driver_id": "drv_044",
+    "name": "Ayaan R.",
+    "zone": "Banjara Hills",
+    "lat": 17.41851109213229,
+    "lon": 78.43855790385619,
+    "status": "available",
+    "rating": 3.97,
+    "deliveries_today": 6
+  },
+  {
+    "driver_id": "drv_045",
+    "name": "Aadhya R.",
+    "zone": "Miyapur",
+    "lat": 17.492266207715367,
+    "lon": 78.35626900498801,
+    "status": "available",
+    "rating": 4.79,
+    "deliveries_today": 0
+  },
+  {
+    "driver_id": "drv_046",
+    "name": "Ishaan S.",
+    "zone": "Kondapur",
+    "lat": 17.462993424115183,
+    "lon": 78.35416951383125,
+    "status": "available",
+    "rating": 4.16,
+    "deliveries_today": 6
+  },
+  {
+    "driver_id": "drv_047",
+    "name": "Reyansh V.",
+    "zone": "Kondapur",
+    "lat": 17.461920684911128,
+    "lon": 78.35347346926959,
+    "status": "on_delivery",
+    "rating": 3.9,
+    "deliveries_today": 1
+  },
+  {
+    "driver_id": "drv_048",
+    "name": "Aditya G.",
+    "zone": "Ameerpet",
+    "lat": 17.438524532988303,
+    "lon": 78.4515234127954,
+    "status": "on_delivery",
+    "rating": 3.98,
+    "deliveries_today": 1
+  },
+  {
+    "driver_id": "drv_049",
+    "name": "Dhruv R.",
+    "zone": "Kondapur",
+    "lat": 17.459459157631,
+    "lon": 78.35697662911312,
+    "status": "available",
+    "rating": 4.17,
+    "deliveries_today": 7
+  }
+]
